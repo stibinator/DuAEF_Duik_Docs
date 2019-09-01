@@ -116,6 +116,8 @@ nav:
         - The Duduf After Effects Framework: duaef.md
     - F.A.Q.: duik-faq.md
     - Changelog: duik-16-changelog.md
+    - License:
+        - Documentation license: doc-license.md
     - Credits: https://rainbox-dev.github.io/DuAEF_Duik/credits
     - Contact: https://rainbox-dev.github.io/DuAEF_Duik/contact
     - Donate: https://rainbox-dev.github.io/DuAEF_Duik/donation

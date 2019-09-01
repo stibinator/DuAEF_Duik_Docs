@@ -9,3 +9,9 @@
 > _I’ve been working very hard on it, and I’m very proud to give it to you. For free! Yes, it’s still free, even if a lot of its individual features could be scripts sold for dozens of dollars, because we still believe free and open source software can make the world better, and we stick to our convictions. Of course, this could not be possible without your invaluable support._
 
 \- Duduf
+
+
+**Copyright (C)  2019 Nicolas Dufresne and Contributors.**  
+Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation;  
+with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+A copy of the license is included in the section entitled "[Documentation License](doc-license.md)".
