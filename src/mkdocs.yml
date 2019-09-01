@@ -4,7 +4,7 @@ repo_url: http://duik-docs.rainboxlab.org
 edit_uri: edit/master/src/docs/
 site_description: The Duik comprehensive documentation
 site_author: Nicolas Dufresne and contributors
-copyright: 'Copyright © 2018 Rainbox Productions and Nicolas Dufresne'
+copyright: 'Copyright © 2018-2019 Rainbox Productions and Nicolas Dufresne'
 use_directory_urls: false
 theme:
     name: readthedocs
@@ -22,7 +22,7 @@ extra_css:
     - video.css
 extra_javascript:
     - video.js
-site_dir: ../docs/Guides/Duik/
+site_dir: ../docs/
 dev_addr: '127.0.0.1:8001'
 extra:
     version: 16.1.0
