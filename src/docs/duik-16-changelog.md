@@ -2,7 +2,13 @@
 
 This is the list of what has changed since the first Alpha version of Duik Bassel (16)
 
-## 16.1.0 (in development)
+## 16.1.1 (in development)
+
+#### Fixes
+
+- The [connector](connector.md) no longer breaks project expressions when renaming comps in specific cases.
+
+## 16.1.0
 
 #### New (UX/UI)
 
