@@ -7,6 +7,7 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 #### Fixes
 
 - The [connector](connector.md) no longer breaks project expressions when renaming comps in specific cases.
+- The header of the [controllers](controllers.md) panel is no longer hidden in *rookie* and *standard* modes.
 
 ## 16.1.0
 
