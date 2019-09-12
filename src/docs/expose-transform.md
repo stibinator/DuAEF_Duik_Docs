@@ -1,6 +1,6 @@
 # ![effector Icon](img\duik-icons\ruler_r.png) Expose Transform
 
-!!! hint
+!!! note
     Available in _Standard_ and _Expert_ modes only.
 
 The "Expose Transform" is an object (a controller) which will measure and **expose angles, orientations, coordinates and distances between two layers**, which can be used as a master property with the [*Connector*](connector.md) or in your own expressions.

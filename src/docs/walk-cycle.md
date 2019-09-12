@@ -4,19 +4,19 @@
 
 ![Walk cycle panel](img\duik-screenshots\S-Rigging\S-Rigging-Automations\WalkCycle.PNG)
 
-The "Walk Cycle" is the first comprehensive procedural animation available in Duik Bassel.
+The ***Walk Cycle*** is the first comprehensive procedural animation available in Duik Bassel.
 
 It’s a very quick and simple way to get started with walk animations. A nice walk cycle is just a click away, but you can go into details and adjust the character height and weight, but also every individual limb parameter and precisely set how it walks…
 
-To use the walk cycle, you must have a rigged character.
+To use the *Walk cycle*, you must have a rigged character.
 
 !!! hint
-    In the Structures panel, [Alt + Click] on the "Hominoid" button will create a complete biped with a demo walk cycle.
+    In the Structures panel, `Alt + Click` on the *Hominoid* button will create a complete biped with a demo walk cycle.
 
 !!! hint
     This walk cycle was made for bipeds, but you can achieve a quadruped walkcycle using two walk cycles: one for the front legs, shoulders, neck and head, and another one for the back legs and hips. You only have to animate the tail by yourself.
 
-![Zombie Dance GIF](https://rainboxprod.coop/rainbox/wp-content/uploads/zombiedancerig.gif)
+![Zombie Dance GIF](img/examples/zombiedancerig.gif)
 
 **To get started quickly with this process, [just watch this jumpstart by Jake In Motion](https://www.youtube.com/watch?v=i63vPXJ00r0)!**
 
@@ -24,30 +24,30 @@ To use the walk cycle, you must have a rigged character.
 
 Before creating the walk cycle, make sure the character is standing straight, with the arms along the body, in a natural pose.
 You will still be able to move the controllers after the walk cycle has been created to adjust the pose and the look of the walk, or even animate them above the automatic animation to adjust it.
-The walk cycle is not meant to create perfect and characteroized animation. It is a tool useful to get started quickly with walk animations which would need some tweaks to characterize them, or to animate quickly secondary, less important, characters.
+The walk cycle is not meant to create perfect and characterized animation. It is a tool useful to get started quickly with walk animations which would need some tweaks to characterize them, or to animate quickly secondary, less important, characters.
 
-If the character was rigged by predefined limb Structures and the Auto-rig of Duik, using the walkcycle is pretty straightforward:
+If the character was rigged by predefined limb *Structures* and the *Auto-rig* of Duik, using the *Walk Cycle* is pretty straightforward:
 
 1. Select all the controllers of the character
-2. Click on the "Walk Cycle button"
+2. Click on the *Walk Cycle* button
 
-If the character was rigged using custom Structures in Duik, or any other tool (Rubberhose, BAO Bones...) or even custom expressions, you can also use the walk cycle, but you will have to make some easy connections:
+If the character was rigged using *custom Structures* in Duik, or any other tool (*Rubberhose*, *BAO Bones*...) or even custom expressions, you can also use the *Walk Cycle*, but you will have to make some easy connections:
 
 1. Select all the controllers of the character (the layers used to animate it, or which contain the effects needed to animate it)
-2. Open the additionnal panel for the Walk cycle
+2. Open the additionnal panel for the *Walk Cycle*
 3. Assign the layers to their corresponding limbs. The eyedropper will set the currently selected layer in the composition.
-4. a. Click on the "Create" button  
+4. a. Click on the *Create* button  
     b. Duik will try to link the properties of the controllers to the walk cycle, but if you are using custom rigs, it may not find them all, in this case, read the effect description below to see how you can connect them manually.
 
-The Walk Cycle can be adjusted in the effects of the walk cycle controller which has been created in the composition.
+The *Walk Cycle* can be adjusted in the effects of the walk cycle controller which has been created in the composition.
 
 !!! tip
     All controllers can still be animated, so you can add your own keyframes to adjust the animation to your taste or animate anything else. Feel free to move the controllers to adjust the pose of the character.
 
 !!! caution
-    The procedural walk cycle animates the arms with Forward Kinematics (FK) and thus deactivates the Inverse Kinematics (IK). The position of the controllers of the armes do not influence the rig anymore, as the animation is made on the angles of the individual FK controls.
+    The procedural walk cycle animates the arms with *Forward Kinematics (FK)* and thus deactivates the *Inverse Kinematics (IK)*. The position of the controllers of the armes do not influence the rig anymore, as the animation is made on the angles of the individual FK controls.
 
-    If you want to animate or adjust the arms, you can either adjust the values in the Individual FK controls in the effects of the controllers, or you can re-enable the IK, but this will deactivate the procedural animation on the arms.
+    If you want to animate or adjust the arms, you can either adjust the values in the *Individual FK controls* in the effects of the controllers, or you can enable again the IK, but this will deactivate the procedural animation on the arms.
     
 !!! tip
     Duik tries to auto-detect which arm is the left arm and which is the right arm, but depending on the design, this detection may fail. In this case, both arms will swing synchroneously.

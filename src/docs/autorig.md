@@ -172,12 +172,11 @@ The additionnal panel for the *Auto-rig* is divided in two parts: some options f
 
 *Read above for a description of the effects added on the controllers.*
 
-- The ***IK*** button may be needed in very special occasions when the Auto-rig is not able to automatically create IK.
-There is an additionnal panel for the IK to let you choose how the IK for three layers have to be made:
+- The ***IK*** button may be needed in very special occasions when the *Auto-rig* is not able to automatically create *IK*. There is an additionnal panel for the *IK* to let you choose how the *IK* for three layers have to be made:
 
-    - *1 and 2-layer IK* (the default option) creates a combination of a one-layer and two-layer IK to rig the three layers with only one controller. This is the preferred way of rigging complex limbs like quadrupeds legs, as it allows a lot of controllers over each part of the limb.
-    - *3-layer IK* creates a single IK for the three layers, which may seem easier to manipulate, but which is more limited in use.
+    - *1 and 2-layer IK* (the default option) creates a combination of a *one-layer* and *two-layer IK* to rig the three layers with only one controller. This is the preferred way of rigging complex limbs like quadrupeds legs, as it allows a lot of control over each part of the limb.
+    - *3-layer IK* creates a single *IK* for the three layers, which may seem easier to manipulate, but which is more limited in use.
 
-- ***Bezier IK*** creates a Bezier IK without using the Auto-rig. In normal situations, as soons as there are more than two layers, the Auto-Rig will create a Bezier IK, but in some cases you may need some Bezier IK for only one or two layers; in this case, you can use this tool instead.
+- ***Bezier IK*** creates a *Bezier IK* without using the *Auto-rig*. In normal situations, as soon as there are more than two layers, the *Auto-Rig* will create a *Bézier IK*, but in some cases you may need some *Bézier IK* for only one or two layers; in this case, you can use this tool instead.
 
-- ***FK Overlap*** rigs a chain of layers with a rotation controller (FK) with automatic [*follow-through* and *overlap*](https://en.wikipedia.org/wiki/12_basic_principles_of_animation#Follow_Through_and_Overlapping_Action). This is very useful for tails, hanging ropes, fabric...
+- ***FK Overlap*** rigs a chain of layers with a rotation controller (*FK*) with automatic [*follow-through* and *overlap*](https://en.wikipedia.org/wiki/12_basic_principles_of_animation#Follow_Through_and_Overlapping_Action). This is very useful for tails, hanging ropes, fabric...

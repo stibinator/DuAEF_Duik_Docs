@@ -1,6 +1,6 @@
-# Separate dimensions
+# ![](img\duik-icons\links-tools\separator-icon-r.png) Separate dimensions
 
-!!! hint
+!!! note
     Available in _Standard_ and _Expert_ modes only.
 
 Use this tool to separate the dimensions of the selected properties. The keyframes will be copied to the separated dimensions.

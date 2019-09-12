@@ -6,7 +6,7 @@ Automations, automatic animations, dynamics, physics, procedural animation.
 
 As soon as your character is rigged, you can begin the animation, being helped by a lot of Automations. **Automations are procedural animations and dynamics** to quickly set the most common animations up and then focus on the characterization of your character. You can automate wiggles, springs, wheels, etc. with customizable and advanced controls for example to loop the effects, and access each and every detail quickly and easily.
 
-![Automations GIF](https://rainboxprod.coop/rainbox/wp-content/uploads/automations.gif)
+![Automations GIF](img/examples/automations.gif)
 
 ## Panel
 
@@ -14,15 +14,16 @@ As soon as your character is rigged, you can begin the animation, being helped b
 
 Duik includes a lot of tools to help animators deal with simple or common animations, to make them quicker and focus more on complex character animation.
 
-- The ***[List](duik-list.md)*** divides a property into several same properties, which can be mixed using a weight. This is a simple way to add several automations to the same property, or use some kind of "Animation Layer".
-- The ***[Effector](effector.md)*** is a way to control properties depending on a spatial effector.
-- The ***[Wiggle](wiggle.md)*** makes the properties... wiggle.
-- The ***[Spring](spring.md)*** will add "follow through"/"overlap"/"overshot" to your animations and it is able to animate automatic bounces.
-- The ***[Swing](swing.md)*** can be used to animate a regular swing. For example, the regular blinking of a light or a pendulum.
-- Use the ***[Blink](blink.md)*** to make a property switch regularly between to states, without interpolation.
-- The ***[Wheel](wheel.md)*** automates the rotation of the layer depending on its translations.
-- The ***[Move Away](move-away.md)*** tool will add a simple cursor which controls the position of the layer. This cursor will control the distance between the layer and its parent.
-- The ***[Random](random.md)*** tool is able to randomize all kind of things (property values, keyframe times, layer times...)
-- Use the ***[Paint Rig](paint-rig.md)*** to rig brush strokes in the paint effect and adjust and animate them as if they were a single stroke.
-- The ***[Walk Cycle](walk-cycle.md)*** is the first comprehensive procedural animation available in Duik.
-- Use the ***[Looper](looper.md)*** to add in and out loops to the animations.
+- ![](img\duik-icons\links-tools\add-list-icon-r.png) The ***[List](duik-list.md)*** divides a property into several same properties, which can be mixed using a weight. This is a simple way to add several automations to the same property, or use some kind of "Animation Layer".
+- ![](img\duik-icons\automation\effector-icon20-r.png) The ***[Effector](effector.md)*** is a way to control properties depending on a spatial effector.
+- ![](img\duik-icons\automation\effector-map-icon20-r.png) The [***Effector map***](effector-map.md) is a way to control properties depending on a texture (map).
+- ![](img\duik-icons\automation\wiggle-icon20-r.png) The ***[Wiggle](wiggle.md)*** makes the properties... wiggle.
+- ![](img\duik-icons\automation\spring-icon20-r.png) The ***[Spring](spring.md)*** will add *follow through*/*overlap*/*overshot* to your animations and it is able to animate automatic bounces.
+- ![](img\duik-icons\automation\swing-icon20-r.png) The ***[Swing](swing.md)*** can be used to animate a regular swing. For example, the regular blinking of a light or a pendulum.
+- ![](img\duik-icons\automation\blink-icon20-r.png) Use the ***[Blink](blink.md)*** to make a property switch regularly between to states, without interpolation.
+- ![](img\duik-icons\automation\wheel-icon20-r.png) The ***[Wheel](wheel.md)*** automates the rotation of the layer depending on its translations.
+- ![](img\duik-icons\automation\moveaway-icon20-r.png) The ***[Move Away](move-away.md)*** tool will add a simple cursor which controls the position of the layer. This cursor will control the distance between the layer and its parent.
+- ![](img\duik-icons\automation\random-icon20-r.png) The ***[Random](random.md)*** tool is able to randomize all kind of things (property values, keyframe times, layer times...)
+- ![](img\duik-icons\automation\paintrig-icon20-r.png) Use the ***[Paint Rig](paint-rig.md)*** to rig brush strokes in the paint effect and adjust and animate them as if they were a single stroke.
+- ![](img\duik-icons\automation\walkcycle-icon20-r.png) The ***[Walk Cycle](walk-cycle.md)*** is the first comprehensive procedural animation available in Duik.
+- ![](img\duik-icons\automation\looper-icon20-r.png) Use the ***[Looper](looper.md)*** to add in and out loops to the animations.
