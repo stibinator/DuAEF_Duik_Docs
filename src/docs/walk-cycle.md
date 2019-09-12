@@ -51,23 +51,23 @@ The *Walk Cycle* can be adjusted in the effects of the walk cycle controller whi
     
 !!! tip
     Duik tries to auto-detect which arm is the left arm and which is the right arm, but depending on the design, this detection may fail. In this case, both arms will swing synchroneously.
-    You can fix this in the effects of the controllers for the arms, where you will find a "side" property to change the side of the arm.
+    You can fix this in the effects of the controllers for the arms, where you will find a *Side* property to change the side of the arm.
 
 !!! hint
-    You can animate the switch between IK and FK, and Duik provides a tool to ease this [IK/FK switch](ik-fk-switch.md) process.
+    You can animate the switch between IK and FK, and Duik provides a tool to ease this [*IK/FK switch*](ik-fk-switch.md) process.
 
 
 ## Effect
 
 ![Walk cycle effects main](img\duik-screenshots\S-Rigging\S-Rigging-Automations\Walkcycle-effectsmain.PNG)
 
-- The "General motion" value can be used to start and stop the walk cycle. You can then animate the character as you would without the walk cycle tool to continue the animation before or after the walk.
+- The *General motion* value can be used to start and stop the walk cycle. You can then animate the character as you would without the walk cycle tool to continue the animation before or after the walk.
 
-- The "Main parameters" set the general information needed by the walk cycle to animate it correctly
+- The *Main parameters* set the general information needed by the walk cycle to animate it correctly
 
-- The "secondary controls" are used to tweak each individual limb motion
+- The *Secondary controls* are used to tweak each individual limb motion
 
-- The "Animation data" is where you can connect custom controllers to the walk cycle, get data to use in your own expressions and rigs, and adjust some parameters needed for the computation.
+- The *Animation data* is where you can connect custom controllers to the walk cycle, get data to use in your own expressions and rigs, and adjust some parameters needed for the computation.
 
 ### Main Parameters
 
@@ -75,17 +75,17 @@ The *Walk Cycle* can be adjusted in the effects of the walk cycle controller whi
 
 All parameters use the metric system for now. Future versions of Duik will let you choose between the metric system and imperial units.
 
-- "Character": sets the main traits of the character.
+- *Character*: sets the main traits of the character.
 
     - Its height influences the frequency of the cycle (the apparent speed of the feet).
     - Its weight mainly influences the accelerations and decelerations of the motion (the momentum).
     - The energy controls the amplitude of the movements.
     - The softness controls how the muscles are contracted or not.
 
-- "Walk Cycle": sets the characteristics of the walk.
+- *Walk Cycle*: sets the characteristics of the walk.
 
-    - The walk speed adjusts the speed of the character. This parameters changes the amplitude of the steps - it does not change the frequency of the cycle which depends on the height of the character. To change the direction of the cycle, change the sign of the speed.
-    - You can choose between to walk cycle types: realistic is the most natural, and dancing adds a "double bounce" like Mickey Mouse.
+    - The walk speed adjusts the speed of the character. This parameters changes the amplitude of the steps - it does not change the frequency of the cycle which depends on the height of the character.- To change the direction of the cycle, change the sign of the speed.
+    - You can choose between to walk cycle types: *Realistic* is the most natural, and *Dancing* adds a "double bounce" like Mickey Mouse.
 
 ### Secondary controls
 
