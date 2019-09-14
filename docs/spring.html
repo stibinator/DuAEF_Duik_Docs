@@ -531,31 +531,30 @@
               
                 <h1 id="spring"><img alt="spring Icon" src="img/duik-icons/automation/spring-icon-r.png" /> Spring</h1>
 <p><img alt="Spring panel" src="img/duik-screenshots/S-Rigging/S-Rigging-Automations/Spring.PNG" /></p>
-<p>The Spring will add &ldquo;follow through&rdquo;/&rdquo;overlap&rdquo;/&rdquo;overshot&rdquo; to your animations and it is able to animate automatic bounces.</p>
+<p>The <strong><em>Spring</em></strong> will add <em>follow through</em> / <em>overlap</em> /<em>overshot</em> to your animations and it is able to animate automatic bounces.</p>
 <h2 id="setup">Setup</h2>
-<p>The spring is not restricted to the position of a layer, but can work on any property.</p>
+<p>The <em>Spring</em> is not restricted to the position of a layer, but can work on any property.</p>
 <ol>
 <li>Select the properties</li>
-<li>Click on the &ldquo;Spring&rdquo; button</li>
+<li>Click on the <em>Spring</em> button</li>
 </ol>
-<p>The spring is computed depending on the velocity of the layer, whenever it stops. This means it will work better if the last keyframe interpolation is set to linear and not Bezier, so the spring can compute the motion according to the last velocity. If the property slows down before stopping (with a Bezier ease), there can not be any swinging.</p>
+<p>The <em>Spring</em> is computed depending on the velocity of the layer, whenever it stops. This means it will work better if the last keyframe interpolation is set to linear and not Bézier, so the <em>Spring</em> can compute the motion according to the last velocity. If the property slows down before stopping (with a Bézier ease), there can not be any swinging.</p>
 <p>It can be adjusted in the effects of the corresponding layer.</p>
 <h2 id="effect">Effect</h2>
 <p><img alt="Spring pannel" src="img/duik-screenshots/S-Rigging/S-Rigging-Automations/Spring-effects.PNG" />
 <img alt="Spring example" src="img/duik-screenshots/S-Rigging/S-Rigging-Automations/automation-illustration/spring-example.png" /></p>
-<p><img alt="Spring example gif" src="img/examples/cart.gif" /></p>
 <ul>
 <li>
 <p>The elasticity controls both the amplitude and the frequency of the motion. A Higher elasticity will result in a higher frequency but lower amplitude.</p>
 </li>
 <li>
-<p>The damping controls how long it takes for the property to stop to move.</p>
+<p>The damping controls how long it takes for the property to stop to move. This value is arbitrary and represent a strength. The actual duration of the spring depends of the incoming velocity of the property.</p>
 </li>
 <li>
 <p>If the spring is set on a spatial property, there are two ways to compute it:  </p>
 <ul>
-<li>Basic: the computation is made with the keyframes of the property itself.  </li>
-<li>Simulation: the computation is made with the actual motion of the layer. This is heavier to compute, but it does not need any keyframe on the layer, it is its actual translation which is used, even if its from a parent layer.</li>
+<li><strong>Basic</strong>: the computation is made with the keyframes of the property itself.  </li>
+<li><strong>Simulation</strong>: the computation is made with the actual motion of the layer. This is heavier to compute, but it does not need any keyframe on the layer, it is its actual translation which is used, even if its from a parent layer.</li>
 </ul>
 </li>
 <li>
@@ -563,6 +562,7 @@
 If you need this &ldquo;bounce&rdquo; option on a position, separate the dimensions in After Effects firts, then add the spring to the axis which needs to bounce.</p>
 </li>
 </ul>
+<p><img alt="Spring example gif" src="img/examples/cart.gif" /></p>
               
             </div>
           </div>
