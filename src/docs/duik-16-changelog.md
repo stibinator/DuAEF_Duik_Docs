@@ -2,7 +2,13 @@
 
 This is the list of what has changed since the first Alpha version of Duik Bassel (16)
 
-## 16.1.1 (in development)
+## 16.1.2
+
+#### Fixes
+
+- The tool to [separate dimensions](separate-dimensions.md) of properties now removes the keyframes from the original property.
+
+## 16.1.1
 
 #### Fixes
 
