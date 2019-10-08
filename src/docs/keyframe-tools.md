@@ -9,7 +9,7 @@ This is the "*Keys*" panel shown in *Standard Mode*:
 
 ## ![SelectKeyframe Icon](img\duik-icons\keyframe-icon-r.png) Select Keyframes
 
-![SelectKeyframes panel](img\duik-screenshots\S-Animation\S-Animation-Keyframes\SelectKeyframes-panels.png) 
+![SelectKeyframes panel](img\duik-screenshots\S-Animation\S-Animation-Keyframes\SelectKeyframes-panels.png)  
 *Select keyframes...* is a very useful tool to quickly select a lot of keyframes together in the timeline.
 
 ### Options
@@ -25,7 +25,7 @@ To set specific time and time range, you can click on the eyedropper to pick the
 
 ![keyframes anim](img\duik-screenshots\S-Animation\S-Animation-Keyframes\keyframes-anim.gif)
 
-Just under the 'Select keyframes' button, there are several tools to quickly adjust the interpolations of the selected keyframes.
+Just under the ***Select keyframes*** button, there are several tools to quickly adjust the interpolations of the selected keyframes.
 
 ![Interpolations panel](img\duik-screenshots\S-Animation\S-Animation-Keyframes\KeyframeInterpolation.PNG) 
 
@@ -56,13 +56,11 @@ It works both on spatial interpolations and keyframe eases, in three default ste
 
 The additional panel is divided in three sections corresponding to the three steps of the "Kleaner " process.
 
-- Spatial Interpolations:  
-The four leftmost buttons can be used to quickly change the tangents of several spatial keyframes at once.  
+- *Spatial Interpolations*: The four leftmost buttons can be used to quickly change the tangents of several spatial keyframes at once.  
 Check or uncheck the checkbox to activate or deactivate this step when you run the *Kleaner*
-- Temporal interpolation smoothing:  
-Use the two leftmost buttons to tell the *Kleaner* if the first and last keyframes of the animation have to be linear or with ease.  
-Check or uncheck the checkbox to activate or deactivate this step when you run the *Kleaner*
-- Remove unnecessary keyframes:  
+- *Smart Interpolation (Temporal interpolation smoothing)*: 
+Use the two leftmost buttons to tell the *Kleaner* if the first and last keyframes of the animation have to be linear or with ease. Check or uncheck the checkbox to activate or deactivate this step when you run the *Kleaner*
+- *Remove unnecessary keyframes*:  
 Check or uncheck the checkbox to activate or deactivate this step when you run the *Kleaner*
 
 ## ![Copy anim Icon](img\duik-icons\copyanim-icon-r.png) Copy and Paste animation
@@ -81,7 +79,7 @@ If, when pasting, Duik can not find any corresponding layer to paste some proper
 
 Some options make this tool very powerful and more than just a standard copy and paste process.
 
-- You can choose between pasting absolute or relative values. "Absolute" will paste the keyframes as they are, but "Relative" will offset the values before pasting, depending on the current values of the properties.
+- You can choose between pasting absolute or relative values. *Absolute* will paste the keyframes as they are, but "Relative" will offset the values before pasting, depending on the current values of the properties.
 
 - You can reverse the keyframes in time each time you paste them, to make it easier to loop some keyframes in "ping pong" mode.
 

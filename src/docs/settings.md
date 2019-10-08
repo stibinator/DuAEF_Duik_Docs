@@ -16,6 +16,6 @@ There are a few settings you can change in Duik Bassel to better set it up for y
 
 ![settings optn](img\duik-screenshots\S-Settings\settings-optn.png)
 
-- You can switch between a *Normal mode* and a *Dev & Debug mode*. You should always stay in 'Normal mode' unless you're making changes in the code of Duik or if you have been asked to in order to find the source of a bug.
+- You can switch between a *Normal mode* and a *Dev & Debug mode*. You should always stay in *Normal mode* unless you're making changes in the code of Duik or if you have been asked to in order to find the source of a bug.
 
 - Click on the *Apply changes* button to apply any change you've made in the settings. You can also close and open Duik again if anything seems to go wrong.

@@ -2,7 +2,7 @@
 
 ![camera rig panel](img\duik-screenshots\S-Camera\CameraRig-panel.PNG)
 
-If you need to use 3D cameras, you can rig them in a simple way using Duik's "Camera Rig".
+If you need to use 3D cameras, you can rig them in a simple way using Duik's ***Camera Rig***.
 
 This is a simple way to manipulate a two-node camera with the advantages of both a two-node and a one-node camera.
 
@@ -12,4 +12,4 @@ It will create three controllers:
 - One position controller is used to control the camera only.
 - And a third controller controls only the point of interest.
 
-If you're interested in a more complex rig, with predefined trucks, pans, etc. for easy standard camera motion, and behaviours like shoulder camera, etc. [let us know](https://github.com/Rainbox-dev/DuAEF_Duik/wiki/Bug-Report-&-Feature-Request)! This could be added in a future version of Duik.
+If you're interested in a more complex rig, with predefined trucks, pans, etc. for easy standard camera motion, and behaviours like shoulder camera, etc. [**let us know**](https://github.com/Rainbox-dev/DuAEF_Duik/wiki/Bug-Report-&-Feature-Request)! This could be added in a future version of Duik.

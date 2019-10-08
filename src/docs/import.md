@@ -1,4 +1,5 @@
 [TOC]
+# IMPORT
 
 ## ![Import anim Icon](img\duik-icons\importanim-icon-r.png) Animation
 
@@ -7,7 +8,7 @@
 You can re-import After Effects animations previously [exported](../Export/#Animation) with Duik.
 
 When importing animation, Duik will try to load the animations onto the layers with the same name and index which are selected in the active composition (or in all layers if none are selected).  
-If after this there are still some animations which were not imported (i.e. if Duik do not find any correspondance for their name & index in the composition), Duik will ask you on which layer you want to set them. Set to "None" to ignore some of them, or click the "Cancel" button to ignore them all.
+If after this there are still some animations which were not imported (i.e. if Duik do not find any correspondance for their name & index in the composition), Duik will ask you on which layer you want to set them. Set to *None* to ignore some of them, or click the *Cancel* button to ignore them all.
 
 ### ![Import anim optn](img\duik-icons\circle-little_r.png) Animation options
 
@@ -52,8 +53,8 @@ Imports a rig previously exported in a JSON format (XML may be added too).
 
 ### Previous versions of TVPaint
 
-1. Export the clip using the "MJ_AFX_Export" script for TVPaint, which is provided with Duik.  
-The script creates a folder containing all needed frames in the clip, and a "clipInfo.txt" file.
+1. Export the clip using the "*MJ_AFX_Export*" script for TVPaint, which is provided with Duik.  
+The script creates a folder containing all needed frames in the clip, and a "*clipInfo.txt*" file.
 
 2. When importing the clip with Duik, just select this text file, everything is automated.
 
@@ -63,10 +64,10 @@ The script creates a folder containing all needed frames in the clip, and a "cli
 
 Duik can import traditional animations made with [Krita](http://krita.org), without needing to export frame sequences or video.
 
-Duik will keep all layers and the animation exposure/timeline from Krita.
+Duik will keep all layers and the animation exposure/timeline from ***Krita***.
 
-1. Export the animation from Krita as a CSV file. Krita will also create a subfolder with the exported layers and frames.
-2. Click on the "Krita" button in Duik.
+1. Export the animation from *Krita* as a *CSV* file. Krita will also create a subfolder with the exported layers and frames.
+2. Click on the *Krita* button in Duik.
 
 Duik imports all the layers and frames from Krita and then creates a composition corresponding to the Krita project with the same layers and parameters.
 

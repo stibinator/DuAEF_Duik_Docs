@@ -7,11 +7,11 @@ This is the Controllers panel in *Normal* mode.
 
 ## ![select controller icon](img/duik-icons/selectcontroller_r.png) Select Controllers
 
-Click the *Select controllers* button to select all the Controllers in the composition.
+Click the ***Select controllers*** button to select all the Controllers in the composition.
 
 ## ![show controller icon](img/duik-icons/showhand_r.png) Show / Hide Controllers
 
-Shows or hides all (or selected) *Controllers* found in the composition.
+Shows or hides all (or selected) ***Controllers*** found in the composition.
 
 If there is no layer selected, this will show of hide all *Controllers* in the composition, or else it will use the layer selection.
 
@@ -19,26 +19,26 @@ If there is no layer selected, this will show of hide all *Controllers* in the c
 
 In most cases, it is easier to have rigs (for characters or other items) in their own precompositions, but this is not the most handy way to animate, especially when you have several characters in the same shot or if you need to see the background.
 
-To avoid assembling all the rigs and the background in the same composition, you can keep the rigs in a precomposition and "*Extract*" the controllers.
+To avoid assembling all the rigs and the background in the same composition, you can keep the rigs in a precomposition and *Extract* the controllers.
 This way, all the controllers are available in the same main composition, with the background if you wish, but the rigs stay precomposed. This is especially useful when there are a lot of layers for the rigs, and if you want to render proxies for character animations in order to improve performance when compositing the shot.
 
-- Just select a precomposition layer containing a rig, and click the "***Extract Controllers***" button to copy the controllers to the current composition and be able to animate outside of the rigged precomposition.
+- Just select a precomposition layer containing a rig, and click the ***Extract Controllers*** button to copy the controllers to the current composition and be able to animate outside of the rigged precomposition.
 
 ### ![extract controller icon](img/duik-icons/circle-little_r.png) Extract controllers options
 
-You can choose to extract controllers using expressions or Master Properties.
+You can choose to extract controllers using expressions or *Master Properties*.
 
 ![select controller panel](img/duik-screenshots/S-Rigging/S-Rigging-Controllers/ExtractControllers-options2.png)
 
 !!! note
-    Master Properties are available in After Effects CC2018 and above only.
+    Master Properties are available in After Effects *CC2018* and above only.
 
 - When using expressions, the project can still be saved to a previous version of After Effects, and the rig will be more robust, more stable.
 
-- When using Master Properties, you will be able to have different instances of the rigged composition, in example to have different animations **of the same rig**. But Master Properties are not fully scriptable in current versions of After Effects, and the rig can break if the composition is not correctly duplicated.
+- When using *Master Properties*, you will be able to have different instances of the rigged composition, in example to have different animations **of the same rig**. But *Master Properties* are not fully scriptable in current versions of After Effects, and the rig can break if the composition is not correctly duplicated.
 
 !!! hint
-    Master Properties can be very powerful. If you want to use them safely in this case, follow these steps:
+    *Master Properties* can be very powerful. If you want to use them safely in this case, follow these steps:
 
     1. Rig the character as you'd do in any case.
     2. Put the rigged composition into another composition, let's call this one the "Animation Comp". The rigged composition is now a precomposition inside "Animation Comp".
@@ -50,7 +50,7 @@ You can choose to extract controllers using expressions or Master Properties.
 Sometimes, you may want to use custom layers as controllers (for example, if you designed it yourself in Photoshop, or want to use any existing layer as a controller).  
 In this case, you can use this _tag_ tool on these layers so Duik can recognise them as controllers when using other controller tools, like [*Extract controllers*](#extract-controllers).
 
-Duik will add a new layer marker on the first frame of the layer, named "Controller".
+Duik will add a new layer marker on the first frame of the layer, named *Controller*.
 
 ## ![edit controller icon](img/duik-icons/edit-icon-r.png) Edit Controllers
 

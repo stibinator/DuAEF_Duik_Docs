@@ -77,10 +77,10 @@ All parameters use the metric system for now. Future versions of Duik will let y
 
 - *Character*: sets the main traits of the character.
 
-    - Its height influences the frequency of the cycle (the apparent speed of the feet).
-    - Its weight mainly influences the accelerations and decelerations of the motion (the momentum).
-    - The energy controls the amplitude of the movements.
-    - The softness controls how the muscles are contracted or not.
+    - Its *Height* influences the frequency of the cycle (the apparent speed of the feet).
+    - Its *Weight* mainly influences the accelerations and decelerations of the motion (the momentum).
+    - The *Energy* controls the amplitude of the movements.
+    - The *Softness* controls how the muscles are contracted or not.
 
 - *Walk Cycle*: sets the characteristics of the walk.
 
@@ -93,23 +93,23 @@ All parameters use the metric system for now. Future versions of Duik will let y
 
 Here you can adjust how each individual limb moves. In this version of Duik, you can not control separately the left and the right, but if you need to differenciate each side, you can create two different versions of the walk cycle in the same composition, one for each side.
 
-You can adjust the swinging amplitude the limbs, their softness (how the muscles are contracted), etc. Do not hesitate to test each control individually to see how it affects the walk cycle.
+You can adjust the swinging amplitude of the limbs, their softness (how the muscles are contracted), etc. Do not hesitate to test each control individually to see how it affects the walk cycle.
 
 ### Animation data
-
-![animation data](img\duik-screenshots\S-Rigging\S-Rigging-Automations\Walkcycle-effects-detail\animationdata.png)
 
 In this section you can adjust how the walk cycle is computed, connect your custom rig and controllers which Duik could not connect automatically, or get useful data for your own rigs and expressions.
 
 #### Animation
 
-This is where you can connect the properties of custom rigs and controllers.
-Each value in this section outputs the animation of the corresponding property on each limb.
-To connect the properties of your controllers, use the expression pickwhip to pick the corresponding animation property, and add '+ value;' at the end of the resulting expression.
+![animation data](img\duik-screenshots\S-Rigging\S-Rigging-Automations\Walkcycle-effects-detail\animationdata.png)
+
+This is where you can connect the properties of custom rigs and controllers. Each value in this section outputs the animation of the corresponding property on each limb. To connect the properties of your controllers, use the expression pickwhip to pick the corresponding animation property, and add `+ value;` at the end of the resulting expression.
 The arms animation uses FK, you need to connect them to angle properties.
 The feet animation uses IK, connect them to position properties.
 
 #### Parameters
+
+![](img\duik-screenshots\S-Rigging\S-Rigging-Automations\Walkcycle-effects-detail\animdata-parameters.png)
 
 Duik tries to set some important parameters automatically when you create the walk cycle with some controllers selected, but if you are using a custom rig or if you connect controllers later, these properties may not be set properly. You can adjust them in this section.
 
@@ -123,4 +123,4 @@ Duik tries to set some important parameters automatically when you create the wa
 
 This section outputs some values used by Duik to compute the walk cycle. You can use them in your own expressions and rigs.
 
-One value is especially useful: the cycle duration, which is available in seconds or frames. To render perfect loops, you can set the work area or the composition duration to this value.
+One value is especially useful: the *Cycle duration*, which is available in seconds or frames. To render perfect loops, you can set the work area or the composition duration to this value.

@@ -9,7 +9,7 @@
 It is [available as a preset (_*.ffx_)](https://github.com/Rainbox-dev/DuAEF_Duik/tree/master/Release/DuFrame) which you can apply to an empty Shape Layer via the menu "Animation/Apply Preset..." in After Effects.  
 It is also available in the camera panel of [Duik Bassel](index.md). ([Download here](https://github.com/Rainbox-dev/DuAEF_Duik/tree/master/Release/DuFrame)).
 
-![Default Frame](https://raw.githubusercontent.com/Rainbox-dev/DuAEF_Duik/master/docs/media/wiki/screenshots/duframe/example1.PNG)
+![Frame Effect](img\duik-screenshots\S-Camera\defaultFrameGuide.png)
 
 This is the default frame and guides added when you apply the preset.
 
@@ -17,13 +17,15 @@ This is the default frame and guides added when you apply the preset.
 
 The first effect added to the layer lets you configure the frame.
 
-![Frame Effect](https://raw.githubusercontent.com/Rainbox-dev/DuAEF_Duik/master/docs/media/wiki/screenshots/duframe/frameFX.PNG)
+![Frame Effect](img\duik-screenshots\S-Camera\frameFX.png)
 
 * **Format presets**  
 
-    1. *Custom* lets you specify the format using the _Format_ value.
-    2. *Composition* will compute the current aspect ratio of the composition, so you can know what it is in the _Format_ value.
-    3. The other formats in the list are relatively common formats (some older, some more recent) which can be useful. The current standard for video is *16/9*, and for digital cinema they are *DCP Flat* and *DCP Scope*.
+  *Custom* lets you specify the format using the _Format_ value.  
+
+ *Composition* will compute the current aspect ratio of the composition, so you can know what it is in the _Format_ value.
+
+ The other formats in the list are relatively common formats (some older, some more recent) which can be useful. The current standard for video is *16/9*, and for digital cinema they are *DCP Flat* and *DCP Scope*.
 
 * **Format**  
 This value lets you read the format of the selected preset, or set your own format if you've set the preset to *Custom*.
@@ -40,7 +42,7 @@ You can have as many guides as you want, you just have to duplicate a grid effec
 
 You can temporarily hide a specific grid or guide by disabling the corresponding effect.
 
-![Grid Effect](https://raw.githubusercontent.com/Rainbox-dev/DuAEF_Duik/master/docs/media/wiki/screenshots/duframe/gridFX.PNG)
+![Frame Effect](img\duik-screenshots\S-Camera\gridFX.PNG)
 
 There are a lot of different grids, and if you need another type, just [ask for it](../../../contributing-guide) ;)
 
@@ -51,8 +53,8 @@ There are a lot of different grids, and if you need another type, just [ask for 
 * **Real Fibonacci** draws the true Fibonacci spiral, with its accurate proportions.
 * **Isometric** draws an isometric guide very helpful when designing... isometric perspectives.
 
-![Isometric Grid](https://raw.githubusercontent.com/Rainbox-dev/DuAEF_Duik/master/docs/media/wiki/screenshots/duframe/example2.PNG)  
-Isometric Grid
+![](img\duik-screenshots\S-Camera\isometricGrid.PNG)  
+> *Isometric Grid*
 
-![Golden rectangle and Golden Fibonacci](https://raw.githubusercontent.com/Rainbox-dev/DuAEF_Duik/master/docs/media/wiki/screenshots/duframe/example3.PNG)  
-Golden rectangle and Golden Fibonacci guides
+![](img\duik-screenshots\S-Camera\goldenRectangle.PNG)
+> *Golden rectangle and Golden Fibonacci guides*

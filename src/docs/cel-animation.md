@@ -2,9 +2,9 @@
 
 ![cel anim panel](img\duik-screenshots\S-Animation\S-Animation-Tools\CelAnimation-panels.png)
 
-The *cel animation* tool is used in conjunction with After Effects’ paint effect to create traditional hand drawn animations.
+The ***Cel Animation*** tool is used in conjunction with After Effects’ paint effect to create traditional hand drawn animations.
 
-This tool creates celluloids which will receive animations. You can add celluloids on a single layer by checking the Single Layer checkbox. In this case, each celluloid will be a
+This tool creates celluloids which will receive animations. You can add celluloids on a single layer by checking the *Single Layer* checkbox. In this case, each celluloid will be a
 new paint effect on the selected layer.
 If it is unchecked, Duik creates a new solid with a paint effect for each celluloid; they are automatically numbered.
 

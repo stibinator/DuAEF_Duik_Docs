@@ -1,3 +1,5 @@
+# Duik API
+
 Almost all Duik features are now very easy to include and use in your own scripts, thanks to the Duik Application Programming Interface (API).
 
 The idea is just to include the API at the beginning of your script: `#include 'Duik16_api.jsxinc` to get an easy access to all Duik features, as very simple functions.  
