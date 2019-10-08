@@ -2,7 +2,18 @@
 
 This is the list of what has changed since the first Alpha version of Duik Bassel (16)
 
-## 16.1.1 (in development)
+## 16.2.0 (in development)
+
+- Added a new [***Kleaner***](kleaner.md) tab in the animation panel, with the new smart *Kleaner* which also does anticipations and overlap through expressions.
+
+## 16.1.2
+
+#### Fixes
+
+- The tool to [***separate dimensions***](separate-dimensions.md) of properties now removes the keyframes from the original property.
+- The tool to [***separate dimensions***](separate-dimensions.md) now correctly separates the dimensions of the position property too, using the *After Effects* native method.
+
+## 16.1.1
 
 #### Fixes
 

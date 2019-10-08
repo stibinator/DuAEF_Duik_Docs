@@ -522,17 +522,19 @@
             <div class="section">
               
                 <h1 id="zero"><img alt="Zero Icon" src="img/duik-icons/automation/zero-icon-r.png" /> Zero</h1>
-<div class="admonition hint">
-<p class="admonition-title">Hint</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
 <p>Available in <em>Standard</em> and <em>Expert</em> modes only.</p>
 </div>
 <p>In After Effects, as in any animation software using parenting between objects, the coordinates of the layers are always given in relation to their parents; this makes the values change when changing parent links.</p>
-<p>The Zero makes use of this behaviour to ease linking with expressions between layer transforms, even from a composition to another.</p>
+<p>The <strong><em>Zero</em></strong> makes use of this behaviour to ease linking with expressions between layer transforms, even from a composition to another.</p>
 <p>A Zero is a standard null object, which has exactly the same transform values as the layer it works with, and it is inserted in the hierarchy, between the layer and its former parent.</p>
 <p>The effect is that all of the layer’s transforms, now given in relation to its zero, which is at the same place, are initialized to: [0,0] in position, 0 in rotation, [100%,100%] in scale.</p>
 <p>Using zeros on several layers, it becomes very easy to link their positions with an expression even if they are not at the same place, and even from one composition to another.</p>
 <p>Another useful thing is that using zeros makes it easy to recover the original position of a layer, you just have to set all its coordinates to 0. Adding zeroes to all controllers when rigging a character to be able to retrieve its rest pose is a very common trick.</p>
-<p>To create a zero, select the layer(s) and click the &ldquo;Zero&rdquo; button.</p>
+<ul>
+<li>To create a zero, select the layer(s) and click the <em>Zero</em> button.</li>
+</ul>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>When a zero has been added, if you want to change the parent of the layer, be careful to change the parent of the zero and not the actual parent of the layer itself, to keep the zero in the hierarchy.</p>

@@ -564,7 +564,7 @@
 </ul>
 </div>
 <h1 id="connector"><img alt="Connector Icon" src="img/duik-icons/constraint-icon-r.png" /> Connector</h1>
-<p>The Connector is a way to control almost any property in After Effects with any other property, a bit like parenting between layers, but with properties.</p>
+<p>The <strong><em>Connector</em></strong> is a way to control almost any property in After Effects with any other property, a bit like parenting between layers, but with properties.</p>
 <p>With the connector, a &ldquo;master property&rdquo; will drive one or several &ldquo;slave properties&rdquo; and automate their animation depending on the master property value.</p>
 <p>It is very useful in three cases:</p>
 <ul>
@@ -572,11 +572,11 @@
 <li>It is very powerful to quickly connect sliders and other controllers to any properties, and for example control a head turn from a single value like the X position of a controller or a slider.</li>
 <li>You can use it to control opacities of layers with a single property, for example to control phonemes with the position of a controller.</li>
 </ul>
-<p>The slave property has to be prepared with keyframes, and the master property will drive this animation a bit like if you were using time remapping on the slave property, in a similar way to the &ldquo;set driven keys&rdquo; in Autodesk Maya.
+<p>The <em>slave property</em> has to be prepared with keyframes, and the master property will drive this animation a bit like if you were using time remapping on the slave property, in a similar way to the &ldquo;set driven keys&rdquo; in <em>Autodesk Maya</em>.
 When the master property value is at the predefined minimum, the child property value is the one at the start of its animation, and when the master property value is at the predefined maximum, the child property value is at the end of its animation.</p>
-<p><img alt="Connector GIF" src="https://rainboxprod.coop/rainbox/wp-content/uploads/connector.gif" /></p>
+<p><img alt="Connector GIF" src="img/examples/connector.gif" /></p>
 <h2 id="property-types-handled-by-the-connector">Property types handled by the connector</h2>
-<p>As the connector uses the same principle as time remapping, it is able to connect almost any type of property to any other type of property, which makes it a very powerful tool, even on older versions of After Effects.</p>
+<p>As the <em>Connector</em> uses the same principle as time remapping, it is able to connect almost any type of property to any other type of property, which makes it a very powerful tool, even on older versions of After Effects.</p>
 <h3 id="slave-controlled-property">Slave (controlled) property</h3>
 <p>The slave property can be of any type which can be animated with keyframes and have an expression (numerical and spatial values, shapes, texts&hellip;)</p>
 <h3 id="master-controller-property">Master (controller) property</h3>
@@ -605,26 +605,27 @@ When the master property value is at the predefined minimum, the child property 
 <p>If you pick a controller with an IK effect, the connector is able to connect either the IK Length, the stretch of the upper part of the limb or the stretch of the lower part of the limb.</p>
 <h2 id="how-to-set-the-connector-up">How to set the connector up</h2>
 <h3 id="quick-setup">Quick setup</h3>
-<p>To set the connector up ver quickly, you can do it the quick way:</p>
+<p>To set the <strong><em>Connector</em></strong> up quickly, you can do it the quick way:</p>
 <ol>
 <li>It is advised to first add the needed keyframes on the slave properties, though this can be done or modified afterwards. Just animate the slave property as you need it to change when the master (controller) property goes from its minimum to its maximum.</li>
 <li>Select the slave properties in the composition</li>
-<li>Click the &ldquo;Connector&rdquo; button</li>
+<li>Click the <em>Connector</em> button</li>
 </ol>
-<p>Duik will create or use any preexisting &ldquo;Connector&rdquo; controller, and add a slider in the effects of this layer. This slider is a simple percent ranging from 0 to 100 which will control the selected properties.<br />
-This is the simplest and quickiest way to use the connector.<br />
-If you need to have the controller in another composition, you can either use the &ldquo;Extract controllers&rdquo; tool from the parent composition, or just copy and paste the controller to the new composition, and link the percent with an expression, simply using the pickwhip.</p>
-<p>Read further to learn how to do more advanced stuff with the connector, in the additionnal panel.</p>
+<p>Duik will create or use any preexisting <em>Connector</em> controller, and add a slider in the effects of this layer. This slider is a simple percent ranging from 0 to 100 which will control the selected properties.</p>
+<p>This is the simplest and quickiest way to use the connector.  </p>
+<p>If you need to have the controller in another composition, you can either use the <strong><em>Extract controllers</em></strong> tool from the parent composition, or just copy and paste the controller to the new composition, and link the percentage with an expression, simply using the pickwhip.</p>
+<p>Read further to learn how to do more advanced stuff with the <em>connector</em>, in the additionnal panel.</p>
 <h3 id="standard-setup">Standard setup</h3>
+<p><img alt="" src="img/duik-screenshots/S-Rigging/S-Rigging-Links&amp;Constraints/Connector-optn.PNG" /></p>
 <p>Using the standard setup, you can do more things than the quick setup, like connecting from a composition to another, and be able to choose almost <em>any property</em> as a controller (see the section above, <a href="#property-types-handled-by-the-connector">Property types handled by the connector</a>).</p>
 <ol>
-<li>It is advised to first add the needed keyframes on the slave property, though this can be done or modified afterwards. Just animate the slave property as you need it to change when the master property goes from its minimum to its maximum.</li>
-<li>a. Select the master property in the timeline, and click on &ldquo;Pick Master Property&rdquo;. The name of the master property will be shown on the button.<br />
-    b. You can also use one of the 4 controllers of Duik especially made to be used by the connector (the slider, the 2D slider, the angle and the spatial effector)</li>
+<li>It is advised to add the needed keyframes on the slave property first, though this can be done or modified afterwards. Just animate the slave property as you need it to change when the master property goes from its minimum to its maximum.</li>
+<li>a. Select the master property in the timeline, and click on <em>Pick Master Property</em>. The name of the master property will be shown on the button.<br />
+    b. You can also use one of the 4 controllers of Duik especially made to be used by the <em>connector</em> (the <em>slider</em>, the <em>2D slider</em>, the <em>angle</em> and the <em>spatial effector</em>)</li>
 <li>Depending on the type of the master property, you can select the axis (or the channel if it&rsquo;s a color) to be used to control the slave properties.</li>
 <li>Choose between the value or the velocity of the master property to control the slave properties. Using the velocity can be very useful for example to control how the antenna of a car rotates depending on the speed of its X position.</li>
 <li>Set the minimum and maximum value of the master property.</li>
-<li>Click either on &ldquo;Connect to selected properties&rdquo; or &ldquo;Connect to selected layers opacities&rdquo;. The latter can be used to control the display of a bunch of layers with a slider: it&rsquo;s a good way to switch predefined phonemes for a mouth with a controller for example. It is exactly like using time remapping on a composition containing a layer sequence, but without all the issues caused by using actual time remapping.</li>
+<li>Click either on <em>Connect to selected properties</em> or <em>Connect to selected layers opacities</em>. The latter can be used to control the display of a bunch of layers with a slider: it&rsquo;s a good way to switch predefined phonemes for a mouth with a controller for example. It is exactly like using time remapping on a composition containing a layer sequence, but without all the issues caused by using actual time remapping.</li>
 </ol>
 <p>After these few steps, everything is ready: as soon as the master property changes, the slave properties will be driven. You can change all the settings afterwards in the effects of the master layer.</p>
 <p>If you need to adjust the keyframes on the slave properties, you can temporarily deactivate the connector by disabling the corresponding connector effect on the master layer.</p>
@@ -636,8 +637,8 @@ If you need to have the controller in another composition, you can either use th
 <li>For other <strong>numerical properties</strong> (including transformations too) you can use the <a href="duik-list.html"><em>list</em></a> tool of Duik, which is available in the <a href="constraints.html">link &amp; constraints</a> panel (in <em>standard</em> and <em>expert mode</em> only, it is hidden in <em>rookie mode</em>).
 Just select the property, and click the <em>list</em> button. Duik will add an effect with 5 new properties to control the original property, allowing up to five connections (or even more if you add a list to the list&hellip;). With the list, you won&rsquo;t connect the original property, but one of the new properties in the list effect.</li>
 <li>And there are <strong>non-numerical properties, like Bezier paths</strong>&hellip;  <ul>
-<li>If you&rsquo;re using an version of <strong><em>After EFfects</em> older than CC2018</strong>, it can be a bit tricky: with older versions, there is no way to efficiently work with shapes in expressions, so you can not do more than one single connection to the shapes (to your X <strong>or</strong> Y slider, but not both). The only way to achieve this is by duplicating the bezier path and try to make it work, combining the two of them, but it can be very difficult. <strong>Using masks can help</strong>: instead of connecting the original shape itself, you can connect masks which &ldquo;cut&rdquo; it, or with shape layers try <strong>using multiple shapes and the &ldquo;merge path&rdquo; option</strong> (which works like the pathfinder of Adobe Illustrator).  </li>
-<li>If your using <strong>CC2018 or any more recent version</strong>, you can <strong>add <a href="bones.html"><em>bones</em></a> to the bezier path</strong> (select the path property, or any vertex of the path, and click on the &ldquo;add bones&rdquo; button in the <a href="constraints.html">links &amp; constraints</a> panel of Duik). This way you&rsquo;ll have one layer for each vertex (and tangent) of the path, and you can then connect the position properties of these bones, and get back to the first and second method (connecting transformations or numerical properties).</li>
+<li>If you&rsquo;re using an version of <strong><em>After EFfects</em> older than CC2018</strong>, it can be a bit tricky: with older versions, there is no way to efficiently work with shapes in expressions, so you can not do more than one single connection to the shapes (to your X <strong>or</strong> Y slider, but not both). The only way to achieve this is by duplicating the bezier path and try to make it work, combining the two of them, but it can be very difficult. <strong>Using masks can help</strong>: instead of connecting the original shape itself, you can connect masks which &ldquo;cut&rdquo; it, or with shape layers try <strong>using multiple shapes and the <strong><em>merge path</em></strong> option</strong> (which works like the pathfinder of Adobe Illustrator).  </li>
+<li>If your using <strong>CC2018 or any more recent version</strong>, you can <strong>add <a href="bones.html"><em>bones</em></a> to the Bézier path</strong> (select the path property, or any vertex of the path, and click on the <em>Add bones</em> button in the <a href="constraints.html"><em>links &amp; constraints</em></a> panel of Duik). This way you&rsquo;ll have one layer for each vertex (and tangent) of the path, and you can then connect the position properties of these bones, and get back to the first and second method (connecting transformations or numerical properties).</li>
 </ul>
 </li>
 </ul>
@@ -645,15 +646,15 @@ Just select the property, and click the <em>list</em> button. Duik will add an e
 <h3 id="automating-the-cloth-when-the-arm-bends">Automating the cloth when the arm bends</h3>
 <p>With an arm already rigged, made of shapes (either shape layers or masks on solids):</p>
 <ol>
-<li>Animate the rig so the arm is straight at the beginning of the comp, and bent at its maximum a couple seconds later. If it&rsquo;s possible, animate only the FK of the forearm so the animation is the most simple it can be, and to isolate the effect of the forearm on the cloth only, as its just a reference to draw the shape of the cloth.</li>
+<li>Animate the rig so the arm is straight at the beginning of the comp, and bent at its maximum a couple seconds later. If it&rsquo;s possible, animate only the FK of the forearm so the animation is simple (or just temporarily disable the expression in the <em>Structure</em> to animate its rotation),  and so you can see only the effect of the forearm on the cloth.</li>
 <li>Animate the shape(s) of the arm and forearm so the cloth looks nice during the whole animation. Feel free to add as many keyframes as needed and use eases!</li>
-<li>Select the rotation property of the structure of the forearm. This is the property which exposes how the arm is bent, no matter what, in FK as in IK.</li>
-<li>Click on the &ldquo;Pick master property&rdquo; button of the panel of the connector.</li>
-<li>a. Set the minimum to the rotation value of the structure of the forearm at the beginning of the composition, when the arm is straight.
-    b. Set the maximum value to the rotation value of the structure of the forearm at the end of the animation, when the arm is completely bent.<br />
-    c. Note that Duik will try to automatically set these values, reading the existing animation of the master property if any.</li>
+<li>Select the <em>rotation</em> property of the structure of the forearm. This is the property which exposes how the arm is bent, no matter what, in FK as in IK.</li>
+<li>Click on the <em>Pick master property</em> button of the panel of the connector.</li>
+<li>a. Set the minimum to the rotation value of the structure of the forearm at the beginning of the composition, when the arm is straight.<br />
+    b. Set the maximum value to the rotation value of the structure of the forearm at the end of the animation, when the arm is completely bent.  <br />
+    c. Note that Duik will try to automatically set these values, reading the existing animation (if any) of the master property.  </li>
 <li>Select the shape(s) used to draw the cloth (and now animated).</li>
-<li>Click on the &ldquo;Connect to properties&rdquo; button.</li>
+<li>Click on the <em>Connect to properties</em> button.</li>
 <li>Now you can remove the animation of the arm (but NOT the animation of the shapes which is needed by the connector)</li>
 <li>You&rsquo;re all set! Now you can animate the arm as you wish, the cloth will correctly adjust.</li>
 </ol>
@@ -663,20 +664,20 @@ Just select the property, and click the <em>list</em> button. Duik will add an e
 <li>Animate anything you need to turn the head from left to right in the precomposition of the head.</li>
 <li>a. To control this head turn, we will not use an existing property, but create a nice controller just for it:<br />
     b. Go to the main composition, from where you will animate the head<br />
-    c. In the panel of the connector, click on the &ldquo;Slider&rdquo; button</li>
-<li>Select ALL the animated properties of the head turn in the precomposition of the head.</li>
-<li>Click on the &ldquo;Connect to properties&rdquo; button.</li>
+    c. In the panel of the connector, click on the <em>Slider</em> button</li>
+<li>Select ALL the animated properties of the head turn in the precomposition of the head (you don&rsquo;t need to select all the keyframes as long as the properties themselves are selected).</li>
+<li>Click on the <em>Connect to properties</em> button.</li>
 <li>That&rsquo;s it! Now when you move the slider from left to right, the head turns!</li>
 </ol>
 <h3 id="controlling-phonemes-for-a-mouth">Controlling phonemes for a mouth</h3>
 <p>You can connect the position of a controller to phonemes. You must have one layer for each phoneme:</p>
 <ol>
 <li>Select the controller&rsquo;s position</li>
-<li>Click on the &ldquo;Pick master property&rdquo; button of the panel of the connector.</li>
+<li>Click on the <em>Pick master property</em> button of the panel of the connector.</li>
 <li>Set the minimum value corresponding to the position of the controller where the first mouth must be displayed.</li>
 <li>Set the maximum value corresponding to the position of the controller where the last mouth must be displayed.</li>
 <li>Select the mouth/phonemes layers.</li>
-<li>Click on the &ldquo;Connect to opacities&rdquo; button of the connector.</li>
+<li>Click on the <em>Connect to opacities</em> button of the connector.</li>
 <li>Et voilà! Move the controller to change which phoneme is displayed.</li>
 </ol>
 <div class="admonition tip">

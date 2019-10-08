@@ -555,28 +555,26 @@
 </div>
 <h1 id="create-structures">Create structures</h1>
 <p><img alt="Structures panel (standard)" src="img/duik-screenshots/S-Rigging/S-Rigging-Structures/S-Rigging-Structures.PNG" /></p>
-<p>There are several ways to create <em>Structures</em> with Duik, depending on what you need.<br />
-As all the other tools in Duik Bassel, <strong>the <em>Struture</em> creation tools try to be smart, and change their behaviour depending on the context</strong> (i.e. the current selection in the current composition).</p>
-<p>You can create either complete characters (e.g. Homonoïds&hellip;), single limbs (e.g. Arms, Legs&hellip;), or custom structures. <strong>Except for complete characters</strong>, the way the <em>Structures</em> are created will change depending on the selection.</p>
-<p>Complete characters are always created in the center of the composition, and nothing is linked to the new <em>Structure</em>, you&rsquo;ll have to make the links between the artwork and the Structures by yourself later.</p>
-<p>Without any selection in the composition, predefined limbs and custom <em>Structures</em> will also be created in the center of the composition, but with a selection, they will be moved to the selected properties or layers, which, by default, will be linked to the <em>Structure elements</em>.</p>
-<p><strong>If Bezier path properties (i.e. mask path or shape path) are selected, one <em>Structure</em> will be created for each path</strong>, with one <em>Structure element</em> for each vertex of the path.<br />
+<p>There are several ways to create <em>Structures</em> with Duik, depending on what you need. As all the other tools in Duik Bassel, <strong>the <em>Struture</em> creation tools try to be smart, and change their behaviour depending on the context</strong> (i.e. the current selection in the current composition).</p>
+<p>You can create either complete characters (e.g. Homonoïds, etc.), single limbs (e.g. Arms, Legs, etc.), or custom structures. <strong>Except for complete characters</strong>, the way the <em>Structures</em> are created will change depending on the selection.</p>
+<p>Complete characters are always created in the center of the composition, and nothing is linked to the new <em>Structure</em>, you&rsquo;ll have to create the links between the artwork and the <em>Structures</em> by yourself later.</p>
+<p>Without any selection in the composition, predefined limbs and custom <em>Structures</em> will also be created in the center of the composition, but with a selection, they will be moved to the selected properties or layers, and you have the option to automatically parent or link them back to the newly created <a href="structure-tools.html#edit-structures"><em>Structures</em></a>.</p>
+<p><strong>If Bétzier path properties (i.e. mask path or shape path) are selected, one <em>Structure</em> will be created for each path</strong>, with one <em>Structure element</em> for each vertex of the path.<br />
 Vertex and tangents will both be linked to the corresponding <em>Structure elements</em>, but there is no individual control for tangents. You can create them later if you need with the <a href="bones.html"><em>Bones</em></a> tool.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>As <em>Structures</em> <strong>can</strong> be created on a bezier path with any version of After Effects, paths can be linked back to the <em>Structures</em> only on After Effects CC2018 and newer.</p>
 </div>
-<p><strong>If puppet pins are selected, one Structure will be created for each layer</strong>, with one <em>Structure element</em> for each puppet pin. The order of the elements of the <em>Structure</em> depends on the order of the pins in the layer stack. You can re-order them before creating the <em>Structure</em> to adjust how the <em>Structure</em> is created and parented.<br />
-Puppet pins will be linked to the corresponding <em>Structure elements</em>.</p>
-<p><strong>If layers are selected, without any other property, one <em>Structure</em> will be created</strong>. Each <em>Structure element</em> will be moved to a corresponding layer, and the layer will be parented to it.</p>
+<p><strong>If puppet pins are selected, one <em>Structure</em> will be created for each layer</strong>, with one <em>Structure element</em> for each puppet pin. The order of the elements of the <em>Structure</em> depends on the order of the pins in the layer stack. You can re-order them before creating the <em>Structure</em> to adjust how the <em>Structure</em> is created and optionally how the pin is linked to it.  </p>
+<p><strong>If layers are selected, without any other property, one <em>Structure</em> will be created</strong>. Each <em>Structure element</em> will be moved to a corresponding layer, and the layer can optionally be parented to it.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>If there are selected layers with their anchor points at the same location in the composition, the <em>Structure</em> will not use the layers&rsquo; position, and layers will not be parented, to avoid weird issues happening when layers share the same anchor point in the same <em>Structure</em> chain.</p>
 </div>
 <div class="admonition hint">
 <p class="admonition-title">Hint</p>
-<p>You can separately deactivate the automatic linking of layers, pins and paths to the <em>Structure elements</em> in the <a href="structure-tools.html#edit-structures">edition panel</a> of the <em>Structures</em>.<br />
-In this case, holding the [Ctrl] key when creating Structures will enable you to temporarily force this automatic linking.</p>
+<p>You can separately activate the automatic linking of layers, pins and paths to the <em>Structure elements</em> in the <a href="structure-tools.html#edit-structures">edition panel</a> of the <em>Structures</em>.<br />
+Holding the <code>Ctrl</code> key when creating <em>Structures</em> will enable you to temporarily disable or enable this automatic linking depending on the preferences you set.</p>
 </div>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
@@ -586,6 +584,7 @@ In this case, holding the [Ctrl] key when creating Structures will enable you to
 <h2 id="hominoid"><img alt="Hominoid Icon" src="img/duik-icons/humanoid-icon-r.png" /> Hominoid</h2>
 <p><img alt="Hominoid" src="img/duik-screenshots/S-Rigging/S-Rigging-Structures/Hominoid.PNG" /></p>
 <p>This tool will create <em><a href="structures.html">Structures</a></em> for a complete hominoid with a spine, two legs and two arms, using the settings of the individual limbs set in the <em><a href="structures.html">Structures</a></em> panel.</p>
+<p><img alt="" src="img/examples/hominoid.png" /></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p><a href="https://en.wikipedia.org/wiki/Ape">Hominoids</a> (Hominoidea) are a branch of tailless anthropoid primates native to Africa and Southeast Asia.
@@ -594,7 +593,7 @@ There are two extant branches of the superfamily Hominoidea: the gibbons, or les
 </div>
 <div class="admonition hint">
 <p class="admonition-title">Hint</p>
-<p>[ Alt + Click ] on the button for a demo of what Duik can do!</p>
+<p><code>Alt + Click</code> on the button for a demo of what Duik can do!</p>
 </div>
 <h2 id="types-of-walking-animals"><img alt="Animal Icon" src="img/duik-icons/animal-icon-r.png" />  Types of walking animals</h2>
 <p>The rig, and the animation, of the animal you&rsquo;re working on depends a lot on how it walks. There are three main ways of walking among vertebrates.</p>
@@ -624,52 +623,59 @@ There are two extant branches of the superfamily Hominoidea: the gibbons, or les
 <td>Ungulate</td>
 <td>Animals which walk on the tip of their fingers, who usually have hoofs.</td>
 <td>Horses, cattle, girafes, pigs, deers, camels, hippopotamuses&hellip;</td>
-<td>The ones humans eat.</td>
+<td>The ones humans eat</td>
 </tr>
 </tbody>
 </table>
 <p>For each limb you can create with Duik, you have to choose the type of walking animal it is (for arms and legs), and which parts of the limbs must be created.</p>
+<p><img alt="" src="img/examples/pattes-demo.jpg" /></p>
 <h2 id="arm"><img alt="Arm Icon" src="img/duik-icons/arm-icon-r.png" /> Arm</h2>
+<p>Creates a Structure for the arm or the front leg of a quadruped.</p>
+<p><img alt="" src="img/duik-screenshots/S-Rigging/S-Rigging-Structures/arm-options.PNG" /></p>
+<p>Click the ○ button to adjust the settings for the arm.</p>
 <p><img alt="arm structure" src="img/duik-screenshots/S-Rigging/S-Rigging-Structures/arm-structure.PNG" /></p>
 <p><img alt="arm structure comp" src="img/duik-screenshots/S-Rigging/S-Rigging-Structures/arm-structure-comp.png" /></p>
-<p>Creates a <em>Structure</em> for the arm or the front leg of a quadruped.</p>
-<p>Click the ○ button to adjust the settings for the arm.</p>
 <p>You can check which part of the limb is present on your character. The autorig will adapt to every configuration, but using all of them (except for claws when rigging humans) can ensure a nice rig and a more realistic animation.</p>
 <p><img alt="Arm Animation" src="img/examples/parent-structure.gif" /><br />
 <em>Animation by <a href="http://jissse.com">Jissse</a></em>  </p>
 <h2 id="leg"><img alt="Leg Icon" src="img/duik-icons/leg-icon-r.png" /> Leg</h2>
+<p>Creates a <em>Structure</em> for the (rear) leg of a biped or a quadruped.</p>
+<p><img alt="" src="img/duik-screenshots/S-Rigging/S-Rigging-Structures/leg-options.PNG" /></p>
+<p>Click the ○ button to adjust the settings for the leg.</p>
 <p><img alt="leg structure" src="img/duik-screenshots/S-Rigging/S-Rigging-Structures/leg-structure.PNG" /></p>
 <p><img alt="leg structure comp" src="img/duik-screenshots/S-Rigging/S-Rigging-Structures/leg-structure-comp.png" /></p>
-<p>Creates a <em>Structure</em> for the (rear) leg of a biped or a quadruped.</p>
-<p>Click the ○ button to adjust the settings for the leg.</p>
 <p>The autorig will adapt to every configuration, but using all of them can ensure a nice rig and a more realistic animation (with a proper foot roll).</p>
 <h2 id="spine"><img alt="Spine Icon" src="img/duik-icons/spine-icon-r.png" /> Spine</h2>
-<p><img alt="spine structure" src="img/duik-screenshots/S-Rigging/S-Rigging-Structures/spine-structure.PNG" /></p>
 <p>Creates a <em>Structure</em> for the spine of any vertebrate.</p>
+<p><img alt="" src="img/duik-screenshots/S-Rigging/S-Rigging-Structures/spine-options.PNG" /></p>
 <p>Click the ○ button to adjust the settings for the spine.</p>
+<p><img alt="spine structure" src="img/duik-screenshots/S-Rigging/S-Rigging-Structures/spine-structure.PNG" /></p>
 <p>You can check which part of the spine is present on your character.
 You can divide the spine and the neck in as many layers as you want (or none).
 The autorig will adapt to every configuration.</p>
 <h2 id="tail"><img alt="Tail Icon" src="img/duik-icons/tail-icon-r.png" /> Tail</h2>
-<p><img alt="tail structure" src="img/duik-screenshots/S-Rigging/S-Rigging-Structures/tail-structure.PNG" /></p>
 <p>Create a <em>Structure</em> for the tail of any animal.</p>
+<p><img alt="" src="img/duik-screenshots/S-Rigging/S-Rigging-Structures/spine-options.PNG" /></p>
 <p>Click the ○ button to adjust the settings for the tail.</p>
+<p><img alt="tail structure" src="img/duik-screenshots/S-Rigging/S-Rigging-Structures/tail-structure.PNG" /></p>
 <p>You can divide the tail in as many layers as you want.
 The autorig will adapt to every configuration.</p>
 <p><img alt="Fish illustration" src="img/examples/carpes-structures.jpg" /><br />
 <em>Illustration by <a href="http://jissse.com">Jissse</a></em><br />
-With tails, you can even rig fishes very easily.</p>
+With <em>Tails</em>, you can even rig fishes very easily.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<p>In the Autorig options, you can choose between rigging tails using <a href="autorig.html#bezier-ik-multi-layer-spine-tails">Bezier IK</a> controls or <a href="autorig.html#fk-with-follow-through-overlap-and-drag-tails">FK (with automatic follow through and overlap)</a> controls. The latter achieves a natural motion more easily, but IK could be needed in some cases, like if the tail interacts with anything else.</p>
+<p>In the Autorig options, you can choose between rigging tails using <a href="autorig.html#bezier-ik-multi-layer-spine-tails"><em>Bezier IK</em></a> controls or <a href="autorig.html#fk-with-follow-through-overlap-and-drag-tails"><em>FK</em> (with automatic follow through and overlap)</a> controls. The latter achieves a natural motion more easily, but <em>IK</em> could be needed in some cases, like if the tail interacts with anything else.</p>
 </div>
 <h2 id="custom-structure"><img alt="Bone Icon" src="img/duik-icons/bone-icon-r.png" />  Custom Structure</h2>
-<p><img alt="custom structure" src="img/duik-screenshots/S-Rigging/S-Rigging-Structures/custom-structure.PNG" /></p>
 <p>Creates a standard, custom <em>Structure</em>.</p>
+<p><img alt="" src="img/duik-screenshots/S-Rigging/S-Rigging-Structures/custom-options.PNG" /></p>
+<p>Click the ○ button to adjust the settings for the custome structure.</p>
+<p><img alt="custom structure" src="img/duik-screenshots/S-Rigging/S-Rigging-Structures/custom-structure.PNG" /></p>
 <p>You can set the number of elements in the Structure, and choose a name for it.</p>
 <div class="admonition hint">
 <p class="admonition-title">Hint</p>
-<p>Hold the [Alt] button on your keyboard to assign a new random color to the <em>Structure</em>.</p>
+<p>Hold the <code>Alt</code> button on your keyboard to assign a new random color to the <em>Structure</em>.</p>
 </div>
               
             </div>

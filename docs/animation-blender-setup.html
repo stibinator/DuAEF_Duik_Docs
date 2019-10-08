@@ -535,42 +535,45 @@
             <div class="section">
               
                 <h1 id="animation-blender"><img alt="Animation blender Icon" src="img/duik-icons/animblender-icon-r.png" /> Animation Blender</h1>
-<p>The Animation blender is a tool to animate using markers to trigger animations.</p>
 <p><img alt="animation blender panel" src="img/duik-screenshots/S-Rigging/S-Rigging-Links&amp;Constraints/AnimationBlender.PNG" /></p>
-<p>In a composition, you can have several animations, one after each other.<br />
-The animation blender is a simple controller (a layer) where you add markers which will trigger these animations.<br />
-The animation blender is able to blend the animations together during transitions right after a marker, and it&rsquo;s also able to loop the animations after they have been triggered, if you need.</p>
-<p><img alt="Animation Blender GIF" src="https://rainboxprod.coop/rainbox/wp-content/uploads/animation-blender-2.gif" /></p>
+<p>The <strong><em>Animation blender</em></strong> is a tool to animate using markers to trigger animations.</p>
+<p>In a composition, you can have several animations, one after each other.  </p>
+<p>The <em>Animation blender</em> is a simple controller (a layer) where you add markers which will trigger these animations.<br />
+The <em>Animation blender</em> is able to blend the animations together during transitions right after a marker, and it&rsquo;s also able to loop the animations after they have been triggered, if you need.</p>
+<p><img alt="Animation Blender GIF" src="img/examples/animation-blender-2.gif" /></p>
 <div class="admonition hint">
 <p class="admonition-title">Hint</p>
-<p>Once the animation blender have been set up, <a href="animation-blender.html">a simple tool</a> in the Animation panel (Tools tab) of Duik can be used to easily set the markers to trigger animations.</p>
+<p>Once the <em>Animation blender</em> have been set up, <a href="animation-blender.html">a simple tool</a> in the Animation panel (Tools tab) of Duik can be used to easily set the markers to trigger animations.</p>
 </div>
 <p><img alt="animation blender panel options" src="img/duik-screenshots/S-Rigging/S-Rigging-Links&amp;Constraints/AnimationBlender-option2.png" /></p>
 <p>There are two things which need to be set up: the animations (the animated properties), and the Blender controller itself.<br />
-The first part of the panel allows to quickly set the animations, while the second part is used to set the Blender up.</p>
+The first part of the panel allows to quickly set the animations, while the second part is used to set up the Blender.</p>
 <h2 id="animations-setup">Animations setup</h2>
 <p>As soon as you have animated what you want to trigger, you have to set some markers in the composition to define when these animations begin and end. Each marker must have a name (which can be whatever you want), and a duration which is exactly the duration of your animation.</p>
+<p><img alt="" src="img/duik-screenshots/S-Rigging/S-Rigging-Links&amp;Constraints/blender-timeline.PNG" /></p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>With versions of After Effects more recent than 14.0 (CC2017), these markers can be set on the composition itself, but with older versions, they have to be set on a layer named exactly &ldquo;Duik | Animation blender&rdquo;.</p>
+<p>With versions of After Effects more recent than 14.0 (<em>CC2017</em>), these markers can be set on the composition itself, but with older versions, they have to be set on a layer named exactly <em>Duik | Animation blender</em>.</p>
 </div>
-<p>To help you to set these markers, you can set their name in Duik, and then click the &ldquo;Set&rdquo; button. This will create a marker where it should be, using the work area of the composition to set its time and duration in a single click.</p>
+<p>To help you to set these markers, you can set their name in Duik, and then click the <em>Set</em> button. This will create a marker where it should be, using the work area of the composition to set its time and duration in a single click.</p>
 <h2 id="blender-setup">Blender Setup</h2>
 <p>Setting the composition up for the Blender is easy:  </p>
 <ol>
 <li>Select the composition containing the animations you want to set up in the menu. You can use the eyedropper to quickly get the active composition.</li>
-<li>Select the composition from where you want to animate using the Animation Blender. It can be the same composition as the rigged one if you wish.</li>
-<li>You can choose to rig all animated properties, or only the selected ones. Setting only the selected properties up allows to have several controllers for the same composition, thus allowing to rig very complicating things&hellip;</li>
-<li>Click on the &ldquo;Blend!&rdquo; button to set everything up.</li>
+<li>Select the composition from where you want to animate using the <em>Animation Blender</em>. It can be the same composition as the rigged one if you wish.</li>
+<li>You can choose to rig all animated properties, or only the selected ones. Setting up only the selected properties allows to have several controllers for the same composition, thus allowing to rig very complex things&hellip;</li>
+<li>Click on the <em>Blend!</em> button to set everything up.</li>
 </ol>
 <h2 id="use">Use</h2>
-<p>To use the blender, you just have to add markers with the name of the animation on the controller layer. Each marker will trigger the corresponding animation.</p>
+<p>To use the <em>Blender</em>, you just have to add markers with the name of the animation on the controller layer. Each marker will trigger the corresponding animation.</p>
+<p><img alt="" src="img/duik-screenshots/S-Rigging/S-Rigging-Links&amp;Constraints/blender-layer.PNG" /></p>
 <div class="admonition caution">
 <p class="admonition-title">Caution</p>
 <p>Their name have to be exactly the same, and it is case sensitive.</p>
 </div>
 <p><a href="animation-blender.html">A simple tool</a> in the Animation panel (Tools tab) of Duik can be used to easily set these markers, but you can also do it directly inside After Effects (see the shorcuts below).</p>
-<p>There are a few options in the effects of the controller, to loop the animation, and to control how they may blend during transitions. You can control if they have to blend, the duration of the transition (in seconds), and how it is interpolated. The blend happens <em>after</em> the marker triggering the animation, between the animation of the marker and the previous one.</p>
+<p><img alt="" src="img\duik-screenshots\S-Rigging\S-Rigging-Links&amp;Constraints\blender-effect.PNG" /></p>
+<p>There are a few options in the effects of the controller, to loop the animation, and to control how they may blend during transitions. If they have to blend, you can control if they have to blend, the duration of the transition (in seconds), and how it is interpolated. The blend happens <strong>after</strong> the marker triggering the animation, between the animation of the marker and the previous one.</p>
 <p>To temporarily disable the Blender, you can disable the effect on the controller. This makes it easy to add new animations or modify the existing ones.</p>
 <h1 id="shortcuts-for-markers-in-after-effects">Shortcuts for markers in After Effects</h1>
 <div class="admonition caution">
@@ -578,11 +581,11 @@ The first part of the panel allows to quickly set the animations, while the seco
 <p>Some of these shortcuts are not available in all versions of After Effects, but were added in the latest versions.</p>
 </div>
 <ul>
-<li>[*] adds a new marker on the selected layer, or on the composition without any selected layer.</li>
-<li>[Alt + *] opens the marker editor window before adding the marker, where you can set a comment.</li>
-<li>[Alt + Click] on a marker changes its duration.</li>
-<li>[Ctrl + Click] on a marker removes it.</li>
-<li>[Shift + 1/2/3&hellip;9] adds a marker with the corresponding number as its comment.</li>
+<li><code>*</code> adds a new marker on the selected layer, or on the composition without any selected layer.</li>
+<li><code>Alt + *</code> opens the marker editor window before adding the marker, where you can set a comment.</li>
+<li><code>Alt + Click</code> on a marker changes its duration.</li>
+<li><code>Ctrl + Click</code> on a marker removes it.</li>
+<li><code>Shift + 1/2/3...9</code> adds a marker with the corresponding number as its comment.</li>
 </ul>
               
             </div>
