@@ -8,10 +8,19 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 
 ## 16.1.2
 
+#### Improvements
+
+- Some expressions have been modernized, and the underlying system for generating expressions in Duik have been improved. This is going to improve performance in future versions. This work comes with a nice way to share an [expression library](https://github.com/Rainbox-dev/DuAEF/tree/master/src/libs/expressionLib) for animators and developpers.
+
 #### Fixes
 
-- The tool to [***separate dimensions***](separate-dimensions.md) of properties now removes the keyframes from the original property.
-- The tool to [***separate dimensions***](separate-dimensions.md) now correctly separates the dimensions of the position property too, using the *After Effects* native method.
+- The tool to [separate dimensions](separate-dimensions.md) of properties now removes the keyframes from the original property.
+- The tool to [separate dimension](separate-dimensions.md) now correctly separates the dimensions of the position property too, using the *After Effects* native method.
+- The [connector](connector.md) now works correctly with "custom" properties like the histogram or the mesh warp effect.
+- Layer selectors (like the ones in the options of the [Walk Cycle](walk-cycle.md)) now work correctly when selected layers are not selected from top to bottom.
+- [Bézier IK](autorig.md#bezier-ik-multi-layer-spine-tails) (like the ones used in spines) no longer moves the layers on creation.
+- [Bézier IK](autorig.md#bezier-ik-multi-layer-spine-tails) now works on custom [Structures](structures.md).
+- Fixed some tools not working in non-English Duik: [Slider Controllers](controllers.md), [Parent Constraint](parent-constraint.md), [Effector](effector.md)
 
 ## 16.1.1
 
