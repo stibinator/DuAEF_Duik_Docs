@@ -622,10 +622,10 @@ You can fix this in the effects of the controllers for the arms, where you will 
 <li>
 <p><em>Character</em>: sets the main traits of the character.</p>
 <ul>
-<li>Its height influences the frequency of the cycle (the apparent speed of the feet).</li>
-<li>Its weight mainly influences the accelerations and decelerations of the motion (the momentum).</li>
-<li>The energy controls the amplitude of the movements.</li>
-<li>The softness controls how the muscles are contracted or not.</li>
+<li>Its <em>Height</em> influences the frequency of the cycle (the apparent speed of the feet).</li>
+<li>Its <em>Weight</em> mainly influences the accelerations and decelerations of the motion (the momentum).</li>
+<li>The <em>Energy</em> controls the amplitude of the movements.</li>
+<li>The <em>Softness</em> controls how the muscles are contracted or not.</li>
 </ul>
 </li>
 <li>
@@ -639,17 +639,16 @@ You can fix this in the effects of the controllers for the arms, where you will 
 <h3 id="secondary-controls">Secondary controls</h3>
 <p><img alt="secondary controls" src="img/duik-screenshots/S-Rigging/S-Rigging-Automations/Walkcycle-effects-detail/secondarycontrols.png" /></p>
 <p>Here you can adjust how each individual limb moves. In this version of Duik, you can not control separately the left and the right, but if you need to differenciate each side, you can create two different versions of the walk cycle in the same composition, one for each side.</p>
-<p>You can adjust the swinging amplitude the limbs, their softness (how the muscles are contracted), etc. Do not hesitate to test each control individually to see how it affects the walk cycle.</p>
+<p>You can adjust the swinging amplitude of the limbs, their softness (how the muscles are contracted), etc. Do not hesitate to test each control individually to see how it affects the walk cycle.</p>
 <h3 id="animation-data">Animation data</h3>
-<p><img alt="animation data" src="img/duik-screenshots/S-Rigging/S-Rigging-Automations/Walkcycle-effects-detail/animationdata.png" /></p>
 <p>In this section you can adjust how the walk cycle is computed, connect your custom rig and controllers which Duik could not connect automatically, or get useful data for your own rigs and expressions.</p>
 <h4 id="animation">Animation</h4>
-<p>This is where you can connect the properties of custom rigs and controllers.
-Each value in this section outputs the animation of the corresponding property on each limb.
-To connect the properties of your controllers, use the expression pickwhip to pick the corresponding animation property, and add &lsquo;+ value;&rsquo; at the end of the resulting expression.
+<p><img alt="animation data" src="img/duik-screenshots/S-Rigging/S-Rigging-Automations/Walkcycle-effects-detail/animationdata.png" /></p>
+<p>This is where you can connect the properties of custom rigs and controllers. Each value in this section outputs the animation of the corresponding property on each limb. To connect the properties of your controllers, use the expression pickwhip to pick the corresponding animation property, and add <code>+ value;</code> at the end of the resulting expression.
 The arms animation uses FK, you need to connect them to angle properties.
 The feet animation uses IK, connect them to position properties.</p>
 <h4 id="parameters">Parameters</h4>
+<p><img alt="" src="img/duik-screenshots/S-Rigging/S-Rigging-Automations/Walkcycle-effects-detail/animdata-parameters.png" /></p>
 <p>Duik tries to set some important parameters automatically when you create the walk cycle with some controllers selected, but if you are using a custom rig or if you connect controllers later, these properties may not be set properly. You can adjust them in this section.</p>
 <ul>
 <li>
@@ -662,7 +661,7 @@ The feet animation uses IK, connect them to position properties.</p>
 <h4 id="computation">Computation</h4>
 <p><img alt="computation" src="img/duik-screenshots/S-Rigging/S-Rigging-Automations/Walkcycle-effects-detail/computation.png" /></p>
 <p>This section outputs some values used by Duik to compute the walk cycle. You can use them in your own expressions and rigs.</p>
-<p>One value is especially useful: the cycle duration, which is available in seconds or frames. To render perfect loops, you can set the work area or the composition duration to this value.</p>
+<p>One value is especially useful: the <em>Cycle duration</em>, which is available in seconds or frames. To render perfect loops, you can set the work area or the composition duration to this value.</p>
               
             </div>
           </div>
