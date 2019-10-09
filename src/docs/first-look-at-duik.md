@@ -157,7 +157,7 @@ The *After Effects* features mainly used by Duik are:
 Although Duik uses existing layer types in *After Effects* (mostly shape layers and null objects), the layers it creates have a specific use and can be considered as new layer types.  
 Layers created by Duik have a marker at their beginning, showing how Duik uses them (their "Duik Type"), and containing important data that Duik needs to work with. **Do not remove these markers** (but you can move them away, even before the beginning of the comp to hide them, if you find them annoying).
 
-![](img/duik-screenshots/General/layertypes.png)
+![](img/duik-screenshots/General/layertypes.PNG)
 
 The main types defined by Duik are: 
 

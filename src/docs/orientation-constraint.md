@@ -12,7 +12,7 @@ You can also use this constraint to link the orientation of a controller to the 
 - Select a layer and click on the *Orientation Constraint* button.
 An effect is added on the layer to let you select the constraint and set its weight to adjust the influence.
 
-![](img/duik-screenshots/S-Rigging/S-Rigging-Links&Constraints/OrientationConstraint-effect.PNG)
+![](img/duik-screenshots/S-Rigging/S-Rigging-Constraints/OrientationConstraint-effect.PNG)
 
 To constrain a layer to several other layers, you can duplicate the effect, and adjust the weight of each constraint.
 

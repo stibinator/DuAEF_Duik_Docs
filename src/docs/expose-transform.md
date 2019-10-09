@@ -21,6 +21,6 @@ You can change this with the first 3 parameters of the effect.
 
 ## Effect
 
-![](img/duik-screenshots/S-Rigging/S-Rigging-Links&Constraints/etmEffect.png)
+![](img/duik-screenshots/S-Rigging/S-Rigging-Constraints/etmEffect.png)
 
 The effect exposes all measured values which can be used in expressions or with the [*Connector*](connector.md).

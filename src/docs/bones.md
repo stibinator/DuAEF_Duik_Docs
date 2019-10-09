@@ -1,6 +1,6 @@
 # ![bone icon](img/duik-icons/bone-icon-r.png) Bones
 
-![create bones](img/duik-screenshots/S-Rigging/S-Rigging-Links&Constraints/AddBones.PNG)
+![create bones](img/duik-screenshots/S-Rigging/S-Rigging-Constraints/AddBones.PNG)
 
 ***Bones*** are a very simple yet extremely useful tool. They are layers used to control any spatial property or Bézier shape.
 
@@ -34,8 +34,8 @@ When the property is controlled by a bone, you can rig the bone itself, parent i
 In the additionnal panel of the *Bones*, you can adjust their appearance.  
 All changes made in this panel will affect all selected *Bones* and the creation of new *Bones*.
 
-![edit bones](img/duik-screenshots/S-Rigging/S-Rigging-Links&Constraints/AddBones-EditBones.PNG)
-![edit bones](img/duik-screenshots/S-Rigging/S-Rigging-Links&Constraints/AddBones-EditBones-options.png)
+![edit bones](img/duik-screenshots/S-Rigging/S-Rigging-Constraints/AddBones-EditBones.PNG)
+![edit bones](img/duik-screenshots/S-Rigging/S-Rigging-Constraints/AddBones-EditBones-options.png)
 
 - You can change the size of the *Bones*, either automatically, relative to the size of the composition (small, medium and large options), or with an absolute value (custom option).
 

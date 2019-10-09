@@ -10,9 +10,9 @@ If an expression was already assigned to the property, it is automatically copie
 
 The *List* is added in the layer effects. You can combine up to five animations and expressions.
 
-![](img/duik-screenshots/S-Rigging/S-Rigging-Links&Constraints/list-effect.PNG)
+![](img/duik-screenshots/S-Rigging/S-Rigging-Constraints/list-effect.PNG)
 
-![](img/duik-screenshots/S-Rigging/S-Rigging-Links&Constraints/list-timeline.PNG)
+![](img/duik-screenshots/S-Rigging/S-Rigging-Constraints/list-timeline.PNG)
 
 !!! note
     The result of the mix is calculated in the following way:  

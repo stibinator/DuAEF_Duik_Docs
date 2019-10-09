@@ -29,7 +29,7 @@ Use the effects of the *Motion Trail* layer to adjust all the trails.
 
 ## Additional panel
 
-![](img\duik-screenshots\S-Animation\S-Animation-Tools\MotionTrail-optn.png)
+![](img\duik-screenshots\S-Animation\S-Animation-Tools\MotionTrail-optn.PNG)
 
 In the additional panel, you can choose to create a new layer when you create new motion trails, or to add them all on the existing layer if any.
 You can also set the color of new motion trails.

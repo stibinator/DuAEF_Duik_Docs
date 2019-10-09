@@ -8,7 +8,7 @@ Its use is very simple: just select a layer and click on the *Parent Link* butto
 
 In the effects of the layer, you can set its parent, and animate a weight if needed. You can duplicate the effect to link the layer to other layers as well.
 
-![](img/duik-screenshots/S-Rigging/S-Rigging-Links&Constraints/ParentConstraint-effect.PNG)
+![](img/duik-screenshots/S-Rigging/S-Rigging-Constraints/ParentConstraint-effect.PNG)
 
 !!! note
     You won't see the effect of the parent link unless there already are some keyframes, the tool needs animation to compute the linking.

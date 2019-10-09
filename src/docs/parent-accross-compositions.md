@@ -7,7 +7,7 @@ Sometimes, you may need to parent a layer to another one which is inside a preco
 Duik Bassel makes this easy with the ***Parent across compositions*** tool.
 
 This is the tool, in *Standard Mode*:  
-![Parent across comp panel ](img/duik-screenshots/S-Rigging/S-Rigging-Links&Constraints/ParentAcrossComps.PNG)
+![Parent across comp panel ](img/duik-screenshots/S-Rigging/S-Rigging-Constraints/ParentAcrossComps.PNG)
 
 1. Select the layers to parent (the children), as you would with standard parenting in After Effects.
 2. In the panel of Duik, select the composition containing the layer which you want to be the parent. In the list, only containing and precompositions of the current composition will be displayed. It is not possible to parent across compositions which have no direct relationship.
@@ -23,9 +23,9 @@ This is the tool, in *Standard Mode*:
 
 # ![](img\duik-icons\locator-icon.png) Locators (Standard and Expert mode only)
 
-![](img/duik-screenshots/S-Rigging/S-Rigging-Links&Constraints/ParentAcrossComp-locator.PNG)
+![](img/duik-screenshots/S-Rigging/S-Rigging-Constraints/ParentAcrossComp-locator.png)
 
-![](img/duik-screenshots/S-Rigging/S-Rigging-Links&Constraints/locator-effect.PNG)
+![](img/duik-screenshots/S-Rigging/S-Rigging-Constraints/locator-effect.PNG)
 
 Locators, which are used by the *Parent accross compositions* tool, can be very useful in some cases. They are null layers which follow another layer no matter what and get all its transformations.
 

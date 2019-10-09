@@ -22,7 +22,7 @@ The *Path Constraint* constraints the position of a layer to any Bézier path.
 
 A *Path Constraint* effect is added on the layer, where you can animate the percentage to move the layer along the path.
 
-![](img/duik-screenshots/S-Rigging/S-Rigging-Links&Constraints/PathConstraint-effect.PNG)
+![](img/duik-screenshots/S-Rigging/S-Rigging-Constraints/PathConstraint-effect.PNG)
 
 !!! tip
     The position of the layer can still be animated, and you can move it yourself to the path if you want it to be exactly above. In this case, set the percentage to 0% and move the layer above the first vertex of the Bézier path.

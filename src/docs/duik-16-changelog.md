@@ -4,7 +4,10 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 
 ## 16.2.0 (in development)
 
+#### New
+
 - Added a new [***Kleaner***](kleaner.md) tab in the animation panel, with the new smart *Kleaner* which also does anticipations and overlap through expressions.
+- The [***Motion Trail***](motion-trail.md) has been completely re-built, and now has a *taper* option and is also able to take the 3D space and layer scale into account to automatically adjust the width of the stroke.
 
 ## 16.1.2
 
@@ -21,6 +24,7 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 - [Bézier IK](autorig.md#bezier-ik-multi-layer-spine-tails) (like the ones used in spines) no longer moves the layers on creation.
 - [Bézier IK](autorig.md#bezier-ik-multi-layer-spine-tails) now works on custom [Structures](structures.md).
 - Fixed some tools not working in non-English Duik: [Slider Controllers](controllers.md), [Parent Constraint](parent-constraint.md), [Effector](effector.md)
+- When [extracting controllers](controller-tools.md) or rigging limbs with [footroll](autorig/md), the IK Data is now correctly linked and can be correctly detected by the new [Connector](connector.md)
 
 ## 16.1.1
 

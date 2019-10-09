@@ -9,7 +9,7 @@
 It is [available as a preset (_*.ffx_)](https://github.com/Rainbox-dev/DuAEF_Duik/tree/master/Release/DuFrame) which you can apply to an empty Shape Layer via the menu "Animation/Apply Preset..." in After Effects.  
 It is also available in the camera panel of [Duik Bassel](index.md). ([Download here](https://github.com/Rainbox-dev/DuAEF_Duik/tree/master/Release/DuFrame)).
 
-![Frame Effect](img\duik-screenshots\S-Camera\defaultFrameGuide.png)
+![Frame Effect](img\duik-screenshots\S-Camera\defaultFrameGuide.PNG)
 
 This is the default frame and guides added when you apply the preset.
 
@@ -17,7 +17,7 @@ This is the default frame and guides added when you apply the preset.
 
 The first effect added to the layer lets you configure the frame.
 
-![Frame Effect](img\duik-screenshots\S-Camera\frameFX.png)
+![Frame Effect](img\duik-screenshots\S-Camera\frameFX.PNG)
 
 * **Format presets**  
 

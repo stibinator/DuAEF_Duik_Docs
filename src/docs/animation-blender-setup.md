@@ -1,6 +1,6 @@
 # ![Animation blender Icon](img\duik-icons\animblender-icon-r.png) Animation Blender
 
-![animation blender panel](img\duik-screenshots\S-Rigging\S-Rigging-Links&Constraints\AnimationBlender.PNG)
+![animation blender panel](img\duik-screenshots\S-Rigging\S-Rigging-Constraints\AnimationBlender.PNG)
 
 The ***Animation blender*** is a tool to animate using markers to trigger animations.
 
@@ -14,7 +14,7 @@ The *Animation blender* is able to blend the animations together during transiti
 !!! hint
     Once the *Animation blender* have been set up, [a simple tool](animation-blender.md) in the Animation panel (Tools tab) of Duik can be used to easily set the markers to trigger animations.
 
-![animation blender panel options](img\duik-screenshots\S-Rigging\S-Rigging-Links&Constraints\AnimationBlender-option2.png)
+![animation blender panel options](img\duik-screenshots\S-Rigging\S-Rigging-Constraints\AnimationBlender-option2.png)
 
 There are two things which need to be set up: the animations (the animated properties), and the Blender controller itself.  
 The first part of the panel allows to quickly set the animations, while the second part is used to set up the Blender.
@@ -23,7 +23,7 @@ The first part of the panel allows to quickly set the animations, while the seco
 
 As soon as you have animated what you want to trigger, you have to set some markers in the composition to define when these animations begin and end. Each marker must have a name (which can be whatever you want), and a duration which is exactly the duration of your animation.
 
-![](img\duik-screenshots\S-Rigging\S-Rigging-Links&Constraints\blender-timeline.PNG)
+![](img\duik-screenshots\S-Rigging\S-Rigging-Constraints\blender-timeline.PNG)
 
 !!! warning
     With versions of After Effects more recent than 14.0 (*CC2017*), these markers can be set on the composition itself, but with older versions, they have to be set on a layer named exactly *Duik | Animation blender*.
@@ -43,14 +43,14 @@ Setting the composition up for the Blender is easy:
 
 To use the *Blender*, you just have to add markers with the name of the animation on the controller layer. Each marker will trigger the corresponding animation.
 
-![](img\duik-screenshots\S-Rigging\S-Rigging-Links&Constraints\blender-layer.PNG)
+![](img\duik-screenshots\S-Rigging\S-Rigging-Constraints\blender-layer.PNG)
 
 !!! caution
     Their name have to be exactly the same, and it is case sensitive.
 
 [A simple tool](animation-blender.md) in the Animation panel (Tools tab) of Duik can be used to easily set these markers, but you can also do it directly inside After Effects (see the shorcuts below).
 
-![](img\duik-screenshots\S-Rigging\S-Rigging-Links&Constraints\blender-effect.PNG)
+![](img\duik-screenshots\S-Rigging\S-Rigging-Constraints\blender-effect.png)
 
 There are a few options in the effects of the controller, to loop the animation, and to control how they may blend during transitions. If they have to blend, you can control if they have to blend, the duration of the transition (in seconds), and how it is interpolated. The blend happens **after** the marker triggering the animation, between the animation of the marker and the previous one.
 

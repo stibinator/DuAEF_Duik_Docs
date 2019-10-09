@@ -63,7 +63,7 @@ When the *Auto-rig* creates an *IK / FK*, it can be adjusted in the effects of t
 
 #### One-Layer IK (shoulder rotation, single-layer spine...)
 
-![](img\duik-screenshots\S-Rigging\S-Rigging-Links&Constraints\one-layer-IK-effect.PNG)
+![](img\duik-screenshots\S-Rigging\S-Rigging-Constraints\one-layer-IK-effect.PNG)
 
 !!! note
     This section still has to be written
@@ -81,7 +81,7 @@ When the *Auto-rig* creates an *IK / FK*, it can be adjusted in the effects of t
 
 #### Two-layer IK (arms and legs...)
 
-![](img\duik-screenshots\S-Rigging\S-Rigging-Links&Constraints\two-layer-IK-effect.PNG)
+![](img\duik-screenshots\S-Rigging\S-Rigging-Constraints\two-layer-IK-effect.PNG)
 
 !!! note
     This section still has to be written
@@ -98,7 +98,7 @@ When the *Auto-rig* creates an *IK / FK*, it can be adjusted in the effects of t
 
 #### Bezier IK (multi-layer spine, tails...)
 
-![](img\examples\bezier-ik-controllers.png)
+![](img\examples\bezier-ik-controllers.PNG)
 
 !!! note
     This section still has to be written
@@ -111,7 +111,7 @@ Two controllers are needed to control *Bezier IK*. One at the end of the chain, 
 
 ##### Main Controller (end)
 
-![](img\duik-screenshots\S-Rigging\S-Rigging-Links&Constraints\bezierIK-end.PNG)
+![](img\duik-screenshots\S-Rigging\S-Rigging-Constraints\bezierIK-end.PNG)
 
 - The *Auto orientation* of the layers along the path can be disabled so that the layers will keep their own orientations.
 
@@ -119,7 +119,7 @@ Two controllers are needed to control *Bezier IK*. One at the end of the chain, 
 
 ##### Middle Controller (curve)
 
-![](img\duik-screenshots\S-Rigging\S-Rigging-Links&Constraints\bezierIK-middle.PNG)
+![](img\duik-screenshots\S-Rigging\S-Rigging-Constraints\bezierIK-middle.PNG)
 
 - You can disable the guides to hide the doted line representing the *IK* in the viewport. This will improve a bit the performance of After Effects.
 
@@ -127,7 +127,7 @@ Two controllers are needed to control *Bezier IK*. One at the end of the chain, 
 
 #### FK with follow-through, overlap and drag (tails...)
 
-![](img\duik-screenshots\S-Rigging\S-Rigging-Links&Constraints\fk-effect.PNG)
+![](img\duik-screenshots\S-Rigging\S-Rigging-Constraints\fk-effect.PNG)
 
 !!! note
     This section still has to be written
@@ -154,7 +154,7 @@ The additionnal panel for the *Auto-rig* is divided in two parts: some options f
 !!! note
     Available in *Standard* and *Expert* modes only.
 
-![Autorig additional panel](img/duik-screenshots/S-Rigging/S-Rigging-Links&Constraints/Autorig-additionalpanel2.png)  
+![Autorig additional panel](img/duik-screenshots/S-Rigging/S-Rigging-Constraints/Autorig-additionalpanel2.png)  
 
 ### Options
 
