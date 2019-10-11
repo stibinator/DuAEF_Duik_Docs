@@ -9,6 +9,17 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 - Added a new [***Kleaner***](kleaner.md) tab in the animation panel, with the new smart *Kleaner* which also does anticipations and overlap through expressions.
 - The [***Motion Trail***](motion-trail.md) has been completely re-built, and now has a *taper* option and is also able to take the 3D space and layer scale into account to automatically adjust the width of the stroke.
 
+## 16.1.3
+
+#### Improvements
+
+- You can now use custom controllers with the [Auto-rig](autorig.md)
+
+#### Fixes
+
+- Fixed some bugs introduced in 16.1.2 (Slider controllers, effectors, and some constraints).
+- Fixed [manual IK Rigging](autorig.md#ik-fk).
+
 ## 16.1.2
 
 #### Improvements

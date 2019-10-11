@@ -25,12 +25,14 @@ As a smart tool, it will guess what you are trying to do, depending on the layer
 1. Select some layers in the composition.
 2. Click the *Auto-rig & IK* button.
 
-    - **If there are ***Structures***** in the selection:
-
+    - __If there are ***Structures***__ in the selection:  
         - If there are predefined limbs (arm, leg, spine or tail), the *Auto-rig* will rig everything for you, so you can start to animate right afterwards.
         - If the *Structures* are *custom Structures*, the *Auto-rig* will add *IKs* to rig them, determining which type of *IK* would be the best according to the number and location of the layers.
 
-    - **If the selection is made of standard layers**, the *Auto-rig* will add *IKs* to rig them, trying to guess how they need to be rigged using their parenting and the location of their anchor points. If the layers are not parented yet, the *Auto-rig* is able to parent them automatically, but it's better in this case to select the layers in the right order: from the tip to the root of the limb (from hand to shoulder, or from foot to hip...).
+    - __If there are [***Controllers***](controllers.md)__ in the selection:  
+        The auto-rig will use them when possible, depending on their location, instead of creating new ones. This is an easy way to use your own custom controllers (you just have to make sure they're [tagged](controller-tools.md#tag-controllers).)
+
+    - __If the selection is made of standard layers__, the *Auto-rig* will add *IKs* to rig them, trying to guess how they need to be rigged using their parenting and the location of their anchor points. If the layers are not parented yet, the *Auto-rig* is able to parent them automatically, but it's better in this case to select the layers in the right order: from the tip to the root of the limb (from hand to shoulder, or from foot to hip...).
 
 ![Autorig GIF](img\examples\autorig.gif)
 
