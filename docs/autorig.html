@@ -586,11 +586,15 @@
 <p>Click the <em>Auto-rig &amp; IK</em> button.</p>
 <ul>
 <li>
-<p><strong>If there are <strong><em>Structures</em></strong></strong> in the selection:</p>
+<p><strong>If there are <strong><em>Structures</em></strong></strong> in the selection:  </p>
 <ul>
 <li>If there are predefined limbs (arm, leg, spine or tail), the <em>Auto-rig</em> will rig everything for you, so you can start to animate right afterwards.</li>
 <li>If the <em>Structures</em> are <em>custom Structures</em>, the <em>Auto-rig</em> will add <em>IKs</em> to rig them, determining which type of <em>IK</em> would be the best according to the number and location of the layers.</li>
 </ul>
+</li>
+<li>
+<p><strong>If there are <a href="controllers.html"><strong><em>Controllers</em></strong></a></strong> in the selection:<br />
+    The auto-rig will use them when possible, depending on their location, instead of creating new ones. This is an easy way to use your own custom controllers (you just have to make sure they&rsquo;re <a href="controller-tools.html#tag-controllers">tagged</a>.)</p>
 </li>
 <li>
 <p><strong>If the selection is made of standard layers</strong>, the <em>Auto-rig</em> will add <em>IKs</em> to rig them, trying to guess how they need to be rigged using their parenting and the location of their anchor points. If the layers are not parented yet, the <em>Auto-rig</em> is able to parent them automatically, but it&rsquo;s better in this case to select the layers in the right order: from the tip to the root of the limb (from hand to shoulder, or from foot to hip&hellip;).</p>
