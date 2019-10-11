@@ -12,6 +12,8 @@ The *Path Constraint* constraints the position of a layer to any Bézier path.
 2. Select a Bézier path property (shape or mask)
 3. Click the *Path Constraint* button
 
+![YOUTUBE_1-1](OmWw5QlOYUo)
+
 !!! note
     When clicking on the button, if no path property was found, *Duik* will show another panel to pick a path. In this case:
 

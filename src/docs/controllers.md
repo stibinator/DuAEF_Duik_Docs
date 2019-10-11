@@ -6,6 +6,8 @@ As the controllers are going to be the interface between the animator and the ch
 
 ![Controllers GIF](img/examples/controllers.gif)
 
+![YOUTUBE_1-1](OY7RD4FgmoA)
+
 ## Panel
 
 ![controllers pannel](img/duik-screenshots/S-Rigging/S-Rigging-Controllers/Controllers-pannel.PNG)  

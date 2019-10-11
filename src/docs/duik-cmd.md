@@ -4,6 +4,8 @@ The *Duik Cmd* panel provides an command line interface (CLI) to Duik.
 
 This is a very small yet powerful panel: you can almost use every feature of Duik with it! With its powerful auto-completion, you just have to type a few characters to use all the tools very quickly.
 
+![YOUTUBE_1-1](skN8NSEjLQM)
+
 ![](img/duik-screenshots/duik-cmd-completion.png)
 
 When learning to use it, you may find the list of all the functions useful. Click on the list icon to open it.
