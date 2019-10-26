@@ -9,6 +9,10 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 - Added a new [***Kleaner***](kleaner.md) tab in the animation panel, with the new smart *Kleaner* which also does anticipations and overlap through expressions.
 - The [***Motion Trail***](motion-trail.md) has been completely re-built, and now has a *taper* option and is also able to take the 3D space and layer scale into account to automatically adjust the width of the stroke.
 
+#### Improvements
+
+- The performance of the [*Search and Replace*](rigging-tools.md#search-and-replace) tool has been greatly improved for expressions.
+
 ## 16.1.3
 
 #### Improvements
