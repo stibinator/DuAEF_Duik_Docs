@@ -13,7 +13,7 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 
 - The performance of the [*Search and Replace*](rigging-tools.md#search-and-replace) tool has been greatly improved for expressions.
 - The performance of the [*Structures*](structures.md) creation and of the [*Auto-rig*](autorig.md) have been improved.
-- The use of *Master Properties* to [*extract controllers](controller-tools.md) has been improved for After Effects CC2019 and more recent.
+- The use of *Master Properties* to [*extract controllers*](controller-tools.md) has been improved for After Effects CC2019 and more recent.
 
 ## 16.1.3
 
