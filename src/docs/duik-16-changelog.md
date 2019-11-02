@@ -6,7 +6,7 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 
 #### New
 
-- Added a new [***Kleaner***](kleaner.md) tab in the animation panel, with the new smart *Kleaner* which also does anticipations and overlap through expressions.
+- New [***Kleaner***](kleaner.md) which does anticipations, follow-through and smart interpolations through expressions. This new tool replaces the *Spring* as it has the same features and many more. It also has a better performance.
 - The [***Motion Trail***](motion-trail.md) has been completely re-built, and now has a *taper* option and is also able to take the 3D space and layer scale into account to automatically adjust the width of the stroke.
 
 #### Improvements
