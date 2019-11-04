@@ -2,6 +2,9 @@
 
 # ![walk cycle Icon](img\duik-icons\automation\walkcycle-icon-r.png) Walk Cycle
 
+![](img/examples/Goyle_walk.gif)  
+*Design by [Justine Cunha](https://www.artstation.com/jusdraw), animated by [Duduf](http://duduf.com)*
+
 The ***Walk Cycle*** is the first comprehensive procedural animation available in Duik Bassel.
 
 It’s a very quick and simple way to get started with walk animations. A nice walk cycle is just a click away, but you can go into details and adjust the character height and weight, but also every individual limb parameter and precisely set how it walks…
@@ -53,6 +56,12 @@ The *Walk Cycle* can be adjusted in the effects of the walk cycle controller whi
 
 !!! hint
     You can animate the switch between IK and FK, and Duik provides a tool to ease this [*IK/FK switch*](ik-fk-switch.md) process.
+
+    
+![](img/examples/cat.gif)
+
+!!! hint
+    Even if it's not by design, you can use the walk cycle to animate quadrupeds... Just use it separately on the back legs and front legs as if they were two separate characters!
 
 
 ## Effect

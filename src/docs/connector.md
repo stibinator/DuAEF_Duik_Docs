@@ -2,6 +2,9 @@
 
 # ![Connector Icon](img/duik-icons/constraint-icon-r.png) Connector
 
+![](img/examples/whome.gif)  
+*Design by [Justine Cunha](https://www.artstation.com/jusdraw), animated by [Duduf](http://duduf.com)*
+
 The ***Connector*** is a way to control almost any property in After Effects with any other property, a bit like parenting between layers, but with properties.
 
 With the connector, a "master property" will drive one or several "slave properties" and automate their animation depending on the master property value.
@@ -138,6 +141,9 @@ With a precomposed head:
 5. That's it! Now when you move the slider from left to right, the head turns!
 
 ### Controlling phonemes for a mouth
+
+![](img/examples/whome-rig.gif)  
+*Design by [Justine Cunha](https://www.artstation.com/jusdraw), animated by [Duduf](http://duduf.com)*
 
 You can connect the position of a controller to phonemes. You must have one layer for each phoneme:
 

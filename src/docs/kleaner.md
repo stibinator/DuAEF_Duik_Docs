@@ -6,6 +6,8 @@ With the kleaner, you don't have to work on keyframes interpolations anymore, an
 
 After having removed unnecessarry keyframes, it works with an expression which is controlled by an effect.
 
+![](img/examples/cart.gif)
+
 ### Use
 
 1. Select the keyframes of the animation you want to clean.

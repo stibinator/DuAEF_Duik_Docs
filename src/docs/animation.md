@@ -1,5 +1,8 @@
 ## ![Animation Icon](img\duik-icons\animation-icon-r.png) Animation
 
+![](img/examples/Angry-Girl_run.gif)  
+*Design by [Justine Cunha](https://www.artstation.com/jusdraw), animated by [Duduf](http://duduf.com)*
+
 Duik Bassel provides a lot of tools very useful for character (and other) animation.
 
 ![Keyframe panel](img\duik-screenshots\S-Animation\S-Animation-Keyframes\animation-panel.PNG) 
