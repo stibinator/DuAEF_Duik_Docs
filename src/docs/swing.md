@@ -1,7 +1,5 @@
 # ![swing Icon](img\duik-icons\automation\swing-icon-r.png) Swing
 
-![Swing panel](img\duik-screenshots\S-Rigging\S-Rigging-Automations\Swing.PNG)
-
 The ***Swing*** can be used to animate a regular swing. For example, the regular blinking of a light or a pendulum.
 
 ## Setup

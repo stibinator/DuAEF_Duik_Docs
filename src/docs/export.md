@@ -2,8 +2,6 @@
 
 ## ![Export anim Icon](img\duik-icons\exportanim-icon-r.png) Animation
 
-![Export Anim ](img\duik-screenshots\S-IOTools\Export\Export-anim-panel.PNG)
-
 You can export After Effects animations with Duik.
 
 1. Select the layers and/or the keyframes to export
@@ -21,16 +19,12 @@ You can then [re-import the animation](../Import/#Animation) to other projects/l
 
 ## ![Export rig Icon](img\duik-icons\exportrig-icon-r.png) Rig
 
-![Export rig ](img\duik-screenshots\S-IOTools\Export\export-rig-transp.png)
-
 !!! note
     Still in development
 
 Exports rig descriptions to a JSON file, which is an open format very easy to work with. You can then re-import these rigs in After Effects using Duik, or develop your own tools quite easily to parse them in any other software. XML format may be added in a future version.
 
 ## ![Export audition Icon](img\duik-icons\audition-icon-r.png) Audition
-
-![Export Audition ](img\duik-screenshots\S-IOTools\Export\Export-audition.PNG)
 
 If you have some layers with audio in After Effects, you can export the audio to Audition using this tool.
 

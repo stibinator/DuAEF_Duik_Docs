@@ -1,7 +1,5 @@
 # ![blink Icon](img\duik-icons\automation\blink-icon-r.png) Blink
 
-![Blink panel](img\duik-screenshots\S-Rigging\S-Rigging-Automations\Blink.PNG)
-
 Use the ***Blink*** to make a property switch regularly between to states, without interpolation.
 
 ## Setup

@@ -7,8 +7,6 @@ It can change the framerate of the composition or of the properties at any time,
 
 ## Setup
 
-![xsheet panel](img\duik-screenshots\S-Animation\S-Animation-Tools\XSheet-panel.PNG)
-
 You can use the *X-Sheet* either as an adjustment layer for the whole comp, or on properties.
 
 To use it as an adjustment layer, just click on the *X-Sheet* button. To add it on properties, select the properties before clicking in the button.

@@ -4,7 +4,9 @@ The *Effector Map* is a way to control properties depending on a texture (map).
 
 ## Setup
 
-Like the [*Connector*](connector.md), the *Effector Map* needs keyframes on the controlled property to work.
+Like the [*Connector*](connector.md), the *Effector Map* needs keyframes on the controlled property to work.  
+
+![](img\duik-screenshots\S-Rigging\S-Rigging-Automations\Effectormap-optns.PNG) 
 
 1. Animate the slave properties
 2. Select the texture layer and click on *Pick texture layer*

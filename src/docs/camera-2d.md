@@ -1,7 +1,5 @@
 # ![2d camera Icon](img\duik-icons\2dcamera-icon-r.png) 2D Camera
 
-![2d camera panel](img\duik-screenshots\S-Camera\2DCamera-panel.PNG)
-
 With 2D animation, it is usually easier to animate the positions of 2D layers than to set up a 3D space using cameras to create camera movements.
 
 The ***2D Multiplane camera*** tool creates virtual 2D cameras to easily animate all types of camera movements, using only 2D layers.

@@ -1,4 +1,6 @@
-# Rigging Tools
+# Tools
+
+![](img/duik-screenshots/tools-panel.PNG)
 
 A few tools which can be useful in the rigging process are available.
 
