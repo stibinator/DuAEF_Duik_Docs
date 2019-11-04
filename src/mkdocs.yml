@@ -34,9 +34,9 @@ nav:
         - Preamble: preamble.md
         - DuAEF: duaef.md
         - Should I use Duik?: should-i-use-duik.md
-        - Contribution: https://rainbox-dev.github.io/DuAEF_Duik/contributing-guide
+        - Contribution: contributing-guide.md
         - Bassel: bassel.md
-        - User License: https://rainbox-dev.github.io/DuAEF_Duik/license
+        - User License: license.md
         - Be Annoying!: be-annoying.md
     - Installation: install-duik.md
     - First look:
@@ -68,36 +68,35 @@ nav:
             - Zero: zero.md
             - Lock Property: lock-property.md
             - Separate Dimensions: separate-dimensions.md
-        - Automations:
-            - Introduction: automations.md
-            - List: duik-list.md
-            - Effector: effector.md
-            - Effector Map: effector-map.md
-            - Wiggle: wiggle.md
-            - Swing: swing.md
-            - Blink: blink.md
-            - Wheel: wheel.md
-            - Move Away: move-away.md
-            - Random: random.md
-            - Paint Rig: paint-rig.md
-            - Walk Cycle: walk-cycle.md
-            - Looper: looper.md
         - Controllers:
             - Introduction: controllers.md
             - Controller Tools: controller-tools.md
-        - Rigging Tools: rigging-tools.md
+    - Automations:
+        - Introduction: automations.md
+        - Kleaner: kleaner.md
+        - Motion Trail: motion-trail.md
+        - X-Sheet: x-sheet.md
+        - List: duik-list.md
+        - Effector: effector.md
+        - Effector Map: effector-map.md
+        - Wiggle: wiggle.md
+        - Swing: swing.md
+        - Blink: blink.md
+        - Wheel: wheel.md
+        - Move Away: move-away.md
+        - Random: random.md
+        - Paint Rig: paint-rig.md
+        - Walk Cycle: walk-cycle.md
+        - Looper: looper.md
     - Animation:
         - Introduction: animation.md
+        - Kleaner: kleaner.md
+        - Copy/Paste: copy-paste-animation.md
         - Keyframe Tools: keyframe-tools.md
-        - Animation Tools:
-            - Introduction: animation-tools.md
-            - IK/FK Switch: ik-fk-switch.md
-            - Animation Blender: animation-blender.md
-            - Motion Trail: motion-trail.md
-            - X-Sheet: x-sheet.md
-            - Time Remapping: time-remap.md
-            - Extract Controllers: controller-tools.html#extract-controllers
-            - Cel Animation: cel-animation.md
+        - IK/FK Switch: ik-fk-switch.md
+        - Animation Blender: animation-blender.md
+        - Motion Trail: motion-trail.md
+        - Cel Animation: cel-animation.md
     - Camera:
         - Introduction: camera.md
         - Camera Rig: camera-rig.md
@@ -109,6 +108,7 @@ nav:
         - Introduction: i-o.md
         - Import: import.md
         - Export: export.md
+    - Tools: rigging-tools.md
     - Settings: settings.md
     - Development:
         - The Duik API: duik-api.md
@@ -117,6 +117,6 @@ nav:
     - Changelog: duik-16-changelog.md
     - License:
         - Documentation license: doc-license.md
-    - Credits: https://rainbox-dev.github.io/DuAEF_Duik/credits
-    - Contact: https://rainbox-dev.github.io/DuAEF_Duik/contact
-    - Donate: https://rainbox-dev.github.io/DuAEF_Duik/donation
+    - Credits: https://rainboxlab.org/about/who-are-we/
+    - Contact: https://rainboxlab.org/about/contact/
+    - Donate: https://rainboxlab.org/about/donate/

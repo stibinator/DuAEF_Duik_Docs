@@ -166,12 +166,12 @@ The IK used in a character like the ones created by the [_Auto-rig_](autorig.md)
 
 Some [automations](automations.md) are heavier than others. These are the ones you should be worried about:
 
-#### Spring (simulated)
+#### Spring and kleaner (simulated)
 
 !!! caution
     Beware of the simulation.
 
-The default [_Spring_](spring.md) automation should not be an issue most of the times. But beware of the _simulated_ mode! As every simulations, it involves a lot more computation and can quickly become a reason why your rig won't work anymore. Try to use as few as possible, and keep in mind that most of the time, animating hanging hairs or the antenna of a car is quick and easy with a few keyframes. Way quickier and easier than character animation.
+The default _Spring_ and [_Kleaner_](kleaner.md)automation should not be an issue most of the times. But beware of the _simulated_ mode! As every simulations, it involves a lot more computation and can quickly become a reason why your rig won't work anymore. Try to use as few as possible, and keep in mind that most of the time, animating hanging hairs or the antenna of a car is quick and easy with a few keyframes. Way quickier and easier than character animation.
 
 #### Wheel (curved motion)
 
