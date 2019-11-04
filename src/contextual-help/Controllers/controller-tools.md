@@ -17,6 +17,8 @@ This way, all the controllers are available in the same main composition, with t
 
 - Just select a precomposition layer containing a rig, and click the "Extract Controllers" button to copy the controllers to the current composition and be able to animate outside of the rigged precomposition.
 
+- [Alt + Click] un-extracts the controllers already extracted from the selected precomposition.
+
 ## Edit controllers
 
 In the edition panel, you can adjust the appearance of the Controllers (Normal and Expert mode).

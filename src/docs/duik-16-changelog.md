@@ -18,6 +18,7 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 - The performance of the [*Structures*](structures.md) creation and of the [*Auto-rig*](autorig.md) have been improved.
 - The use of *Master Properties* to [*extract controllers*](controller-tools.md) has been improved for After Effects CC2020 and more recent.
 - The [*Wonder Unit Storyboarder import*](import.md) now also imports images from the *Shot Generator*.
+- The [contextual help](contextual-help.md) has been updated.
 
 #### Fixes
 
