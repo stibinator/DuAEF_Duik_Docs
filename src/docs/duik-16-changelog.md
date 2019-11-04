@@ -386,7 +386,7 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 #### New
 
 - ***Contextual Help***: Shift+Click on any tool to get some help.
-- ***Animation blender*** is a new tool to animate using markers to trigger animations. Setup a composition with some animations and the *Animation Blender*, and then you just have to add some markers on the controller to trigger the animations, with an optionnal nice blending between each animation and the ability to loop them.
+- ***Animation blender*** is a new tool to animate using markers to trigger animations. Setup a composition with some animations and the *Animation Blender*, and then you just have to add some markers on the controller to trigger the animations, with an optional nice blending between each animation and the ability to loop them.
 - ***Framing Guides*** in the *Camera* panel: creates handy guides in the composition to help your framing and image composition (safe frames, thirds, fibonnacci, isometric perspective...)
 - ***Parent accross comps*** is a simple way to parent a layer to another one in a parent composition, or in a precomposition, using locators and expressions.
 - ***2D Camera***: new controls for predefined behaviours. Easily simulate a shoulder mount, a camera hold by hand, or on a tripod, with shake controls.

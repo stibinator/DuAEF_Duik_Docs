@@ -26,7 +26,7 @@ You'll find several folders and files.
 - The *Help* folder contains this help pages. Double click on the file *index.html* to open it.
 - The *Tools* folder contains some tools for other third-party software, like a script to export *TVPaint* animations.
 - The *ScriptUI Panels* folder contains the actual *Duik Bassel* script you need to install.
-- The *Optionnal Panels* folder contains [optionnal individual panels](first-look-at-duik.md#individual-panels) to use with Duik. You can choose to install any of them or not at all.
+- The *Optional Panels* folder contains [optional individual panels](first-look-at-duik.md#individual-panels) to use with Duik. You can choose to install any of them or not at all.
 
 
 ## **3 -** There are several ways to install Duik very easily:  
@@ -38,7 +38,7 @@ Copy all the files from the *ScriptUI Panels* folder to:
 - Windows: `C:\Program Files\Adobe\Adobe After Effects CC\Support Files\Scripts\ScriptUI Panels\`  
 - Mac OS: `/Applications/Adobe After Effects CC/Scripts/ScriptUI Panels`
 
-You can also copy the [optionnal individual panels](first-look-at-duik.md#individual-panels) of your choice from the *Optionnal Panels* to the same folders.
+You can also copy the [optional individual panels](first-look-at-duik.md#individual-panels) of your choice from the *optional Panels* to the same folders.
 
 You may need administrator privileges to install Duik this way. If you don't have them, see the other ways below.
 

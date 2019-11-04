@@ -12,6 +12,9 @@ The process can be summarized in just a few words:
 2. **Controls**  
     a. Auto-rig  
     b. Constraints
+2. **Extract controllers**  
+    a. Add the rigged composition to your scene(s)  
+    b. Extract the controllers to animate
 3. **Animation**
 
 ![](img\examples\smart-ux-2.gif)

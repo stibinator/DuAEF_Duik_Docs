@@ -1,3 +1,5 @@
+![](img/logos/free-as-freedom.png)
+
 # Be annoying, be angry, be upset. help me!
 
 > *This is an article I’ve published in march 2018 to call for help to be able to continue to work on Duik and other free tools, after I’ve realized too few people contribute finanacially to keep Duik free, and even fewer people contribute and help the development.*  

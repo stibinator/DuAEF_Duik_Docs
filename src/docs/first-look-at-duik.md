@@ -92,7 +92,7 @@ You can also read the version of Duik you're using, and the two buttons at the r
 
 #### Individual panels
 
-As Duik is made of a lot of panels and sub-panels, depending on your workflow, sometimes you may lose time constantly switching from one panel to another, or just finding a tool you're not used to. As there are as many workflows as users, to address this issue Duik now comes with a lot of optionnal, individual and [dockable panels](install-duik.md), which you can use as stand-alone scripts. This is a great way to organize your workspace and keep several different panels of Duik opened at once.
+As Duik is made of a lot of panels and sub-panels, depending on your workflow, sometimes you may lose time constantly switching from one panel to another, or just finding a tool you're not used to. As there are as many workflows as users, to address this issue Duik now comes with a lot of optional, individual and [dockable panels](install-duik.md), which you can use as stand-alone scripts. This is a great way to organize your workspace and keep several different panels of Duik opened at once.
 
 ![](img/duik-screenshots/General/individual-panels.jpg)
 

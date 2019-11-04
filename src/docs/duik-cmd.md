@@ -1,4 +1,5 @@
-The *Duik Cmd* panel provides an command line interface (CLI) to Duik.
+The *Duik Cmd* panel provides an command line interface (CLI) to Duik.  
+It is one of the optional [individual and dockable panels](first-look-at-duik.md#individual-panels).
 
 ![](img/duik-screenshots/duik-cmd.png)
 

@@ -6,7 +6,7 @@ Originally, After Effects is not meant to be an animation software, it is a comp
 
 But it includes a lot of tools which work really well to build cut-out animation, and even vector animation, like parenting, the puppet tool and especially expressions. And After Effects is very good at manipulating pixel assets (better than vectors), which makes it also a decent software for cut-out character animation.
 
-These last few years, a lot of third-party tools were built on top of these features, specifically made for character animation; Duik was the first in 2008, followed by others (_Rubberhose_, _Joystick and Sliders_, etc.). Before that, there was no real character rigging, and it was fine. But it brought high-level rigging and animation to After Effects, and [very nice films](https://rainboxprod.coop/fr/category/films/avec-nos-outils/) were made with this technique.  
+These last few years, a lot of third-party tools were built on top of these features, specifically made for character animation; Duik was the first in 2008, followed by others (_Rubberhose_, _Joystick and Sliders_, etc.). Before that, there was no real character rigging, and it was fine. But it brought high-level rigging and animation to After Effects, and very nice films were made with this technique.  
 It also brought a lot of performance issues. Remember? After Effects was meant to do compositing, not character animation.
 
 In this section, we're going to see how to improve the performance of rigged characters in After Effects and with Duik.
@@ -16,9 +16,9 @@ In this section, we're going to see how to improve the performance of rigged cha
 
 ## Choose the right tool
 
-Honnestly, if you're in some kind of very advanced rigging and animation, if you're in top-level quality and need both performance and versatility, After Effects may not be the right choice. Did you know [_South Park_](https://en.wikipedia.org/wiki/South_Park) was made with [_Maya_](https://www.autodesk.com/products/maya/overview)? Why don't you animate in [_Blender_](http://blender.org) with a nice rig? You can rig 2D characters in 3D softwares, and you won't have performance issues there.
+Honnestly, if you're in some kind of very advanced rigging and animation, if you're in top-level quality and need both performance and versatility, After Effects may not be the right choice. Did you know [_South Park_](https://en.wikipedia.org/wiki/South_Park) was made with [_Maya_](https://www.autodesk.com/products/maya/overview)? Why don't you animate in [_Blender_](http://blender.org) with a nice rig? You can rig 2D characters in 3D software, and you won't have performance issues there.
 
-But we agree that sometimes, it's easier and quickier to use less softwares, to not have to render animations between different softwares and to animate in the same software which will be used for compositing. In this case, Duik is the tool you need for character animation in After Effects.
+But we agree that sometimes, it's easier and quickier to use less software, to not have to render animations between different software and to animate in the same software which will be used for compositing. In this case, Duik is the tool you need for character animation in After Effects.
 
 ## Know the culprits
 
@@ -56,7 +56,7 @@ There are a few options to speed up the preview and your workflow in After Effec
 
     In the attributes of the layer, clicking this icon will disable anti-aliasing and other algorithms which are not needed for animation, and this will greatly improve performance. Do the controllers really need the best quality?
 
-- The quantity of layers enabled greatly impacts performance. Solo the layers as much as possible, hide anything not needed. For this workflow, our other free tool [Dugr](http://dugr-docs.rainboxprod.coop) can be a great help, and it is fully compatible with Duik.
+- The quantity of layers enabled greatly impacts performance. Solo the layers as much as possible, hide anything not needed. For this workflow, our other free tool [Dugr](https://rainboxlab.org/tools/dugr/) can be a great help, and it is fully compatible with Duik.
 
 ### Shapes vs images
 
@@ -95,7 +95,12 @@ Not all formats are equal. If you've understood what we wrote just above, you ma
 
 - When rendering animations, most of the time **it's better to use image sequences** than video files. There is at least one very good and simple reason for it: if the render fails, you won't have to start it all again, but just the remaining frames. If you want to change something in the animation, you will only have to render the corresponding frames.
 
-- You should use a format which suits your needs (color depth, alpha channel), but also **a format which is fast to read and write** by After Effects! Our advice is to use **OpenEXR** (with PIZ compression): it's **lossless**, it handles **32bpc**, and has an **alpha channel**. It is also way **faster to read/write than PNG** in After Effects, and **files are usually smaller** with EXR. It's better than the RAW format of your camera, it's great for storing HDRi. Premiere and other editting software, as well as Photoshop, can read them; as specified in the name, they're open and widely compatible. What more could one ask for?
+- You should use a format which suits your needs (color depth, alpha channel), but also **a format which is fast to read and write** by After Effects! Our advice is to use **OpenEXR** (with PIZ or DWA compression): it's **lossless**, it handles **32bpc**, and has an **alpha channel**. It is also way **faster to read/write than PNG** in After Effects, and **files are usually smaller** with EXR. It's better than the RAW format of your camera, it's great for storing HDRi. Premiere and other editting software, as well as Photoshop, can read them; as specified in the name, they're open and widely compatible. What more could one ask for?
+
+### Layer Handles
+
+It's not well-known, but layer handles tend to degrade the viewport performance. Just hiding them makes it much more responsive! It may be a bit hard at first to not see what layer is selected in the viewport, but once you get used to it, it's very nice.  
+As you'll need to show them regularly anyway (to see the bezier paths for example), keep this shortcut in mind: [Ctrl] + [Shift] + [H].
 
 ### Puppet tool
 
@@ -119,6 +124,13 @@ Now, imagine an expression, which, when it is evaluated (i.e. at each frame of t
     Don't worry about simple expressions you create manually, like links between properties, or simple wiggles, etc. They're not a problem, even if you have hundreds of them.
 
 When talking about complex expressions, just remember that the more expressions = the more performance issues you'll have.
+
+#### Master Properties (Essential Graphics)
+
+As master properties (properties you add in the *Essential Graphics* panel) themselves are not a great cost for performance, but when you add expressions in them (on the precomposition layer itself), these expressions are evaluated a bit less quickly than standard expressions. Keep this in mind when [extracting controllers(controller-tools.md#extract-controllers)]: it may be better to use expressions without master properties.
+
+!!! warning
+    In versions of After Effects before 2020, expressions in Master Properties resulted in a dramatic drop of performance. DO NOT do this with these versions, update to After Effects 2020 if you need expressions in Master Properties or if you want to extract the controllers of Duik through Master Properties.
 
 ## Performance and Duik
 
@@ -188,6 +200,4 @@ The other automations are not particularly heavy. Just be careful with automatio
 
 All versions of After Effects behave differently. Do not hesitate to test your rig on different versions and see where you feel it's better!
 
-From our tests, **animating in _CC_ (12) or _CC2014_ (13) is nicer**, as the UI is more responsive and fluid. Of course, this is in case you don't need master properties or expressions to control Bezier paths (available since _CC2018_ (15)), but there are workarounds from using master properties, and expressions controlling Bezier paths are quite heavy and should be avoided when possible.  
-
-When working with lots of effects, like when compositing, this is not true, and you may prefer a more recent version which will render the frames faster. In this case, the latest version is always the best.
+In a more general way, the After Effects team at Adobe is making a great work to improve performance, and the easy advice is just: update to the latest version!

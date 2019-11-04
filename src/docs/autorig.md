@@ -8,6 +8,7 @@ The Auto-rig in Duik Bassel is a versatile and smart tool which adapts to a lot 
 
 1. Create *Structures*
 2. *Auto-rig*
+3. Extract Controllers
 4. Animate
 
 As a smart tool, it will guess what you are trying to do, depending on the layers you have selected. It is able to add some "simple" *IK* or to rig a complete character in a single click.
@@ -67,9 +68,6 @@ When the *Auto-rig* creates an *IK / FK*, it can be adjusted in the effects of t
 
 ![](img\duik-screenshots\S-Rigging\S-Rigging-Constraints\one-layer-IK-effect.PNG)
 
-!!! note
-    This section still has to be written
-
 - The _Enable IK_ checkbox can be used to deactivate the *IK* and animate only using the *FK* control.  
 
     !!! tip
@@ -85,9 +83,6 @@ When the *Auto-rig* creates an *IK / FK*, it can be adjusted in the effects of t
 
 ![](img\duik-screenshots\S-Rigging\S-Rigging-Constraints\two-layer-IK-effect.PNG)
 
-!!! note
-    This section still has to be written
-
 - The _Enable IK_ checkbox can be used to de-activate the *IK* and animate only using the *FK controls*.
 
 - In the *FK* section, there are some automatic *Follow through* and *overlap* controls. See the *FK* with *follow-through*, *overlap* and drag paragraph for more information about these controls.
@@ -96,14 +91,13 @@ When the *Auto-rig* creates an *IK / FK*, it can be adjusted in the effects of t
 
 - The inheritance of the rotation of the parent layer can be disabled in the *FK* section. This is especially useful when animating arms in *FK*, so that the rotation of the torso will not influence the animation of the arms, to keep them vertical regardless of the movement of the spine.
 
+- The Data sections exposes some results of the IK computation. It can be very useful for automating things, using these data in your own expressions or with the [Connector](connector.md). For example, you can read the length of the ik, of each part of the limb, the stretch ratio, etc.
+
 - In the _display_ section, you can customize the way the *IK* is shown by the controller, and how it displays some information. Deactivating all these options will improve the performance.
 
 #### Bezier IK (multi-layer spine, tails...)
 
 ![](img\examples\bezier-ik-controllers.PNG)
-
-!!! note
-    This section still has to be written
 
 The *Bézier IK* uses a virtual Bézier path to control the position and the rotation of the layers. It is not actual inverse kinematics but it is called *IK*  because the way to animate it is very similar.
 
@@ -130,9 +124,6 @@ Two controllers are needed to control *Bezier IK*. One at the end of the chain, 
 #### FK with follow-through, overlap and drag (tails...)
 
 ![](img\duik-screenshots\S-Rigging\S-Rigging-Constraints\fk-effect.PNG)
-
-!!! note
-    This section still has to be written
 
 This constraint autommatically controls the rotation of all the parts of the chain, depending on both the animation of the rotation of the controller and the motion of the parent of the chain. It rotates the children of the chain according the _overlap_ and _follow through_ animation principles. This means it mimics ropes, tails, hair, etc. with the ability to adjust their *flexibility* and the *resistance* of the air or water where they are.
 
