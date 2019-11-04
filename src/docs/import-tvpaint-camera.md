@@ -1,7 +1,5 @@
 # ![import TVPaint Camera Icon](img\duik-icons\tvpcam-icon-r.png) Import TVPaint Camera
 
-![import tvpaint cam panel](img\duik-screenshots\S-Camera\ImportTVPaint-panel.PNG)
-
 Duik can re-create any TVPaint camera animation in After Effects.
 
 ## Setup

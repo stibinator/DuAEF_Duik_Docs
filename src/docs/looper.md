@@ -1,7 +1,5 @@
 # ![looper Icon](img\duik-icons\automation\looper-icon-r.png) Looper
 
-![Looper panel](img\duik-screenshots\S-Rigging\S-Rigging-Automations\Looper.PNG)
-
 Use the ***Looper*** to add *In* and *Out* loops to the animations.
 
 The *Looper* works like the *loopIn()* and *loopOut()* expressions of After Effects, but with more options and easier to use.

@@ -9,7 +9,7 @@ These are the tools you can use after you have created some *Structures*, to mak
 
 ## Panel
 
-![Constraints panel](img\duik-screenshots\S-Rigging\S-Rigging-Constraints\Constraints-panels.png)
+![Constraints panel](img\duik-screenshots\S-Rigging\S-Rigging-Constraints\constraints-panel.png)  
 The constraints panel.
 
 ## Tools

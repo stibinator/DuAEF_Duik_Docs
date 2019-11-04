@@ -4,9 +4,9 @@
 
 If you need help, click on the top right button in Duik to open the [***Contextual help***](contextual-help.md), or hold the `Shift` button on your keyboard while clicking on any button to get some [*help*](contextual-help.md).
 
-In this help panel, there are 3 tabs.
+In this help panel, there are 3 tabs: *Help*, *News* and *About*
 
-![Contextual Help panels](img/duik-screenshots/Help-window/help-all-windows.png)
+![Contextual Help panels](img/duik-screenshots/Help-window/general-help-window.png)
 
 - The first displays some help, using the context of what you're currently doing with Duik: it will display the help of the current tool. You can display the help for any tool by clicking on the tool with the `Shift` button.
 - The second tab displays the latest news about Duik and Rainbox. If a new version of Duik is available, it will be advertised there.

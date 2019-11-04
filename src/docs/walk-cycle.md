@@ -2,8 +2,6 @@
 
 # ![walk cycle Icon](img\duik-icons\automation\walkcycle-icon-r.png) Walk Cycle
 
-![Walk cycle panel](img\duik-screenshots\S-Rigging\S-Rigging-Automations\WalkCycle.PNG)
-
 The ***Walk Cycle*** is the first comprehensive procedural animation available in Duik Bassel.
 
 It’s a very quick and simple way to get started with walk animations. A nice walk cycle is just a click away, but you can go into details and adjust the character height and weight, but also every individual limb parameter and precisely set how it walks…

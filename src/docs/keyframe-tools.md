@@ -35,8 +35,6 @@ Just under the ***Select keyframes*** button, there are several tools to quickly
 
 ## ![Kleaner Icon](img\duik-icons\kleaner-icon-r.png) Kleaner
 
-![Kleaner panel](img\duik-screenshots\S-Animation\S-Animation-Keyframes\Kleaner.PNG)
-
 The *Kleaner* is a tool to automatically clean the selected animations. It is able to remove unneeded keyframes, clean the interpolations, etc.
 
 ### Description
@@ -53,6 +51,8 @@ It works both on spatial interpolations and keyframe eases, in three default ste
 2. Click on the *Kleaner* button.
 
 ### Additional Panel
+
+![Kleaner panel](img\duik-screenshots\S-Animation\S-Animation-Keyframes\Kleaner-optn.PNG)
 
 The additional panel is divided in three sections corresponding to the three steps of the "Kleaner " process.
 
@@ -76,6 +76,8 @@ By default, the Copy and Paste tools will work exactly like the default copying 
 If, when pasting, Duik can not find any corresponding layer to paste some properties, you will be prompted to choose (or ignore) the layers yourself. The dialog will show the names of the missing layers along with some selectors to set the layers where to paste the animations.
 
 ### Additional panel
+
+![Copy Paste](img\duik-screenshots\S-Animation\S-Animation-Keyframes\PasteAnim-optn.png)
 
 Some options make this tool very powerful and more than just a standard copy and paste process.
 

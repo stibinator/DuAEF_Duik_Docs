@@ -3,8 +3,6 @@
 
 ## ![Import anim Icon](img\duik-icons\importanim-icon-r.png) Animation
 
-![Import Anim ](img\duik-screenshots\S-IOTools\Import\ImportAnimation-panel.PNG)
-
 You can re-import After Effects animations previously [exported](../Export/#Animation) with Duik.
 
 When importing animation, Duik will try to load the animations onto the layers with the same name and index which are selected in the active composition (or in all layers if none are selected).  
@@ -24,16 +22,12 @@ If after this there are still some animations which were not imported (i.e. if D
 
 ## ![Import rig Icon](img\duik-icons\importrig-icon-r.png) Rig
 
-![Import rig ](img\duik-screenshots\S-IOTools\Import\import-rig-transp.png)
-
 !!! note
     Still in development
 
 Imports a rig previously exported in a JSON format (XML may be added too).
 
 ## ![Import tvp Icon](img\duik-icons\importTVP-icon-r.png) Clip from TVPaint
-
-![Import tvp ](img\duik-screenshots\S-IOTools\Import\ImportTVPclip-panel.PNG)
 
 !!! hint
     Since its 11th version, _TVPaint_ comes with a tool to import clips in _After Effects_, but the importer in Duik works a bit differently:
@@ -59,8 +53,6 @@ The script creates a folder containing all needed frames in the clip, and a "*cl
 2. When importing the clip with Duik, just select this text file, everything is automated.
 
 ## ![Import krita Icon](img\duik-icons\krita-icon-r.png) Krita Animation
-
-![Import krita ](img\duik-screenshots\S-IOTools\Import\ImportKritaAnim-panel.PNG)
 
 Duik can import traditional animations made with [Krita](http://krita.org), without needing to export frame sequences or video.
 

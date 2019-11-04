@@ -1,7 +1,5 @@
 # ![paintrig Icon](img\duik-icons\automation\paintrig-icon-r.png) Paint Rig
 
-![Paint rig panel](img\duik-screenshots\S-Rigging\S-Rigging-Automations\PaintRig.PNG)
-
 Use the ***Paint Rig*** to rig brush strokes in the paint effect and adjust and animate them as if they were a single stroke.
 
 ## Setup
