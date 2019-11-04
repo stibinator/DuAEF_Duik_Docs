@@ -24,6 +24,8 @@ When two layers are selected, click on the *Measure Distance* button to measure 
 
 Select some layers to align them together. Layers will be aligned on the latest selected one.
 
+![](img\duik-screenshots\S-Rigging\S-Rigging-Tools\Align.PNG)
+
 In the additional panel you can choose to align the layers in *position*, *rotation*, *scale* or even *opacity*.
 
 !!! caution

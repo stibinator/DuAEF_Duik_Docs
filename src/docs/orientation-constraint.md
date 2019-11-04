@@ -2,6 +2,8 @@
 
 !!! note
     Available in _Standard_ and _Expert_ modes only.
+
+![](img/examples/ferriswheel.gif)
     
 The ***Orientation Constraint*** links the rotation of a layer to the orientations of other layers.
 

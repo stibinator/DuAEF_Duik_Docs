@@ -2,6 +2,9 @@
 
 # ![Keyframe Icon](img\duik-icons\animation\w32_kbez_r.png) Keyframe Tools
 
+![](img/examples/Angry-Girl_walk.gif)  
+*Design by [Justine Cunha](https://www.artstation.com/jusdraw), animated by [Duduf](http://duduf.com)*
+
 The *Animation* panel contains all tools you may need all the time when in the process of animation.
  
 ![Keyframe panel](img\duik-screenshots\S-Animation\S-Animation-Keyframes\Keyframe-panel.PNG) 
