@@ -2,20 +2,22 @@
 
 This is the list of what has changed since the first Alpha version of Duik Bassel (16)
 
-## 16.2.0 (in development)
+## 16.2.0
 
 #### New
 
 - New [***Kleaner***](kleaner.md) which does anticipations, follow-through and smart interpolations through expressions. This new tool replaces the *Spring* as it has the same features and many more. It also has a better performance.
 - The [***Motion Trail***](motion-trail.md) has been completely re-built, and now has a *taper* option and is also able to take the 3D space and layer scale into account to automatically adjust the width of the stroke.
 - The [***Extract Controllers***](controller-tools.md) is now able to extract only new controllers in case there have been changes made to the rig. [Alt + Click] now "un-extracts" the controllers from the selected precomposition.
+- A new [***God Mode***](settings.md) for the interface, which is very tiny!
 
 #### Improvements
 
+- The interface has been improved and a bit re-organised for a faster access to most common tools.
 - The performance of the [*Search and Replace*](rigging-tools.md#search-and-replace) tool has been greatly improved for expressions.
 - The performance of the [*Structures*](structures.md) creation and of the [*Auto-rig*](autorig.md) have been improved.
 - The use of *Master Properties* to [*extract controllers*](controller-tools.md) has been improved for After Effects CC2020 and more recent.
-- The [*Wonder Unit Storyboarder import*](import.md) now also imports images from the Shot Generator.
+- The [*Wonder Unit Storyboarder import*](import.md) now also imports images from the *Shot Generator*.
 
 #### Fixes
 
