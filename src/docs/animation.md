@@ -2,7 +2,7 @@
 
 Duik Bassel provides a lot of tools very useful for character (and other) animation.
 
-![Keyframe panel](img\duik-screenshots\S-Animation\S-Animation-Keyframes\Keyframe-panel.PNG) 
+![Keyframe panel](img\duik-screenshots\S-Animation\S-Animation-Keyframes\animation-panel.PNG) 
 
 
 - ![](img\duik-icons\automation\w18_broom_r.png) The [***Kleaner***](kleaner.md) is a tool to automatically clean the selected animations.

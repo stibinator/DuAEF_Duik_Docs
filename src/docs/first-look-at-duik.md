@@ -126,19 +126,18 @@ Of course, Duik does not want you to be or feel limited to what you can do. Alth
 
 Duik can also be personalized through some [settings](settings.md) so you can adapt it to your liking.
 
-### Rookie, standard or expert mode
+### Rookie, standard, expert or god mode
 
 As Duik includes a lot of tools, it has been decided to filter them and adapt the user interface depending on the level of the user, to make it easier for beginners, while quicker and more complete to the most advanced users.
 
-There are three different modes for the user interface, depending on your level:
+There are four different modes for the user interface, depending on your level:
 
 ![](img/duik-screenshots/General/settings-optn.png)
 
 - ***Rookie*** is the simplest one, recommended if this is the first time you use Duik Bassel. Only the most used and simplest tools are available, and the user interface is thought to be as easy to use as possible.
-
 - ***Standard*** has nearly all the tools available, in a nice and easy-to-use user interface.
-
-- ***Expert*** is the smallest mode, and may be a bit more complex to use as there are less texts to explain what do the buttons do, but should be quicker to use.
+- ***Expert*** may be a bit more complex to use as there are less texts to explain what do the buttons do. Some very specific tools (for scripters and expressioners) are only available in this mode.
+- ***God*** is the smallest mode, made nearly only of icons. This is perfect if you know Duik well and you don't want the panel to take too much room in your workspace.
 
 ## What Duik does in *After Effects*
 

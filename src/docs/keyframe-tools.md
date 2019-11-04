@@ -1,16 +1,16 @@
 [TOC]
 
-# ![Keyframe Icon](img\duik-icons\keyframe-icon-r.png) Keyframe Tools
+# ![Keyframe Icon](img\duik-icons\animation\w32_kbez_r.png) Keyframe Tools
 
-The "*Keys*" panel contains all tools you may need all the time when in the process of animation.
-
-This is the "*Keys*" panel shown in *Standard Mode*:  
+The *Animation* panel contains all tools you may need all the time when in the process of animation.
+ 
 ![Keyframe panel](img\duik-screenshots\S-Animation\S-Animation-Keyframes\Keyframe-panel.PNG) 
 
 ## ![SelectKeyframe Icon](img\duik-icons\keyframe-icon-r.png) Select Keyframes
 
-![SelectKeyframes panel](img\duik-screenshots\S-Animation\S-Animation-Keyframes\SelectKeyframes-panels.png)  
 *Select keyframes...* is a very useful tool to quickly select a lot of keyframes together in the timeline.
+
+![SelectKeyframes panel](img\duik-screenshots\S-Animation\S-Animation-Keyframes\SelectKeyframes-panels.png)  
 
 ### Options
 
@@ -36,4 +36,6 @@ Just under the ***Select keyframes*** button, there are several tools to quickly
 
 ## Spatial Interpolations
 
-Le screenshot ici !
+![](img\duik-screenshots\S-Animation\S-Animation-Keyframes\spatial-interpolations.png)
+
+These four buttons are a quick access to the different types of spatial interpolations. The "Fix" button automatically fixes the bad trajectory sometimes generated when you duplicate keyframes. It does so by detecting spatial tangents which should not be there, for example when two successive keyframes are exactly at the same place but with tangents between them.

@@ -192,6 +192,12 @@ The default [_Wheel_](wheel.md) automation is very light won't be any problem. B
 !!! tip
     You should always cut/hide a layer with automations as soon as it is outside of the frame!
 
+#### Motion Trails
+
+As [*motion trails*](motion-trail.md) have to generate bezier paths according to the movement of layers, if you have a lot of layers and parenting, this can lead to very poor performance, as a lot of calculations are needed. You can't do much about it, except in some cases animate the trails by hand: copy the position keyframes into a bezier path, and use the "trim paths" tool in a shape layer.
+
+If you don't need taper or variable width on the motion trail, make sure the advanced parameters are deactivated.
+
 #### Other automations
 
 The other automations are not particularly heavy. Just be careful with automations like the [_Effector_](effector.md) which is often used to drive a lot of layers together, which means its a lot of expressions.
