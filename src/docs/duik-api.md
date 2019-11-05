@@ -4,19 +4,37 @@ Almost all Duik features are now very easy to include and use in your own script
 
 The idea is just to include the API at the beginning of your script: `#include 'Duik16_api.jsxinc` to get an easy access to all Duik features, as very simple functions.  
 
-Here's a very simple example showing how to create a Structure for a hominoid in the current composition:
+Here's a very simple example showing how to create a Structure for a hominoid, rigging it, and applying the walk cycle, in the current composition:
 
     //encapsulate everything to avoid global variables !important!
     (function(thisObj) {
-
         //include the API
         #include 'Duik16_api.jsxinc'
+        //Now the Duik API is available in the Duik object, and DuAEF is also available.
+
+        //We need to initialize DuAEF before using it. You must provide a script name and version.
+        DuAEF.init("Your Awesome Script Name", "1.0.2");
+
+        //Now you can create your UI if any, and initialize what you need.
+        //DuAEF can be of great help, it has a lot of methods for creating the UI, handle After Effects, and more.
+        //Read the reference at duaef-reference.rainboxlab.org
+
+        //When everything is ready and before using the Duik API,
+        //We need to tell DuAEF we're entering run state so it can finish to prepare its stuff.
+        DuAEF.enterRunTime();
         
         // Create a hominoid structure
-        // The whole API is contained in the 'Duik' object
-        // but the DuAEF framework is also made available in its own object
+        // The whole API is contained in the Duik object
         Duik.structures.mammal();
-
+        // Select all Structures
+        Duik.structures.select();
+        // Run the Autorig
+        Duik.constraints.autorig();
+        // Select all controllers
+        Duik.controllers.select();
+        // Make the character walk!
+        Duik.automation.walk();
+        //Have Fun!
     })(this);
 
 
