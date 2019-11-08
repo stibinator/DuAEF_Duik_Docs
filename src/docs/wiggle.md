@@ -37,4 +37,4 @@ In the additionnal panel of the wiggle, there are a few options:
 
 - *Collapse dimensions* adds a unique control for all axis, *Separate dimensions* adds a set of controls for each axis.
 
-- *Unique control* creates a single effect for all selected properties, but *Individual controls* creates an effect for each property.
+- *Unified control* creates a single effect for all selected properties, but *Individual controls* creates an effect for each property.

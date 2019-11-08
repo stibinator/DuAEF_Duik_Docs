@@ -2,10 +2,7 @@
 
 **Duframe is a very simple tool which creates different types of grids and guides on a Shape Layer, which you can extensively configure, to help the composition of the image.**
 
-![DuFrame GIF](https://rainboxprod.coop/rainbox/wp-content/uploads/frame.gif)
-
-It is [available as a preset (_*.ffx_)](https://github.com/Rainbox-dev/DuAEF_Duik/tree/master/Release/DuFrame) which you can apply to an empty Shape Layer via the menu "Animation/Apply Preset..." in After Effects.  
-It is also available in the camera panel of [Duik Bassel](index.md). ([Download here](https://github.com/Rainbox-dev/DuAEF_Duik/tree/master/Release/DuFrame)).
+![DuFrame GIF](img/examples/frame.gif)
 
 ![Frame Effect](img\duik-screenshots\S-Camera\defaultFrameGuide.PNG)
 
@@ -41,8 +38,6 @@ You can have as many guides as you want, you just have to duplicate a grid effec
 You can temporarily hide a specific grid or guide by disabling the corresponding effect.
 
 ![Frame Effect](img\duik-screenshots\S-Camera\gridFX.PNG)
-
-There are a lot of different grids, and if you need another type, just [ask for it](../../../contributing-guide) ;)
 
 * **Safe Frames** displays standard "action" and "title" safe frames, which represents resepectively 80% and 90% of the surface of the entire frame.
 * **Digital Frames** shows the standard digital formats (*4/3*, *16/9*, *1.85*, *2.35*) contained in the current frame. This way you can make sure your composition works even if the image is later cropped to another format.

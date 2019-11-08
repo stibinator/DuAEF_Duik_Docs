@@ -76,9 +76,9 @@ nav:
         - Kleaner: kleaner.md
         - Motion Trail: motion-trail.md
         - X-Sheet: x-sheet.md
-        - List: duik-list.md
-        - Effector: effector.md
+        - Time Remap: time-remap.md
         - Effector Map: effector-map.md
+        - Effector: effector.md
         - Wiggle: wiggle.md
         - Swing: swing.md
         - Blink: blink.md
@@ -88,6 +88,8 @@ nav:
         - Paint Rig: paint-rig.md
         - Walk Cycle: walk-cycle.md
         - Looper: looper.md
+        - List: duik-list.md
+        - Separate Dimensions: separate-dimensions.md
     - Animation:
         - Introduction: animation.md
         - Kleaner: kleaner.md

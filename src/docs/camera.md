@@ -6,6 +6,6 @@ This is the reason why Duik has useful camera tools too.
 
 # Panel
 
-This is the ***Camera*** panel shown in *Normal* mode:  
+This is the ***Camera*** panel shown in *Standard* mode:  
 
 ![camera panel](img\duik-screenshots\S-Camera\Camera-panel.PNG)

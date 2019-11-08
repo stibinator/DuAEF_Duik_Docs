@@ -2,7 +2,7 @@
 
 ## Duik 16 will be called Bassel
 
-16 will stay the version number of Duik, but, at * *, we wanted to drop this number and give it a name, because this is not just an increment of Duik’s version number, it’s been a complete re-writing of the code, everything has been re-thought and re-built for this version.
+16 will stay the version number of Duik, but, at *Rainbox*, we wanted to drop this number and give it a name, because this is not just an increment of Duik’s version number, it’s been a complete re-writing of the code, everything has been re-thought and re-built for this version.
 
 So we’re going to show this by giving it a name.
 

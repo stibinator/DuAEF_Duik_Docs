@@ -18,8 +18,8 @@ Duik includes a lot of tools to help animators deal with simple or common animat
 - ![](img\duik-icons\automation\w18_anim_r.png) The [***Motion Trail***](motion-trail.md) tool draws the trajectory of any layer in a shape layer, and can make trails behind (or in front of) them.
 - ![](img\duik-icons\automation\w18_exposure_r.png) The [***X-Sheet***](x-sheet.md) is a simple way to adjust the animation exposure of the properties, the layers or the whole composition.
 - ![](img\duik-icons\automation\w18_timeremap_r.png) The [***Time Remap***](time-remap.md) is a quick way to activate time remapping on the layers while adding some useful expressions, like looping.
-- ![](img\duik-icons\automation\effector-icon20-r.png) The ***[Effector](effector.md)*** is a way to control properties depending on a spatial effector.
 - ![](img\duik-icons\automation\effector-map-icon20-r.png) The [***Effector map***](effector-map.md) is a way to control properties depending on a texture (map).
+- ![](img\duik-icons\automation\effector-icon20-r.png) The ***[Effector](effector.md)*** is a way to control properties depending on a spatial effector.
 - ![](img\duik-icons\automation\wiggle-icon20-r.png) The ***[Wiggle](wiggle.md)*** makes the properties... wiggle.
 - ![](img\duik-icons\automation\spring-icon20-r.png) The ***[Spring](kleaner.md)*** will add *follow through*/*overshot* to your animations and it is able to animate automatic bounces. It actually uses the [*Kleaner*](kleaner.md).
 - ![](img\duik-icons\automation\swing-icon20-r.png) The ***[Swing](swing.md)*** can be used to animate a regular swing. For example, the regular blinking of a light or a pendulum.

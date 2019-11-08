@@ -127,7 +127,7 @@ When talking about complex expressions, just remember that the more expressions 
 
 #### Master Properties (Essential Graphics)
 
-As master properties (properties you add in the *Essential Graphics* panel) themselves are not a great cost for performance, but when you add expressions in them (on the precomposition layer itself), these expressions are evaluated a bit less quickly than standard expressions. Keep this in mind when [extracting controllers(controller-tools.md#extract-controllers)]: it may be better to use expressions without master properties.
+As master properties (properties you add in the *Essential Graphics* panel) themselves are not a great cost for performance, but when you add expressions in them (on the precomposition layer itself), these expressions are evaluated a bit less quickly than standard expressions. Keep this in mind when [extracting controllers](controller-tools.md#extract-controllers): it may be better to use expressions without master properties.
 
 !!! warning
     In versions of After Effects before 2020, expressions in Master Properties resulted in a dramatic drop of performance. DO NOT do this with these versions, update to After Effects 2020 if you need expressions in Master Properties or if you want to extract the controllers of Duik through Master Properties.

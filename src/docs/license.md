@@ -2,7 +2,7 @@
 
 ![](img/logos/gplv3.png)
 
-Duik is free software released under the [GNU-General Public License v3](https://github.com/Rainbox-dev/DuAEF_Duik/blob/master/LICENSE). This license guarantees you four freedoms:
+The Duduf After Effects Framework, which includes Duik, is free software released under the [GNU-General Public License v3](https://github.com/Rainbox-dev/DuAEF_Duik/blob/master/LICENSE). This license guarantees you four freedoms:
 
 - The freedom to **run the program as you wish**, for any purpose,  
 - The freedom to **study how the program works, and change it**, so it does your computing as you wish,  
