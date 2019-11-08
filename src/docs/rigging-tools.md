@@ -38,18 +38,21 @@ Un-parents and re-parents the children of a layer to be able to adjust its trans
 ## ![](img/duik-icons/removeexpression_r.png) Remove expressions
 
 !!! hint
-    Available in _Standard_ and _Expert_ modes only. 
+    Available in _Standard_, _Expert_ and _god_ modes only. 
 
 Select some properties with expressions to remove the expression, but keeping their current *post-expression value* instead of the *pre-expression value* like After Effects does.
 
 ## ![](img/duik-icons/copy_r.png) Copy / Paste expressions
 
 !!! hint
-    Available in _Standard_ and _Expert_ modes only. 
+    Available in _Standard_, _Expert_ and _god_ modes only. 
 
 This very simple tool will copy an expression from a selected property, and then allows you to paste it on several properties at once, without changing their pre-expression values or keyframes.
 
 ## ![Export anim Icon](img\duik-icons\exportanim-icon-r.png) Export Animation
+
+!!! hint
+    Available in _Standard_, _Expert_ and _god_ modes only.
 
 You can export After Effects animations with Duik.
 
@@ -67,6 +70,9 @@ You can then re-import the animation to other projects/layers in After Effects, 
     The format is not yet documented, but easy to understand just by reading the file. It is very close to how animations are stored in After Effects.
 
 ## ![Import anim Icon](img\duik-icons\importanim-icon-r.png) Import Animation
+
+!!! hint
+    Available in _Standard_, _Expert_ and _god_ modes only.
 
 You can re-import After Effects animations previously exported with Duik.
 
@@ -88,7 +94,7 @@ If after this there are still some animations which were not imported (i.e. if D
 ## ![](img/duik-icons/propinfo_r.png) Get property info
 
 !!! hint
-    Available in _Expert_ mode only.  
+    Available in _Expert_ and _god_ mode only.  
 
 Select one property and click on this button to get some useful information about the property, like its index, its match name, its path in expressions...
 
