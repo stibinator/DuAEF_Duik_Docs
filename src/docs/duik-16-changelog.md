@@ -8,7 +8,7 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 
 - The [***Kleaner***](kleaner.md) now has soft body and overlap options, for spatial properties, in simulation mode.
 - The I/O tab has been removed. You can now import and export animations from the [Tools](rigging-tools.md) tab. For other software (Storyboarder, Krita, TVPaint), a new free script will be available shortly on rainboxlab.org.
-- The UI has been improved a bit.
+- The UI has been improved a bit (especially the popups).
 
 ## 16.2.0
 
