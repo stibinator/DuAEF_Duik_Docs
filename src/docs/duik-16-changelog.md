@@ -15,6 +15,7 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 
 - Fixed the [*Kleaner / Spring*](kleaner.md) for non-spatial multi-dimensionnal properties (like scale).
 - Fixed the [*Kleaner / Spring*](kleaner.md) not working in simulation mode if the property doesn't have at least two keyframes.
+- Fixed the [*Auto-Rig*](autorig.md) not working when the spine consists only of a neck and a head.
 
 ## 16.2.0
 
