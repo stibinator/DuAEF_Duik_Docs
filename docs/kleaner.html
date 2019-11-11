@@ -286,15 +286,15 @@
                 </li>
                 <li class="">
                     
-    <a class="" href="duik-list.html">List</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="effector.html">Effector</a>
+    <a class="" href="time-remap.html">Time Remap</a>
                 </li>
                 <li class="">
                     
     <a class="" href="effector-map.html">Effector Map</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="effector.html">Effector</a>
                 </li>
                 <li class="">
                     
@@ -331,6 +331,14 @@
                 <li class="">
                     
     <a class="" href="looper.html">Looper</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="duik-list.html">List</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="separate-dimensions.html">Separate Dimensions</a>
                 </li>
     </ul>
 	    </li>
@@ -417,25 +425,6 @@
                 <li class="">
                     
     <a class="" href="import-tvpaint-camera.html">Import TVPaint Camera</a>
-                </li>
-    </ul>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <span class="caption-text">Input/Output</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="i-o.html">Introduction</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="import.html">Import</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="export.html">Export</a>
                 </li>
     </ul>
 	    </li>
@@ -571,17 +560,33 @@ You can adjust the <em>duration</em> (in seconds) and the <em>amplitude</em> of 
 Usually, a living character has a lower <em>Slow Out</em> and a higher <em>Slow In</em>. These values also change depending on the weight of the object: heavier objects and characters have higher <em>Slow Ins and Outs</em>.</p>
 <h4 id="follow-through">Follow Through</h4>
 <p>Follow Through happens when the animation comes to a stop; it&rsquo;s the momentum of the object, which makes it &ldquo;bounce&rdquo; at the end of the movement, going a bit to far away and getting back to its stop.</p>
+<ul>
+<li>
 <p>The elasticity controls the frequency and the amplitude of this motion. A higher elasticity generates a faster and smaller movement.</p>
+</li>
+<li>
 <p>The Damping controls how long it takes for the animation to fully stop. A higher value will make it stop sooner. At 0, the movement never stops.</p>
+</li>
+</ul>
 <p>For both these values, you can add some randomness: this means each property controlled by this kleaner effects will have a slightly different motion, which looks more natural.</p>
 <p>Use the bounce checkbox to make the object bounce back at the value where it should stop, like a ball bouncing on the floor.</p>
 <h4 id="spatial-options">Spatial options</h4>
 <p>For multi-dimensionnal properties, you can adjust the spatial options. By default, the kleaner will not adjust the interpolation of these, letting you work the trajectories in After Effects.  </p>
-<p>When changing the mode to &ldquo;Simulation&rdquo;, the follow through will take the true movement of the layer into account when it&rsquo;s computed, but the computation will be much slower. When it&rsquo;s set to &ldquo;Basic&rdquo;, the follow through only happen if the property is actually animated and has keyframes.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>Use the kleaner on some Puppet Pins and switch the mode to &ldquo;Simulation&rdquo;, then animate the position of the layer. This is a quick and easy way to animate soft bodies!</p>
 </div>
+<h4 id="spatial-simulation-mode">Spatial Simulation Mode</h4>
+<p>When set to the &ldquo;Simulation&rdquo; mode, the follow through of the spatial properties will take the real movement of the layer into account when it&rsquo;s computed (and not only the keyframes of the property). The simulation also activates more options and behaviour for the property:</p>
+<ul>
+<li>
+<p>Overlap/drag: This is another important animation principle: each property moves a bit after its parent. When this option is enabled, the Kleaner will adjust the movement of the spatial properties according to the movement of the parents of the layer, so they will have some overlapping motion. You can set the duration of this overlap.</p>
+</li>
+<li>
+<p>Soft Body: when this option is enabled, the Kleaner automatically adjusts the follow-through parameters and the overlap duration of the spatial properties according to their distance to the anchor point of the layer. This means there&rsquo;s a short overlap between the spatial properties and the layer itself, and their elasticity will be a bit lower. This can be adjusted with the flexibility slider.</p>
+</li>
+</ul>
+<p>If you need to activate the motion blur for the layer, you may need to raise the Motion Blur precision if the Kleaner is in &ldquo;Simulation&rdquo; Mode.</p>
 <div class="admonition hint">
 <p class="admonition-title">Hint</p>
 <p>All these values can be animated!</p>

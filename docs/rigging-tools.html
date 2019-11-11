@@ -270,15 +270,15 @@
                 </li>
                 <li class="">
                     
-    <a class="" href="duik-list.html">List</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="effector.html">Effector</a>
+    <a class="" href="time-remap.html">Time Remap</a>
                 </li>
                 <li class="">
                     
     <a class="" href="effector-map.html">Effector Map</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="effector.html">Effector</a>
                 </li>
                 <li class="">
                     
@@ -315,6 +315,14 @@
                 <li class="">
                     
     <a class="" href="looper.html">Looper</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="duik-list.html">List</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="separate-dimensions.html">Separate Dimensions</a>
                 </li>
     </ul>
 	    </li>
@@ -389,25 +397,6 @@
     </ul>
 	    </li>
           
-            <li class="toctree-l1">
-		
-    <span class="caption-text">Input/Output</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="i-o.html">Introduction</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="import.html">Import</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="export.html">Export</a>
-                </li>
-    </ul>
-	    </li>
-          
             <li class="toctree-l1 current">
 		
     <a class="current" href="rigging-tools.html">Tools</a>
@@ -429,7 +418,11 @@
         
             <li><a class="toctree-l3" href="#remove-expressions">Remove expressions</a></li>
         
-            <li><a class="toctree-l3" href="#copy-paste-expressions">Copy Paste expressions</a></li>
+            <li><a class="toctree-l3" href="#copy-paste-expressions">Copy / Paste expressions</a></li>
+        
+            <li><a class="toctree-l3" href="#export-animation">Export Animation</a></li>
+        
+            <li><a class="toctree-l3" href="#import-animation">Import Animation</a></li>
         
             <li><a class="toctree-l3" href="#get-property-info">Get property info</a></li>
         
@@ -532,7 +525,7 @@
             <div class="section">
               
                 <h1 id="tools">Tools</h1>
-<p><img alt="" src="img\duik-screenshots\tools-panel.PNG" /></p>
+<p><img alt="" src="img/duik-screenshots/tools-panel.png" /></p>
 <p>A few tools which can be useful in the rigging process are available.</p>
 <div class="toc">
 <ul>
@@ -543,7 +536,12 @@
 <li><a href="#align-layers">Align Layers</a></li>
 <li><a href="#toggle-edit-mode">Toggle edit mode</a></li>
 <li><a href="#remove-expressions">Remove expressions</a></li>
-<li><a href="#copy-paste-expressions">Copy Paste expressions</a></li>
+<li><a href="#copy-paste-expressions">Copy / Paste expressions</a></li>
+<li><a href="#export-animation">Export Animation</a></li>
+<li><a href="#import-animation">Import Animation</a><ul>
+<li><a href="#import-animation-options">Import Animation options</a></li>
+</ul>
+</li>
 <li><a href="#get-property-info">Get property info</a></li>
 <li><a href="#scriptify-expression">Scriptify expression</a></li>
 </ul>
@@ -570,19 +568,64 @@
 <h2 id="remove-expressions"><img alt="" src="img/duik-icons/removeexpression_r.png" /> Remove expressions</h2>
 <div class="admonition hint">
 <p class="admonition-title">Hint</p>
-<p>Available in <em>Standard</em> and <em>Expert</em> modes only. </p>
+<p>Available in <em>Standard</em>, <em>Expert</em> and <em>god</em> modes only. </p>
 </div>
 <p>Select some properties with expressions to remove the expression, but keeping their current <em>post-expression value</em> instead of the <em>pre-expression value</em> like After Effects does.</p>
-<h2 id="copy-paste-expressions"><img alt="" src="img/duik-icons/copy_r.png" /> Copy Paste expressions</h2>
+<h2 id="copy-paste-expressions"><img alt="" src="img/duik-icons/copy_r.png" /> Copy / Paste expressions</h2>
 <div class="admonition hint">
 <p class="admonition-title">Hint</p>
-<p>Available in <em>Standard</em> and <em>Expert</em> modes only. </p>
+<p>Available in <em>Standard</em>, <em>Expert</em> and <em>god</em> modes only. </p>
 </div>
 <p>This very simple tool will copy an expression from a selected property, and then allows you to paste it on several properties at once, without changing their pre-expression values or keyframes.</p>
+<h2 id="export-animation"><img alt="Export anim Icon" src="img/duik-icons/exportanim-icon-r.png" /> Export Animation</h2>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>Available in <em>Standard</em>, <em>Expert</em> and <em>god</em> modes only.</p>
+</div>
+<p>You can export After Effects animations with Duik.</p>
+<ol>
+<li>Select the layers and/or the keyframes to export</li>
+<li>Click on the <em>Export Animation</em> button</li>
+</ol>
+<p>The exported data will be stored in a standard and open JSON (text) file.
+You can then re-import the animation to other projects/layers in After Effects, or use it in another software.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>It can be useful in After Effects to store the motion data appart for the After Effects project file, to make it quicker and easier to re-use it or even build an animation library for any kind of animations.</p>
+</div>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>This JSON data can be pretty easily parsed in any other software with only a little development work. It can be a game engine, another animation software, conversion to a web animation format&hellip; It&rsquo;s up to you, if you know a little bit about writing scripts.<br />
+The format is not yet documented, but easy to understand just by reading the file. It is very close to how animations are stored in After Effects.</p>
+</div>
+<h2 id="import-animation"><img alt="Import anim Icon" src="img/duik-icons/importanim-icon-r.png" /> Import Animation</h2>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>Available in <em>Standard</em>, <em>Expert</em> and <em>god</em> modes only.</p>
+</div>
+<p>You can re-import After Effects animations previously exported with Duik.</p>
+<p>When importing animation, Duik will try to load the animations onto the layers with the same name and index which are selected in the active composition (or in all layers if none are selected).<br />
+If after this there are still some animations which were not imported (i.e. if Duik do not find any correspondance for their name &amp; index in the composition), Duik will ask you on which layer you want to set them. Set to <em>None</em> to ignore some of them, or click the <em>Cancel</em> button to ignore them all.</p>
+<h3 id="import-animation-options"><img alt="Import anim optn" src="img/duik-icons/circle-little_r.png" /> Import Animation options</h3>
+<p><img alt="Import Anim optn " src="img/duik-screenshots/S-IOTools/Import/ImportAnimation-optn.PNG" /></p>
+<ul>
+<li>
+<p><strong>All properties/Only keyframes</strong>: If &ldquo;All properties&rdquo; is selected, the value of properties without animation will be updated too, if the imported animation has a value for them. Setting this option to &ldquo;Only keyframes&rdquo; allows to ignore all imported properties without animation (i.e. simple values without keyframes).</p>
+</li>
+<li>
+<p>You can filter the type of property you want to import: Position, Rotation, Scale, Opacity, Shapes/Masks paths, Effects properties, or all properties (no filter).</p>
+</li>
+<li>
+<p><strong>Offset/Absolute</strong>: you can choose to either load the values are they are in the imported animation (&ldquo;Absolute&rdquo; setting) or to offset the current values (&ldquo;Offset&rdquo;).</p>
+</li>
+<li>
+<p><strong>Replace existing keyframes</strong>: check this box to remove all previous animations from the properties which are imported.</p>
+</li>
+</ul>
 <h2 id="get-property-info"><img alt="" src="img/duik-icons/propinfo_r.png" /> Get property info</h2>
 <div class="admonition hint">
 <p class="admonition-title">Hint</p>
-<p>Available in <em>Expert</em> mode only.  </p>
+<p>Available in <em>Expert</em> and <em>god</em> mode only.  </p>
 </div>
 <p>Select one property and click on this button to get some useful information about the property, like its index, its match name, its path in expressions&hellip;</p>
 <h2 id="scriptify-expression"><img alt="" src="img/duik-icons/scriptify_r.png" /> Scriptify expression</h2>
@@ -601,7 +644,7 @@
         <a href="settings.html" class="btn btn-neutral float-right" title="Settings">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="export.html" class="btn btn-neutral" title="Export"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="import-tvpaint-camera.html" class="btn btn-neutral" title="Import TVPaint Camera"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -629,7 +672,7 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="export.html" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="import-tvpaint-camera.html" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
         <span style="margin-left: 15px"><a href="settings.html" style="color: #fcfcfc">Next &raquo;</a></span>
