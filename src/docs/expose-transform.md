@@ -1,4 +1,4 @@
-# ![effector Icon](img\duik-icons\ruler_r.png) Expose Transform
+# ![effector Icon](img/duik-icons/ruler_r.png) Expose Transform
 
 !!! note
     Available in _Standard_ and _Expert_ modes only.

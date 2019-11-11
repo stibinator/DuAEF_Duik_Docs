@@ -1,6 +1,6 @@
-## ![Copy anim Icon](img\duik-icons\copyanim-icon-r.png) Copy and Paste animation
+## ![Copy anim Icon](img/duik-icons/copyanim-icon-r.png) Copy and Paste animation
 
-![Copy Paste](img\duik-screenshots\S-Animation\S-Animation-Keyframes\copy-paste-buttons.png)
+![Copy Paste](img/duik-screenshots/S-Animation/S-Animation-Keyframes/copy-paste-buttons.png)
 
 You can copy and paste animations from several layers at once, and from one composition to another.
 
@@ -12,7 +12,7 @@ If, when pasting, Duik can not find any corresponding layer to paste some proper
 
 ### Additional panel
 
-![Copy Paste](img\duik-screenshots\S-Animation\S-Animation-Keyframes\PasteAnim-optn.png)
+![Copy Paste](img/duik-screenshots/S-Animation/S-Animation-Keyframes/PasteAnim-optn.png)
 
 Some options make this tool very powerful and more than just a standard copy and paste process.
 

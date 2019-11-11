@@ -1,4 +1,4 @@
-# ![effector Icon](img\duik-icons\automation\effector-icon-r.png) Effector
+# ![effector Icon](img/duik-icons/automation/effector-icon-r.png) Effector
 
 The ***Effector*** is a way to control properties depending on a spatial effector.
 
@@ -16,9 +16,9 @@ You can also connect a new property to an existing *Effector*: before clicking o
 
 ## Effect
 
-![](img\duik-screenshots\S-Rigging\S-Rigging-Automations\Effector-effects.PNG) 
+![](img/duik-screenshots/S-Rigging/S-Rigging-Automations/Effector-effects.PNG) 
  
-![](img\duik-screenshots\S-Rigging\S-Rigging-Automations\infiniteline-example.png)![](img\duik-screenshots\S-Rigging\S-Rigging-Automations\circle-example.png)
+![](img/duik-screenshots/S-Rigging/S-Rigging-Automations/infiniteline-example.png)![](img/duik-screenshots/S-Rigging/S-Rigging-Automations/circle-example.png)
 
 
 In the effect of the *Effector*, you can change the limits, and choose between two modes: circle and infinite line.

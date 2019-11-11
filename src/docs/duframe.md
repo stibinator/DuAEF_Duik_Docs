@@ -1,10 +1,10 @@
-# ![DuFrame Icon](img\duik-icons\frameguide-icon-r.png) **DuFrame**: framing grids and guides.
+# ![DuFrame Icon](img/duik-icons/frameguide-icon-r.png) **DuFrame**: framing grids and guides.
 
 **Duframe is a very simple tool which creates different types of grids and guides on a Shape Layer, which you can extensively configure, to help the composition of the image.**
 
 ![DuFrame GIF](img/examples/frame.gif)
 
-![Frame Effect](img\duik-screenshots\S-Camera\defaultFrameGuide.PNG)
+![Frame Effect](img/duik-screenshots/S-Camera/defaultFrameGuide.PNG)
 
 This is the default frame and guides added when you apply the preset.
 
@@ -12,7 +12,7 @@ This is the default frame and guides added when you apply the preset.
 
 The first effect added to the layer lets you configure the frame.
 
-![Frame Effect](img\duik-screenshots\S-Camera\frameFX.PNG)
+![Frame Effect](img/duik-screenshots/S-Camera/frameFX.PNG)
 
 * **Format presets**  
 
@@ -37,7 +37,7 @@ You can have as many guides as you want, you just have to duplicate a grid effec
 
 You can temporarily hide a specific grid or guide by disabling the corresponding effect.
 
-![Frame Effect](img\duik-screenshots\S-Camera\gridFX.PNG)
+![Frame Effect](img/duik-screenshots/S-Camera/gridFX.PNG)
 
 * **Safe Frames** displays standard "action" and "title" safe frames, which represents resepectively 80% and 90% of the surface of the entire frame.
 * **Digital Frames** shows the standard digital formats (*4/3*, *16/9*, *1.85*, *2.35*) contained in the current frame. This way you can make sure your composition works even if the image is later cropped to another format.
@@ -46,8 +46,8 @@ You can temporarily hide a specific grid or guide by disabling the corresponding
 * **Real Fibonacci** draws the true Fibonacci spiral, with its accurate proportions.
 * **Isometric** draws an isometric guide very helpful when designing... isometric perspectives.
 
-![](img\duik-screenshots\S-Camera\isometricGrid.PNG)  
+![](img/duik-screenshots/S-Camera/isometricGrid.PNG)  
 > *Isometric Grid*
 
-![](img\duik-screenshots\S-Camera\goldenRectangle.PNG)
+![](img/duik-screenshots/S-Camera/goldenRectangle.PNG)
 > *Golden rectangle and Golden Fibonacci guides*

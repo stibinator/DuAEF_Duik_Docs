@@ -8,7 +8,7 @@
 
 > _I’ve been working very hard on it, and I’m very proud to give it to you. For free! Yes, it’s still free, even if a lot of its individual features could be scripts sold for dozens of dollars, because we still believe free and open source software can make the world better, and we stick to our convictions. Of course, this could not be possible without your invaluable support._
 
-\- Duduf
+/- Duduf
 
 
 **Copyright (C)  2019 Nicolas Dufresne and Contributors.**  

@@ -35,7 +35,7 @@ You'll find several folders and files.
 
 Copy all the files from the *ScriptUI Panels* folder to:
 
-- Windows: `C:\Program Files\Adobe\Adobe After Effects CC\Support Files\Scripts\ScriptUI Panels\`  
+- Windows: `C:/Program Files/Adobe/Adobe After Effects CC/Support Files/Scripts/ScriptUI Panels/`  
 - Mac OS: `/Applications/Adobe After Effects CC/Scripts/ScriptUI Panels`
 
 You can also copy the [optional individual panels](first-look-at-duik.md#individual-panels) of your choice from the *optional Panels* to the same folders.

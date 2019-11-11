@@ -81,7 +81,7 @@ Read further to learn how to do more advanced stuff with the *connector*, in the
 
 ### Standard setup
 
-![](img\duik-screenshots\S-Rigging\S-Rigging-Constraints\Connector-optn.PNG)
+![](img/duik-screenshots/S-Rigging/S-Rigging-Constraints/Connector-optn.PNG)
 
 Using the standard setup, you can do more things than the quick setup, like connecting from a composition to another, and be able to choose almost _any property_ as a controller (see the section above, [Property types handled by the connector](#property-types-handled-by-the-connector)).
 

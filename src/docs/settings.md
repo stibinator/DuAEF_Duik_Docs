@@ -1,8 +1,8 @@
-# ![Settings Icon](img\duik-icons\settings-icon-r.png) Settings
+# ![Settings Icon](img/duik-icons/settings-icon-r.png) Settings
 
 There are a few settings you can change in Duik Bassel to better set it up for your taste.
 
-![settings panel](img\duik-screenshots\settings-panel.PNG)
+![settings panel](img/duik-screenshots/settings-panel.PNG)
 
 - You can set a specific file to store the settings, which will be shared by all instances of Duik (all After Effects versions), and which you can store in a synchronized folder between several computers, to have the same settings everywhere. You can also simply copy this file to any other computer to transfer the settings.
 
@@ -15,7 +15,7 @@ There are a few settings you can change in Duik Bassel to better set it up for y
     - ***Expert*** may be a bit more complex to use as there are less texts to explain what do the buttons do. Some very specific tools (for scripters and expressioners) are only available in this mode.
     - ***God*** is the smallest mode, made nearly only of icons. This is perfect if you know Duik well and you don't want the panel to take too much room in your workspace.
 
-![settings optn](img\duik-screenshots\General\settings-optn.png)
+![settings optn](img/duik-screenshots/General/settings-optn.png)
 
 - You can switch between a *Normal mode* and a *Dev & Debug mode*. You should always stay in *Normal mode* unless you're making changes in the code of Duik or if you have been asked to in order to find the source of a bug.
 

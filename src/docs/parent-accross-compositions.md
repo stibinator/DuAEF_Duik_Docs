@@ -21,7 +21,7 @@ This is the tool, in *Standard Mode*:
     3. Parent all locators to this new null layer instead of the precomposition layer.  
     4. Now you can precompose the precomposition :)
 
-# ![](img\duik-icons\locator-icon.png) Locators (Standard and Expert mode only)
+# ![](img/duik-icons/locator-icon.png) Locators (Standard and Expert mode only)
 
 ![](img/duik-screenshots/S-Rigging/S-Rigging-Constraints/ParentAcrossComp-locator.png)
 

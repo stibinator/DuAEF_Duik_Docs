@@ -1,4 +1,4 @@
-# ![2d camera Icon](img\duik-icons\2dcamera-icon-r.png) 2D Camera
+# ![2d camera Icon](img/duik-icons/2dcamera-icon-r.png) 2D Camera
 
 With 2D animation, it is usually easier to animate the positions of 2D layers than to set up a 3D space using cameras to create camera movements.
 
@@ -30,8 +30,8 @@ Camera Influence can be found in the effects of the generated or duplicated null
 
 ## Effect
 
-![2d camera effects](img\duik-screenshots\S-Camera\2DCamera-effects.PNG)
-![2d camera effects advanced](img\duik-screenshots\S-Camera\2DCamera-effects-advanced.PNG)
+![2d camera effects](img/duik-screenshots/S-Camera/2DCamera-effects.PNG)
+![2d camera effects advanced](img/duik-screenshots/S-Camera/2DCamera-effects-advanced.PNG)
 
 - ***Horizontal or Vertical Pan***: simulates a rotation of the camera, animates the position of the layers without parallax.
 - ***Zoom***: simulates zooming, animates the scale of the layers without parallax

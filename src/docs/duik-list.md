@@ -1,4 +1,4 @@
-# ![list Icon](img\duik-icons\automation\list-icon-r.png) List
+# ![list Icon](img/duik-icons/automation/list-icon-r.png) List
 
 The ***List*** is a simple tool to combine different animations and expressions in the same property.
 

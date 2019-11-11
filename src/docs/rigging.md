@@ -17,7 +17,7 @@ The process can be summarized in just a few words:
     b. Extract the controllers to animate
 3. **Animation**
 
-![](img\examples\smart-ux-2.gif)
+![](img/examples/smart-ux-2.gif)
 
 *To get started quickly with this process, just watch this [jumpstart](https://www.youtube.com/watch?v=i63vPXJ00r0) by [Jake In Motion](https://www.jakeinmotion.com/):*  
 ![YOUTUBE](i63vPXJ00r0)
@@ -28,7 +28,7 @@ The process can be summarized in just a few words:
 
 This way, the rig you create is independant from the design. This means it’s easier to adjust the design even after the rig has been made, or even to re-use the same rig with other designs. Also, this rigging process is easier to fix or change if ever you need to adjust it even when you’re already in the process of animation.
 
-![](img\examples\arm-brain.png)
+![](img/examples/arm-brain.png)
 
 ## ![Controller Icon](img/duik-icons/controller-hand-icon-r.png) [Controllers](controllers.md)
 
@@ -48,7 +48,7 @@ The [_Auto-rig_](autorig.md) is a versatile tool to automate most of this proces
 
 All you have to do is to create the [_Structures_](structures.md), the [_Auto-rig_](autorig.md) will do the rest, adding constraints and controllers for a fully rigged character. All that will be remaining are specific cases (hair, props), and facial rigging which is not automated ***yet***.
 
-## ![automation Icon](img\duik-icons\automation\automation-icon-r.png) [Automations](automations.md)
+## ![automation Icon](img/duik-icons/automation/automation-icon-r.png) [Automations](automations.md)
 
 As soon as your character is rigged, you can begin the animation, being helped by a lot of ***Automations***.  
 **[*Automations*](automations.md)** are procedural animations and dynamics to quickly set the most common animations up and then focus on the characterization of your character. You can automate wiggles, springs, wheels, etc. with customizable and advanced controls for example to loop the effects, and access each and every detail quickly and easily.

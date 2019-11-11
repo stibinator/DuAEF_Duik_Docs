@@ -1,4 +1,4 @@
-# ![](img\duik-icons\locker-icon-r.png) Lock property
+# ![](img/duik-icons/locker-icon-r.png) Lock property
 
 !!! note
     Available in _Standard_ and _Expert_ modes only.

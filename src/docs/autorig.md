@@ -16,7 +16,7 @@ As a smart tool, it will guess what you are trying to do, depending on the layer
 !!! note
     The *Auto-rig* is a tool in constant evolution. In each future version of Duik, it is going to work better and better, handling more different situations.
 
-![Rigging GIF](img\examples\structures-12.gif)
+![Rigging GIF](img/examples/structures-12.gif)
 
 *To get started quickly with this process, just watch this [jumpstart](https://www.youtube.com/watch?v=i63vPXJ00r0) by [Jake In Motion](https://www.jakeinmotion.com/):*  
 ![YOUTUBE](i63vPXJ00r0)
@@ -35,7 +35,7 @@ As a smart tool, it will guess what you are trying to do, depending on the layer
 
     - __If the selection is made of standard layers__, the *Auto-rig* will add *IKs* to rig them, trying to guess how they need to be rigged using their parenting and the location of their anchor points. If the layers are not parented yet, the *Auto-rig* is able to parent them automatically, but it's better in this case to select the layers in the right order: from the tip to the root of the limb (from hand to shoulder, or from foot to hip...).
 
-![Autorig GIF](img\examples\autorig.gif)
+![Autorig GIF](img/examples/autorig.gif)
 
 ## IK and FK
 
@@ -66,7 +66,7 @@ When the *Auto-rig* creates an *IK / FK*, it can be adjusted in the effects of t
 
 #### One-Layer IK (shoulder rotation, single-layer spine...)
 
-![](img\duik-screenshots\S-Rigging\S-Rigging-Constraints\one-layer-IK-effect.PNG)
+![](img/duik-screenshots/S-Rigging/S-Rigging-Constraints/one-layer-IK-effect.PNG)
 
 - The _Enable IK_ checkbox can be used to deactivate the *IK* and animate only using the *FK* control.  
 
@@ -81,7 +81,7 @@ When the *Auto-rig* creates an *IK / FK*, it can be adjusted in the effects of t
 
 #### Two-layer IK (arms and legs...)
 
-![](img\duik-screenshots\S-Rigging\S-Rigging-Constraints\two-layer-IK-effect.PNG)
+![](img/duik-screenshots/S-Rigging/S-Rigging-Constraints/two-layer-IK-effect.PNG)
 
 - The _Enable IK_ checkbox can be used to de-activate the *IK* and animate only using the *FK controls*.
 
@@ -97,7 +97,7 @@ When the *Auto-rig* creates an *IK / FK*, it can be adjusted in the effects of t
 
 #### Bezier IK (multi-layer spine, tails...)
 
-![](img\examples\bezier-ik-controllers.PNG)
+![](img/examples/bezier-ik-controllers.PNG)
 
 The *Bézier IK* uses a virtual Bézier path to control the position and the rotation of the layers. It is not actual inverse kinematics but it is called *IK*  because the way to animate it is very similar.
 
@@ -107,7 +107,7 @@ Two controllers are needed to control *Bezier IK*. One at the end of the chain, 
 
 ##### Main Controller (end)
 
-![](img\duik-screenshots\S-Rigging\S-Rigging-Constraints\bezierIK-end.PNG)
+![](img/duik-screenshots/S-Rigging/S-Rigging-Constraints/bezierIK-end.PNG)
 
 - The *Auto orientation* of the layers along the path can be disabled so that the layers will keep their own orientations.
 
@@ -115,7 +115,7 @@ Two controllers are needed to control *Bezier IK*. One at the end of the chain, 
 
 ##### Middle Controller (curve)
 
-![](img\duik-screenshots\S-Rigging\S-Rigging-Constraints\bezierIK-middle.PNG)
+![](img/duik-screenshots/S-Rigging/S-Rigging-Constraints/bezierIK-middle.PNG)
 
 - You can disable the guides to hide the doted line representing the *IK* in the viewport. This will improve a bit the performance of After Effects.
 
@@ -123,7 +123,7 @@ Two controllers are needed to control *Bezier IK*. One at the end of the chain, 
 
 #### FK with follow-through, overlap and drag (tails...)
 
-![](img\duik-screenshots\S-Rigging\S-Rigging-Constraints\fk-effect.PNG)
+![](img/duik-screenshots/S-Rigging/S-Rigging-Constraints/fk-effect.PNG)
 
 This constraint autommatically controls the rotation of all the parts of the chain, depending on both the animation of the rotation of the controller and the motion of the parent of the chain. It rotates the children of the chain according the _overlap_ and _follow through_ animation principles. This means it mimics ropes, tails, hair, etc. with the ability to adjust their *flexibility* and the *resistance* of the air or water where they are.
 

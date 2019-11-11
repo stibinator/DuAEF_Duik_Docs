@@ -1,4 +1,4 @@
-# ![](img\duik-icons\links-tools\separator-icon-r.png) Separate dimensions
+# ![](img/duik-icons/links-tools/separator-icon-r.png) Separate dimensions
 
 !!! note
     Available in _Standard_ and _Expert_ modes only.

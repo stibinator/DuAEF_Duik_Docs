@@ -24,7 +24,7 @@ Bones can be used to control puppet pins, but also for example the emitter of a 
 
 When the property is controlled by a bone, you can rig the bone itself, parent it to other layers (and *Structures* of Duik), etc. which make rigging effects very easy. This is the easiest way to rig a character with the puppet tool of After Effects, or even a way to rig directly the shapes used to draw the character.
 
-![Bones GIF](img\examples\bones-2.gif)
+![Bones GIF](img/examples/bones-2.gif)
 
 ## Edit Bones
 

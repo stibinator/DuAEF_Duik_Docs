@@ -1,6 +1,6 @@
 [TOC]
 
-# ![Motion Trail Icon](img\duik-icons\motiontrail-icon-r.png) Motion Trail
+# ![Motion Trail Icon](img/duik-icons/motiontrail-icon-r.png) Motion Trail
 
 !!! note
     Available in After Effects *CC2018* and above only.
@@ -49,7 +49,7 @@ By default, the motion is sampled each frame of the composition. If the movement
 
 ## Additional panel
 
-![](img\duik-screenshots\S-Animation\S-Animation-Tools\MotionTrail-optn.PNG)
+![](img/duik-screenshots/S-Animation/S-Animation-Tools/MotionTrail-optn.PNG)
 
 In the additional panel, you can choose to create a new layer when you create new motion trails, or to add them all on the existing layer if any.
 You can also set the color of new motion trails.

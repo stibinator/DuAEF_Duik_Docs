@@ -1,4 +1,4 @@
-# ![paintrig Icon](img\duik-icons\automation\paintrig-icon-r.png) Paint Rig
+# ![paintrig Icon](img/duik-icons/automation/paintrig-icon-r.png) Paint Rig
 
 Use the ***Paint Rig*** to rig brush strokes in the paint effect and adjust and animate them as if they were a single stroke.
 
@@ -11,8 +11,8 @@ You can adjust and animate the paint strokes in the effects of the layer.
 
 ## Effect
 
-![Paint rig panel](img\duik-screenshots\S-Rigging\S-Rigging-Automations\Paintrig-effects.PNG)
-![Paint rig example](img\duik-screenshots\S-Rigging\S-Rigging-Automations\automation-illustration\paintrig-example.png)
+![Paint rig panel](img/duik-screenshots/S-Rigging/S-Rigging-Automations/Paintrig-effects.PNG)
+![Paint rig example](img/duik-screenshots/S-Rigging/S-Rigging-Automations/automation-illustration/paintrig-example.png)
 
 The *Start*, *End*, *Color* and *Diameter* paramaters work like the same parameters in the individual strokes, but as controlling all of them as if they were a single stroke.
 

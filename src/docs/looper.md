@@ -1,4 +1,4 @@
-# ![looper Icon](img\duik-icons\automation\looper-icon-r.png) Looper
+# ![looper Icon](img/duik-icons/automation/looper-icon-r.png) Looper
 
 Use the ***Looper*** to add *In* and *Out* loops to the animations.
 
@@ -11,4 +11,4 @@ With the *Looper* you can combine in and out loops, and activate and deactivate 
 1. Select the properties
 2. Click on the *Looper* button
 
-![](img\duik-screenshots\S-Rigging\S-Rigging-Automations\Looper-effect.PNG)
+![](img/duik-screenshots/S-Rigging/S-Rigging-Automations/Looper-effect.PNG)

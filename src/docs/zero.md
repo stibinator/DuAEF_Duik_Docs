@@ -1,4 +1,4 @@
-# ![Zero Icon](img\duik-icons\automation\zero-icon-r.png) Zero
+# ![Zero Icon](img/duik-icons/automation/zero-icon-r.png) Zero
 
 !!! note
     Available in _Standard_ and _Expert_ modes only.

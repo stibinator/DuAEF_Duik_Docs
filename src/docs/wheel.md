@@ -1,4 +1,4 @@
-# ![wheel Icon](img\duik-icons\automation\wheel-icon-r.png) Wheel
+# ![wheel Icon](img/duik-icons/automation/wheel-icon-r.png) Wheel
 
 The ***Wheel*** automates the rotation of the layer depending on its translations.
 
@@ -11,8 +11,8 @@ You can adjust the parameters of the *Wheel* in the effects of the layer.
 
 ## Effect
 
-![Wheel effects example](img\duik-screenshots\S-Rigging\S-Rigging-Automations\Wheel-effects.PNG)
-![Wheel example](img\duik-screenshots\S-Rigging\S-Rigging-Automations\automation-illustration\wheel-example.png)
+![Wheel effects example](img/duik-screenshots/S-Rigging/S-Rigging-Automations/Wheel-effects.PNG)
+![Wheel example](img/duik-screenshots/S-Rigging/S-Rigging-Automations/automation-illustration/wheel-example.png)
 
 Duik will try to autodetect the radius of the wheel, but in some cases it is not possible. You can set it, in pixels. If you do not know the exact radius, you can add a null object on the border of the layer and use the [*Measure Distance*](rigging-tools.md) tool (in the rigging panel).
 

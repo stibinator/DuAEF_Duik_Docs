@@ -1,4 +1,4 @@
-# ![wiggle Icon](img\duik-icons\automation\wiggle-icon-r.png) Wiggle
+# ![wiggle Icon](img/duik-icons/automation/wiggle-icon-r.png) Wiggle
 
 The ***Wiggle*** makes the properties... wiggle.
 
@@ -17,8 +17,8 @@ The wiggle can be adjusted in the effects of the first layer selected.
 
 ## Effect
 
-![Wiggle pannel](img\duik-screenshots\S-Rigging\S-Rigging-Automations\Wiggle-effects.PNG)
-![Wiggle example](img\duik-screenshots\S-Rigging\S-Rigging-Automations\automation-illustration\wiggle-example.png)
+![Wiggle pannel](img/duik-screenshots/S-Rigging/S-Rigging-Automations/Wiggle-effects.PNG)
+![Wiggle example](img/duik-screenshots/S-Rigging/S-Rigging-Automations/automation-illustration/wiggle-example.png)
 
 By default, the duration of the loop is set to the duration of the composition.
 
@@ -30,7 +30,7 @@ This random seed is set to be the index of the layer by default, at the time the
 
 ## Additionnal Panel
 
-![Wiggle additional panel](img\duik-screenshots\S-Rigging\S-Rigging-Automations\Wiggle-optn.PNG)
+![Wiggle additional panel](img/duik-screenshots/S-Rigging/S-Rigging-Automations/Wiggle-optn.PNG)
 
 
 In the additionnal panel of the wiggle, there are a few options:

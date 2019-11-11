@@ -1,4 +1,4 @@
-# ![Animation blender Icon](img\duik-icons\animblender-icon-r.png) Animation Blender
+# ![Animation blender Icon](img/duik-icons/animblender-icon-r.png) Animation Blender
 
 The ***Animation Blender*** is a tool to animate using markers to trigger animations.
 

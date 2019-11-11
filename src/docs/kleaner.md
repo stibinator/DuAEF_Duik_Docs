@@ -1,4 +1,4 @@
-## ![Kleaner Icon](img\duik-icons\kleaner-icon-r.png) Kleaner
+## ![Kleaner Icon](img/duik-icons/kleaner-icon-r.png) Kleaner
 
 The "Kleaner" is a tool to automatically clean the selected animations.  
 It removes unnecessary keyframes (keyframes which do not result in any animation), and generates and controls **anticipations**, **interpolations** and **follow-through** of the animations.  
@@ -70,7 +70,7 @@ When changing the mode to "Simulation", the follow through will take the true mo
 
 ### Additional Panel
 
-![Kleaner panel](img\duik-screenshots\S-Animation\S-Animation-Keyframes\Kleaner-optn.PNG)
+![Kleaner panel](img/duik-screenshots/S-Animation/S-Animation-Keyframes/Kleaner-optn.PNG)
 
 - Remove unnecessary keyframes:  
   Check or uncheck the checkbox to activate or deactivate this step when you run the "Kleaner"
