@@ -48,9 +48,9 @@ Usually, a living character has a lower *Slow Out* and a higher *Slow In*. These
 
 Follow Through happens when the animation comes to a stop; it's the momentum of the object, which makes it "bounce" at the end of the movement, going a bit to far away and getting back to its stop.
 
-The elasticity controls the frequency and the amplitude of this motion. A higher elasticity generates a faster and smaller movement.
+- The elasticity controls the frequency and the amplitude of this motion. A higher elasticity generates a faster and smaller movement.
 
-The Damping controls how long it takes for the animation to fully stop. A higher value will make it stop sooner. At 0, the movement never stops.
+- The Damping controls how long it takes for the animation to fully stop. A higher value will make it stop sooner. At 0, the movement never stops.
 
 For both these values, you can add some randomness: this means each property controlled by this kleaner effects will have a slightly different motion, which looks more natural.
 
@@ -60,10 +60,18 @@ Use the bounce checkbox to make the object bounce back at the value where it sho
 
 For multi-dimensionnal properties, you can adjust the spatial options. By default, the kleaner will not adjust the interpolation of these, letting you work the trajectories in After Effects.  
 
-When changing the mode to "Simulation", the follow through will take the true movement of the layer into account when it's computed, but the computation will be much slower. When it's set to "Basic", the follow through only happen if the property is actually animated and has keyframes.
-
 !!! tip
     Use the kleaner on some Puppet Pins and switch the mode to "Simulation", then animate the position of the layer. This is a quick and easy way to animate soft bodies!
+
+#### Spatial Simulation Mode
+
+When set to the "Simulation" mode, the follow through of the spatial properties will take the real movement of the layer into account when it's computed (and not only the keyframes of the property). The simulation also activates more options and behaviour for the property:
+
+- Overlap/drag: This is another important animation principle: each property moves a bit after its parent. When this option is enabled, the Kleaner will adjust the movement of the spatial properties according to the movement of the parents of the layer, so they will have some overlapping motion. You can set the duration of this overlap.
+
+- Soft Body: when this option is enabled, the Kleaner automatically adjusts the follow-through parameters and the overlap duration of the spatial properties according to their distance to the anchor point of the layer. This means there's a short overlap between the spatial properties and the layer itself, and their elasticity will be a bit lower. This can be adjusted with the flexibility slider.
+
+If you need to activate the motion blur for the layer, you may need to raise the Motion Blur precision if the Kleaner is in "Simulation" Mode.
 
 !!! hint
     All these values can be animated!
