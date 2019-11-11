@@ -32,12 +32,12 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 - The performance of the [*Search and Replace*](rigging-tools.md#search-and-replace) tool has been greatly improved for expressions.
 - The performance of the [*Structures*](structures.md) creation and of the [*Auto-rig*](autorig.md) have been improved.
 - The use of *Master Properties* to [*extract controllers*](controller-tools.md) has been improved for After Effects CC2020 and more recent.
-- The [*Wonder Unit Storyboarder import*](import.md) now also imports images from the *Shot Generator*.
+- The *Wonder Unit Storyboarder import* now also imports images from the *Shot Generator*.
 - The [contextual help](contextual-help.md) has been updated.
 
 #### Fixes
 
-- Fixed the [*Storyboarder import*](import.md) with the latest versions of *Wonder Unit Storyboarder*.
+- Fixed the *Storyboarder import* with the latest versions of *Wonder Unit Storyboarder*.
 - Fixed the head controller of the [*Auto-rig*](autorig.md) to make it work correctly when adding a zero.
 
 ## 16.1.3
@@ -119,7 +119,7 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 
 #### New (Other)
 
-- Reimplemented and improved the [_TVPaint_](import.md#clip-from-tvpaint) import tool from Duik 15. Duik now also imports JSON exported from TVPaint 11+, in a simpler and stabler way than the script provided by TVPaint (and with the ability to choose which layers to import).
+- Reimplemented and improved the _TVPaint_ import tool from Duik 15. Duik now also imports JSON exported from TVPaint 11+, in a simpler and stabler way than the script provided by TVPaint (and with the ability to choose which layers to import).
 - Added **German translation**.
 - The interpolation adjustment tools in the [***Keyframes***](keyframe-tools.md) has been greatly improved, with sliders for velocity and buttons with useful predefined values.
 
@@ -154,7 +154,7 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 - The show/hide button for [*Structures*](structures.md) now works correctly.
 - Fixed the scale expression for the [*2D Camera*](camera-2d.md).
 - The [*Wheel*](wheel.md) and [*Parent Constraint*](parent-constraint.md) now correctly generate motion blur (which can be adjusted to fix performance issues).
-- Fixed animations not [importing](import.md)  when interpolation values are invalid.
+- Fixed animations not importing  when interpolation values are invalid.
 - Fixed 3D [Controllers extraction](controller-tools.md).
 - The [*List*](duik-list.md) does not anymore add an offset on the value when added on a property without keyframes.
 - The [*Move Away*](move-away.md) does not generate an expression error anymore when the layer is at the same location as its parent.
@@ -210,7 +210,7 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 - The [*Extract controllers*](controller-tools.md#extract-controllers) can now extract the controllers from two rigs in the same composition.
 - [*Bones*](bones.md) on puppet pins are named after the correponding pin.
 - Fixed [*Bones*](bones.md) creation on pins with Ae CC2018 and older.
-- The [*Storyboarder*](import.md) importer now imports empty boards too.
+- The *Storyboarder* importer now imports empty boards too.
 
 ## 16.0.8
 
@@ -239,7 +239,7 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 
 - [*Random*](random.md) tool now correctly sets values on animated properties.
 - [*Parent Constraint*](parent-constraint.md) now works when the dimensions of the position are separated.
-- [*Storyboarder*](import.md) import fixed (again).
+- *Storyboarder* import fixed (again).
 - [*Extract Controllers*](controller-tools.md) now works correctly when dimensions are separated on the controllers.
 - [*Extract Controllers*](controller-tools.md) now longer has an expression error on foot roll effects.
 - The anchor size of the [*Controllers*](controllers.md) can now be set to 0% without generating an expression error.

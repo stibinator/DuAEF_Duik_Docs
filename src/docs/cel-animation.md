@@ -1,6 +1,6 @@
 # ![Cel Anim Icon](img/duik-icons/cel-icon-r.png) Cel Animation
 
-![cel anim panel](img/duik-screenshots/S-Animation/S-Animation-Tools/CelAnimation-optn.png)
+![cel anim panel](img/duik-screenshots/S-Animation/S-Animation-Tools/CelAnimation-optn.PNG)
 
 The ***Cel Animation*** tool is used in conjunction with After Effects’ paint effect to create traditional hand drawn animations.
 

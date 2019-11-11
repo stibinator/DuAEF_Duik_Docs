@@ -75,9 +75,10 @@ The first button, on the left, opens a very simple yet useful [***notes editor**
 The other buttons display the available panels:
 
 - [***Rigging***](rigging.md)
+- [***Automations***](automations.md)
 - [***Animation***](animation.md)
 - [***Camera***](camera.md)
-- [***Import and Export tools***](i-o.md)
+- [***Tools***](rigging-tools.md)
 
 On the bottom bar, you'll find some other useful buttons:
 

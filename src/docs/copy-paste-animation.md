@@ -12,7 +12,7 @@ If, when pasting, Duik can not find any corresponding layer to paste some proper
 
 ### Additional panel
 
-![Copy Paste](img/duik-screenshots/S-Animation/S-Animation-Keyframes/PasteAnim-optn.png)
+![Copy Paste](img/duik-screenshots/S-Animation/S-Animation-Keyframes/PasteAnim-optn.PNG)
 
 Some options make this tool very powerful and more than just a standard copy and paste process.
 
