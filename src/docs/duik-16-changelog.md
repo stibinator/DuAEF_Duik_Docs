@@ -10,6 +10,7 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 - The I/O tab has been removed. You can now import and export animations from the [Tools](rigging-tools.md) tab. For other software (Storyboarder, Krita, TVPaint), a new free script will be available shortly on rainboxlab.org.
 - The UI has been improved a bit (especially the popups).
 - When creating a [*Controller*] as a null layer, it better detects if it should be 3D, and is placed just on top of the topmost layer.
+- Updated the French and Spanish translations.
 
 #### Fixes
 
