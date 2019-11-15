@@ -115,6 +115,6 @@ nav:
     - License:
         - GNU GPLv3: gnu-gpl.md
         - Documentation license: doc-license.md
-    - Credits: https://rainboxlab.org/about/who-are-we/
+    - Credits: credits.md
     - Contact: https://rainboxlab.org/about/contact/
     - Donate: https://rainboxlab.org/about/donate/
