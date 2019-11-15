@@ -16,6 +16,9 @@ The ***Motion Trail*** tool draws the trajectory of any layer in a shape layer, 
 
 A *Motion Trail* layer is added to the comp. It is a shape layer used to draw the trails. An effect is added on this layer for each motion trail created.
 
+!!! hint
+    As the motion trail is contained in a shape layer, it is easy to change it's appearance and use it as you wish! You can add and modify everything in the content of the Motion Trail layer.
+
 ![](img/examples/motiontrails1.gif)
 
 ## Effect
@@ -40,6 +43,9 @@ When you activate the advanced parameters, the width of the trail can be dynamic
 When advanced parameters are enabled, you can add an automatic taper to the trail (which shape can be adjusted in the *Taper Parameters* section).
 
 The *Auto-width* option will adjust the width of the trail according to the scale and 3D position of the layer, effectively creating a 3D trail (in a shape layer which is still 2D).
+
+!!! note
+    The trail with advanced parameters turned on uses a filled shape instead of a stroke, so it is not possible to have dashes. Turning of the advanced parameters will hide the *fill* will allow you to adjust the *stroke* and add dashes.
 
 ![](img/examples/motiontrails2.gif)
 

@@ -11,8 +11,7 @@
 
 ## ![Toggle Icon](img/duik-icons/toggle-icon-r.png) Toggle Edit Mode
 
-!!! hint
-    *Toggle edit mode* (*Standard* and *Expert* mode) disables the parenting of all the children of the selected *Structure element* to be able to move it without affecting the other elements.
+*Toggle edit mode* (*Standard* and *Expert* mode) disables the parenting of all the children of the selected *Structure element* to be able to move it without affecting the other elements.
 
 1. Select some *Structure elements*
 2. Click the ***Toggle edit mode*** button

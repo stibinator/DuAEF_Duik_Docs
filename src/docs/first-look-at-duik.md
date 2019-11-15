@@ -49,8 +49,8 @@ The User Interface has been designed with these main ideas in mind:
 
 1. **Keep it close to the form of the user interface of** ***After Effects***  
 Using controls similar to the native controls of *After Effects* helps the user get started quickier. But it was not possible, for specific features and for performance and stability reasons, to make everything exactly the same as in *After Effects* and controls differ a bit. The idea is that Duik must not stand out too much when docked with other *After Effects* panels.  
-2. **Do not use popups, windows and dialogs**  
-With very rare exceptions, everything Duik needs to display will be displayed in its main panel (with the exception of the *Help Panel*, which needs to be visible at any time), it won't use dialogs and other windows, so you know where to find information, and you're not distracted by popups. Also, there are no blocking windows (what's called *Modal Dialogs*), to keep an agile workflow.
+2. **Do not use windows and dialogs**  
+With very rare exceptions, everything Duik needs to display will be displayed in its main panel or small pop-ups (with the exception of the *Help Panel*, which needs to be visible at any time), it won't use dialogs and other windows, so you know where to find information, and you're not distracted by pop-ups. Also, there are no blocking windows (what's called *Modal Dialogs*), to keep an agile workflow.
 3. **Keep the UI as small as possible**  
 What is important when working with graphics is the viewport. Duik is as small as it can be so it won't interfere with your workspace.
 

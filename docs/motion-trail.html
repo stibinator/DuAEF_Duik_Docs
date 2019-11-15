@@ -556,6 +556,10 @@
 <li>Click on the <em>Motion Trail</em> button</li>
 </ol>
 <p>A <em>Motion Trail</em> layer is added to the comp. It is a shape layer used to draw the trails. An effect is added on this layer for each motion trail created.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>As the motion trail is contained in a shape layer, it is easy to change it&rsquo;s appearance and use it as you wish! You can add and modify everything in the content of the Motion Trail layer.</p>
+</div>
 <p><img alt="" src="img/examples/motiontrails1.gif" /></p>
 <h2 id="effect">Effect</h2>
 <p><img alt="" src="img/duik-screenshots/S-Rigging/S-Rigging-Automations/Motiontrail-effect.png" /></p>
@@ -575,6 +579,10 @@
 <p>When you activate the advanced parameters, the width of the trail can be dynamic and you can add a taper. But be careful as this mode requires a lot of computation and has a bad impact on performance.</p>
 <p>When advanced parameters are enabled, you can add an automatic taper to the trail (which shape can be adjusted in the <em>Taper Parameters</em> section).</p>
 <p>The <em>Auto-width</em> option will adjust the width of the trail according to the scale and 3D position of the layer, effectively creating a 3D trail (in a shape layer which is still 2D).</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The trail with advanced parameters turned on uses a filled shape instead of a stroke, so it is not possible to have dashes. Turning of the advanced parameters will hide the <em>fill</em> will allow you to adjust the <em>stroke</em> and add dashes.</p>
+</div>
 <p><img alt="" src="img/examples/motiontrails2.gif" /></p>
 <h3 id="sampling">Sampling</h3>
 <p>By default, the motion is sampled each frame of the composition. If the movement is very fast, you might want more samples for a smoother trail. In this case, you can switch to Automatic sampling which will try to adjust depending on the velocity and choose the best sampling while trying to keep better performance, or sub-frame sampling which is the calculation-intensive way to sample the motion. In Automatic and sub-frame sampling you can adjust the number of samples, which directly impacts the quality of the trail but can have a big impact on performance, too.</p>
