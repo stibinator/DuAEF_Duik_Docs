@@ -105,7 +105,6 @@ nav:
         - Scale Z-Link: scale-z-link.md
         - 2D Camera: camera-2d.md
         - Framing Guides: duframe.md
-        - Import TVPaint Camera: import-tvpaint-camera.md
     - Tools: rigging-tools.md
     - Settings: settings.md
     - Development:
