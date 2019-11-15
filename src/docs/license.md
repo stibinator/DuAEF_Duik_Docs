@@ -30,7 +30,7 @@ If you include any part of the source code of our tools â€“ even a short part â€
 
 ## More
 
-More info is available at the [Free Software Foundation](http://www.fsf.org).
+More info is available at the [Free Software Foundation](http://www.fsf.org). A copy of the license is included in this document, [here](gnu-gpl.md).
 
 All the contributors of Duik, friends, and all the people who helped the creation of Duik are listed [here](https://rainboxlab.org/about/who-are-we/). **You may thank all of them for their commitment to greatly improving animation for everyone and for free**.
 

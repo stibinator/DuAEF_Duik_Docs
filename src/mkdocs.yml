@@ -113,6 +113,7 @@ nav:
     - F.A.Q.: duik-faq.md
     - Changelog: duik-16-changelog.md
     - License:
+        - GNU GPLv3: gnu-gpl.md
         - Documentation license: doc-license.md
     - Credits: https://rainboxlab.org/about/who-are-we/
     - Contact: https://rainboxlab.org/about/contact/

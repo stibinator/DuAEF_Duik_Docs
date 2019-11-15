@@ -376,6 +376,11 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>http://rainboxlab.org/gnu-gpl.html</loc>
+     <lastmod>2019-11-15</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>http://rainboxlab.org/doc-license.html</loc>
      <lastmod>2019-11-15</lastmod>
      <changefreq>daily</changefreq>
