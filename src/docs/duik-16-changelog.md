@@ -2,6 +2,12 @@
 
 This is the list of what has changed since the first Alpha version of Duik Bassel (16)
 
+## 16.2.2
+
+#### Fixes
+
+- Added a workaround for an *After Effects* bug in 17.0.0 (2020): when controller are extracted using master properties, a keyframe is added on the master property (only for this specific version of *After Effects*), which fixes the controllers not rotating correctly.
+
 ## 16.2.1
 
 #### Improvements
