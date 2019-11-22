@@ -7,6 +7,9 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 #### Fixes
 
 - Added a workaround for an *After Effects* bug in 17.0.0 (2020): when controller are extracted using master properties, a keyframe is added on the master property (only for this specific version of *After Effects*), which fixes the controllers not rotating correctly.
+- Fixed the undo history when using the [*Kleaner / Spring*](kleaner.md).
+- Greatly improved the *Pick Master Property* button performance in the [*Connector*](connector.md).
+- Greatly improved the [*Get Property Info*](rigging-tools.md) tool performance.
 
 ## 16.2.1
 
