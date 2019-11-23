@@ -432,7 +432,7 @@
     
         <ul>
         
-            <li><a class="toctree-l3" href="#1622-in-development">16.2.2 (in development)</a></li>
+            <li><a class="toctree-l3" href="#1622">16.2.2</a></li>
         
             <li><a class="toctree-l3" href="#1621">16.2.1</a></li>
         
@@ -570,13 +570,22 @@
               
                 <h1 id="changelog">Changelog</h1>
 <p>This is the list of what has changed since the first Alpha version of Duik Bassel (16)</p>
-<h2 id="1622-in-development">16.2.2 (in development)</h2>
+<h2 id="1622">16.2.2</h2>
+<h4 id="improvements">Improvements</h4>
+<ul>
+<li>The system used to display the news has been improved for better performance and better UI.</li>
+</ul>
 <h4 id="fixes">Fixes</h4>
 <ul>
 <li>Added a workaround for an <em>After Effects</em> bug in 17.0.0 (2020): when controller are extracted using master properties, a keyframe is added on the master property (only for this specific version of <em>After Effects</em>), which fixes the controllers not rotating correctly.</li>
+<li>Fixed the undo history when using the <a href="kleaner.html"><em>Kleaner / Spring</em></a>.</li>
+<li>Greatly improved the <em>Pick Master Property</em> button performance in the <a href="connector.html"><em>Connector</em></a>.</li>
+<li>Greatly improved the <a href="rigging-tools.html"><em>Get Property Info</em></a> tool performance.</li>
+<li>Fixed the head controller created with the <a href="autorig.html"><em>auto-rig</em></a> not linked to the head of the correct composition if the composition is duplicated.</li>
+<li>Fixed the options for the <em>extract controllers</em> tool not restored correctly (use master properties or expressions).</li>
 </ul>
 <h2 id="1621">16.2.1</h2>
-<h4 id="improvements">Improvements</h4>
+<h4 id="improvements_1">Improvements</h4>
 <ul>
 <li>The <a href="kleaner.html"><strong><em>Kleaner</em></strong></a> now has soft body and overlap options, for spatial properties, in simulation mode.</li>
 <li>The I/O tab has been removed. You can now import and export animations from the <a href="rigging-tools.html">Tools</a> tab. For other software (Storyboarder, Krita, TVPaint), a new free script will be available shortly on rainboxlab.org.</li>
@@ -598,7 +607,7 @@
 <li>The <a href="controller-tools.html"><strong><em>Extract Controllers</em></strong></a> is now able to extract only new controllers in case there have been changes made to the rig. [Alt + Click] now &ldquo;un-extracts&rdquo; the controllers from the selected precomposition.</li>
 <li>A new <a href="settings.html"><strong><em>God Mode</em></strong></a> for the interface, which is very tiny!</li>
 </ul>
-<h4 id="improvements_1">Improvements</h4>
+<h4 id="improvements_2">Improvements</h4>
 <ul>
 <li>The interface has been improved and a bit re-organised for a faster access to most common tools.</li>
 <li>The performance of the <a href="rigging-tools.html#search-and-replace"><em>Search and Replace</em></a> tool has been greatly improved for expressions.</li>
@@ -613,7 +622,7 @@
 <li>Fixed the head controller of the <a href="autorig.html"><em>Auto-rig</em></a> to make it work correctly when adding a zero.</li>
 </ul>
 <h2 id="1613">16.1.3</h2>
-<h4 id="improvements_2">Improvements</h4>
+<h4 id="improvements_3">Improvements</h4>
 <ul>
 <li>You can now use custom controllers with the <a href="autorig.html">Auto-rig</a></li>
 </ul>
@@ -623,7 +632,7 @@
 <li>Fixed <a href="autorig.html#ik-fk">manual IK Rigging</a>.</li>
 </ul>
 <h2 id="1612">16.1.2</h2>
-<h4 id="improvements_3">Improvements</h4>
+<h4 id="improvements_4">Improvements</h4>
 <ul>
 <li>Some expressions have been modernized, and the underlying system for generating expressions in Duik have been improved. This is going to improve performance in future versions. This work comes with a nice way to share an <a href="https://github.com/Rainbox-dev/DuAEF/tree/master/src/libs/expressionLib">expression library</a> for animators and developpers.</li>
 </ul>
@@ -695,7 +704,7 @@
 <li>Added <strong>German translation</strong>.</li>
 <li>The interpolation adjustment tools in the <a href="keyframe-tools.html"><strong><em>Keyframes</em></strong></a> has been greatly improved, with sliders for velocity and buttons with useful predefined values.</li>
 </ul>
-<h4 id="improvements_4">Improvements</h4>
+<h4 id="improvements_5">Improvements</h4>
 <ul>
 <li>The <a href="connector.html"><em>Connector</em></a> can now be used in a single click (creates a controller layer automatically).</li>
 <li>The <a href="connector.html"><em>Connector</em></a> User Interface for the additionnal panel has been improved a bit to be clearer and easier to use.</li>
@@ -757,7 +766,7 @@
 <li>Fixed the <a href="walk-cycle.html"><em>walk cycle</em></a> with the new JavaScript expression engine.</li>
 </ul>
 <h2 id="16010">16.0.10</h2>
-<h4 id="improvements_5">Improvements</h4>
+<h4 id="improvements_6">Improvements</h4>
 <ul>
 <li>[Alt + Click] on the <a href="zero.html"><em>Zero</em></a> button resets the position, rotation and scale of the layer.</li>
 <li>The User Interface has been tweaked to make it always better.</li>
@@ -796,7 +805,7 @@
 <ul>
 <li>The <a href="bones.html"><em>Bones</em></a> can control the new puppet pins in After Effects 16.0: they handle the rotation and scale of the pins too.</li>
 </ul>
-<h4 id="improvements_6">Improvements</h4>
+<h4 id="improvements_7">Improvements</h4>
 <ul>
 <li>Expressions used by Duik have been improved for the new expression engine in After Effects 16.0</li>
 </ul>
@@ -819,7 +828,7 @@
 <li>Chinese translation, thanks to eZioPan.</li>
 <li>Re-implemented the <a href="lock-property.html"><em>Lock Property</em></a> tool from Duik 15 (in the constraints panel, <em>Standard</em> and <em>Expert</em> mode only).</li>
 </ul>
-<h4 id="improvements_7">Improvements</h4>
+<h4 id="improvements_8">Improvements</h4>
 <ul>
 <li>The <a href="effector.html"><em>Effector</em></a> layer is now created as a guide layer.</li>
 </ul>
@@ -845,7 +854,7 @@
 <li>Duik now imports correctly Wonderunit Storyboarder files made with the latest version.</li>
 </ul>
 <h2 id="1602">16.0.2</h2>
-<h4 id="improvements_8">Improvements</h4>
+<h4 id="improvements_9">Improvements</h4>
 <ul>
 <li>Duik now checks for updates and reads the news only once a day.</li>
 </ul>
@@ -860,7 +869,7 @@
 <li>Fixed the <em>Connector</em> used with a master property which has one dimension only.</li>
 </ul>
 <h2 id="1600">16.0.0</h2>
-<h4 id="improvements_9">Improvements</h4>
+<h4 id="improvements_10">Improvements</h4>
 <ul>
 <li>The <em>Select Keyframes</em> now works like the other tools, in a single click with an additionnal panel for the settings</li>
 <li><em>Parent Accross Comps</em> now locks and hides the locators</li>
@@ -890,7 +899,7 @@
 <li>Removed debug alert when using the <em>Wiggle</em> on single dimensionnal properties</li>
 </ul>
 <h2 id="1600-rc2">16.0.0-RC2</h2>
-<h4 id="improvements_10">Improvements</h4>
+<h4 id="improvements_11">Improvements</h4>
 <ul>
 <li>Huge performance improvement at startup, with help from <a href="http://www.larsjandel.de/">Lars Jandel</a> (again).</li>
 <li>The <em>Auto-rig</em> is smarter: it can rig a mix between predefined limbs and custom structures</li>
@@ -901,7 +910,7 @@
 <li>Fixed Bezier IK and Spine Auto-rig strange behavior</li>
 </ul>
 <h2 id="1600-rc1">16.0.0-RC1</h2>
-<h4 id="improvements_11">Improvements</h4>
+<h4 id="improvements_12">Improvements</h4>
 <ul>
 <li><em>Extract Controllers</em> now able to extract all controllers, including the ones which are parented to any other layer, thanks to the new <em>Parent Accross Comps</em> tool.</li>
 <li>You now have the option to use null layers for controllers instead of shape layers (<em>Standard</em> and <em>Expert</em> modes only)</li>
@@ -928,7 +937,7 @@
 <li><strong><em>Duplicate Structures</em></strong> easily with a single button.</li>
 <li><strong><em>Export and Import Animations</em></strong> re-implemented from Duik 15.</li>
 </ul>
-<h4 id="improvements_12">Improvements</h4>
+<h4 id="improvements_13">Improvements</h4>
 <ul>
 <li><em>Wonder Unit Storyboarder</em> now handles PSD boards.</li>
 <li><em>Looper</em> now has a parameter to set the number of keyframes to loop.</li>
@@ -963,7 +972,7 @@
 <li>Re-implemented the translation framework, and added French translation. It is now possible to add new translations to Duik. More details about this will be available on the <a href="https://github.com/Rainbox-dev/DuAEF_Duik/wiki/Duik">wiki</a> soon.</li>
 <li>Re-implemented <strong><em>Export to Audition</em></strong> from Duik 15. Export to Audition now transfers audio levels keyframes too!</li>
 </ul>
-<h4 id="improvements_13">Improvements</h4>
+<h4 id="improvements_14">Improvements</h4>
 <ul>
 <li><em>Wiggle</em>: you can now control the complexity of the wiggle (octaves and mutliplier) and manually set a <em>Random Seed</em> to keep the same wiggle accross layers.</li>
 <li>UX/UI tweaks and improvements, stability improved.</li>
@@ -986,7 +995,7 @@
 <li>The <strong><em>Effector</em></strong> now has two modes: <em>Circle</em> or <em>Infinite line</em>.</li>
 <li>You can now import your traditionnal animations from <strong><em><a href="http://krita.org">Krita</a></em></strong>, just export them as CSV!</li>
 </ul>
-<h4 id="improvements_14">Improvements</h4>
+<h4 id="improvements_15">Improvements</h4>
 <ul>
 <li>Huge performance improvement. A lot of work have been made to make Duik run faster (especially the Structure creation and Autorig).</li>
 <li><em>Structures</em>, <em>Bones</em>, and <em>Controllers</em> are now created with their quality set to &ldquo;Draft&rdquo; to improve performance in After Effects.</li>
@@ -1017,7 +1026,7 @@
 <li><em>Rookie Mode</em>: An easy-to-use interface for beginners. Note: Duik will automatically switch to this mode on first start, go to the settings to set it again to standard or expert mode.</li>
 <li>Animation: <em>IK/FK</em> Snap and switch.</li>
 </ul>
-<h4 id="improvements_15">Improvements</h4>
+<h4 id="improvements_16">Improvements</h4>
 <ul>
 <li><em>IK</em> (2 and 3 layers): rotation values are improved to prevent a &ldquo;jump&rdquo; in some cases. The rotation value on the upper part of the limb will now have a 360° jump in the opposite direction than its orientation when the IK is created.</li>
 <li><em>IK</em> (2 and 3 layers): the &ldquo;reverse&rdquo; option in the effec of the controller have been moved unearthed to be more accessible.</li>
@@ -1045,7 +1054,7 @@
 <li>The <em>Auto-rig</em> now rigs digitigrades (cats and dogs&hellip;).</li>
 <li>The <em>Auto-rig</em> now rigs ungulates (cattle, sheeps&hellip;).</li>
 </ul>
-<h4 id="improvements_16">Improvements</h4>
+<h4 id="improvements_17">Improvements</h4>
 <ul>
 <li><em>Controllers</em> scale locked on creation</li>
 <li><em>Controllers</em> new shapes available</li>
@@ -1068,7 +1077,7 @@
 <li>2D Camera: Ability to add a layer (just duplicate any existing layer)</li>
 <li>Implemented the Autorig (legs, arms, spine but not tails or custom structures/layers yet)</li>
 </ul>
-<h4 id="improvements_17">Improvements</h4>
+<h4 id="improvements_18">Improvements</h4>
 <ul>
 <li>User Interface has been polished | The <em>Expert mode</em> might still have some issues which will be fixed later</li>
 <li>Layers created by Duik are now tagged with a marker. The marker can be renamed by the user, but cannot be removed: some data is stored internally to help Duik identify the layers and compute stuff.</li>
@@ -1088,7 +1097,7 @@
 <li>Animation <em>Kleaner</em> to clean the keyframes. Includes the <em>Smart interpolations</em> and <em>Spatial Interpolations</em> tools from previous Alpha versions.</li>
 <li><em>Connector</em> able to connect to &ldquo;fake&rdquo; layer sequences using layer opacities (very powerful tool)</li>
 </ul>
-<h4 id="improvements_18">Improvements</h4>
+<h4 id="improvements_19">Improvements</h4>
 <ul>
 <li>UX: (clicking on the tab buttons sets the default panel - closes the current tool - for the tab)</li>
 <li><em>Connector</em> UX/UI small improvements</li>
@@ -1110,7 +1119,7 @@
 <li><em>Keyframe selection</em> tool (in the animation tab) to easily batch select keyframes by type or by layers.</li>
 <li>Re-implemented tools from Duik 15: <em>Rename</em>, <em>Search and replace</em>, <em>Measure</em>.</li>
 </ul>
-<h4 id="improvements_19">Improvements</h4>
+<h4 id="improvements_20">Improvements</h4>
 <ul>
 <li>Simplification of the usage of the <em>slider</em>, <em>2D slider</em> and <em>angle</em> controllers: the effect on the layer has been simplified and some explanations added; a keyframe is automatically added on the right property.</li>
 <li>Several UI adjustments</li>
