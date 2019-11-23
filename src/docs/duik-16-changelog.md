@@ -14,6 +14,8 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 - Fixed the undo history when using the [*Kleaner / Spring*](kleaner.md).
 - Greatly improved the *Pick Master Property* button performance in the [*Connector*](connector.md).
 - Greatly improved the [*Get Property Info*](rigging-tools.md) tool performance.
+- Fixed the head controller created with the [*auto-rig*](autorig.md) not linked to the head of the correct composition if the composition is duplicated.
+- Fixed the options for the *extract controllers* tool not restored correctly (use master properties or expressions).
 
 ## 16.2.1
 
