@@ -8,6 +8,7 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 
 - The UI for the [*Connector*](connector.md) has been simplified in rookie and standard modes.
 - The [*Kleaner*](kleaner.md) generates a better overlap and soft-body simulation. *Flexibility* setting improved.
+- The UI for the [*settings*](settings.md) has been improved a bit.
 
 #### Fixes
 
@@ -18,6 +19,7 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 - Improved the [*Kleaner*](kleaner.md) when the "auto-orient to path" option is turned on for the layer.
 - Fixed [Controller extraction](controller-tools.md) issues, especially retro-compatibility with older versions of Duik.
 - Fixed the [*Connector*](connector.md) auto-dectection of min and max values with an IK controller.
+- Fixed the *Error at line 2514* (incorrect translation arguments).
 
 ## 16.2.2
 
