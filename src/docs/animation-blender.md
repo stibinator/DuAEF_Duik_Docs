@@ -4,7 +4,7 @@ The ***Animation Blender*** is a tool to animate using markers to trigger animat
 
 
 !!! note
-    To use it, the animated properties or composition which have to be triggerd by markers have to be set up beforehand.
+    To use it, the animated properties or composition which have to be triggered by markers have to be set up beforehand.
     [The tools to prepare the Animation Blender](animation-blender-setup.md) are located in the Rigging panel, in the Constraints tab.
 
 Once it is set up, you just have to add markers named after the animation you want to trigger on the blender controller layer.  
