@@ -2,6 +2,17 @@
 
 This is the list of what has changed since the first Alpha version of Duik Bassel (16)
 
+## 16.2.4
+
+#### Improvements
+
+- The [*Kleaner*](kleaner.md) now generates very nice animation when the *Bounce* option is checked in the *Follow through* section. Bounces are more realistic, but it's not a real simulation: they are synchronized to the actual frames of the composition so that you always see the contact, and bounces which would be shorter than two frames are "snaped" to the frames anyway. This is animation!
+
+#### Fixes
+
+- [*Error at line 2514*](https://github.com/Rainbox-dev/DuAEF_Duik/issues/581) and similar errors with the "DuTranslator tr()" function should not happen anymore (unless the dev&debug mode is activated).
+- [*Structures*](structures.md) are now correctly duplicated using the [*Duplicate*](structure-tools.md) tool.
+
 ## 16.2.3
 
 #### Improvements
