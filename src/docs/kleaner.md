@@ -56,6 +56,9 @@ For both these values, you can add some randomness: this means each property con
 
 Use the bounce checkbox to make the object bounce back at the value where it should stop, like a ball bouncing on the floor.
 
+![](img/examples/bounce.png)  
+The bounce algorithm will make sure each bounce won't happen in-between frames to make sure the contacts between objects are visible.
+
 #### Spatial options
 
 For multi-dimensionnal properties, you can adjust the spatial options. By default, the kleaner will not adjust the interpolation of these, letting you work the trajectories in After Effects.  
