@@ -35,10 +35,10 @@ You can choose to extract controllers using expressions or *Master Properties*.
 
 - When using expressions, the project can still be saved to a previous version of After Effects, and the rig will be more robust, more stable.
 
-- When using *Master Properties*, you will be able to have different instances of the rigged composition, in example to have different animations **of the same rig**. But *Master Properties* are not fully scriptable in current versions of After Effects, and the rig can break if the composition is not correctly duplicated.
+- When using *Master Properties*, you will be able to have different instances of the rigged composition, in example to have different animations **of the same rig**.
 
 !!! hint
-    *Master Properties* can be very powerful. If you want to use them safely in this case, follow these steps:
+    *Master Properties* can be very powerful. If you want to use them safely, follow these steps:
 
     1. Rig the character as you'd do in any case.
     2. Put the rigged composition into another composition, let's call this one the "Animation Comp". The rigged composition is now a precomposition inside "Animation Comp".

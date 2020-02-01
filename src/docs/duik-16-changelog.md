@@ -2,6 +2,19 @@
 
 This is the list of what has changed since the first Alpha version of Duik Bassel (16)
 
+## 16.2.5
+
+#### Improvements
+
+- It is now safe to [extract controllers](controller-tools.md) from a duplicated rigged character, even if its controllers have already been extracted in the same composition.
+- Holding [ Ctrl ] when creating [Controllers](controllers.md), the new controllers is now *inserted* in the hierarchy (i.e. the layers are parented to the controllers, and the controllers are parented to the previous parents of the layers).
+- When [extracting locators and parenting accross compositions](parent-accross-compositions.md) it is now possible to use master properties (if the parent is in a precomposition, not in a "parent" composition). Duik will select master properties by default if the version of After Effects is more recent than 17.0.
+
+#### Fixes
+
+- When extracting controllers using master properties, controllers with a parent which is something else than another controller are now correctly linked.
+- Bones are now correctly aligned to shapes inside shape layers when the containing group(s) transformation is not 0.
+
 ## 16.2.4
 
 #### Improvements
