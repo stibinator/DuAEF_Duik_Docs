@@ -506,36 +506,37 @@
 <p>Almost all Duik features are now very easy to include and use in your own scripts, thanks to the Duik Application Programming Interface (API).</p>
 <p>The idea is just to include the API at the beginning of your script: <code>#include 'Duik16_api.jsxinc</code> to get an easy access to all Duik features, as very simple functions.  </p>
 <p>Here&rsquo;s a very simple example showing how to create a Structure for a hominoid, rigging it, and applying the walk cycle, in the current composition:</p>
-<pre class="codehilite"><code>//encapsulate everything to avoid global variables !important!
-(function(thisObj) {
-    //include the API
-    #include 'Duik16_api.jsxinc'
-    //Now the Duik API is available in the Duik object, and DuAEF is also available.
+<div class="codehilite"><pre><span></span><span class="o">//</span><span class="nv">encapsulate</span> <span class="nv">everything</span> <span class="nv">to</span> <span class="nv">avoid</span> <span class="nv">global</span> <span class="nv">variables</span> <span class="o">!</span><span class="nv">important</span><span class="o">!</span>
+<span class="ss">(</span><span class="nv">function</span><span class="ss">(</span><span class="nv">thisObj</span><span class="ss">)</span> {
+    <span class="o">//</span><span class="k">include</span> <span class="nv">the</span> <span class="nv">API</span>
+    #<span class="k">include</span> <span class="s1">&#39;</span><span class="s">Duik16_api.jsxinc</span><span class="s1">&#39;</span>
+    <span class="o">//</span><span class="nv">Now</span> <span class="nv">the</span> <span class="nv">Duik</span> <span class="nv">API</span> <span class="nv">is</span> <span class="nv">available</span> <span class="nv">in</span> <span class="nv">the</span> <span class="nv">Duik</span> <span class="nv">object</span>, <span class="nv">and</span> <span class="nv">DuAEF</span> <span class="nv">is</span> <span class="nv">also</span> <span class="nv">available</span>.
 
-    //We need to initialize DuAEF before using it. You must provide a script name and version.
-    DuAEF.init(&quot;Your Awesome Script Name&quot;, &quot;1.0.2&quot;);
+    <span class="o">//</span><span class="nv">We</span> <span class="nv">need</span> <span class="nv">to</span> <span class="nv">initialize</span> <span class="nv">DuAEF</span> <span class="nv">before</span> <span class="nv">using</span> <span class="nv">it</span>. <span class="nv">You</span> <span class="nv">must</span> <span class="nv">provide</span> <span class="nv">a</span> <span class="nv">script</span> <span class="nv">name</span> <span class="nv">and</span> <span class="nv">version</span>.
+    <span class="nv">DuAEF</span>.<span class="nv">init</span><span class="ss">(</span><span class="s2">&quot;</span><span class="s">Your Awesome Script Name</span><span class="s2">&quot;</span>, <span class="s2">&quot;</span><span class="s">1.0.2</span><span class="s2">&quot;</span><span class="ss">)</span><span class="c1">;</span>
 
-    //Now you can create your UI if any, and initialize what you need.
-    //DuAEF can be of great help, it has a lot of methods for creating the UI, handle After Effects, and more.
-    //Read the reference at duaef-reference.rainboxlab.org
+    <span class="o">//</span><span class="nv">Now</span> <span class="nv">you</span> <span class="nv">can</span> <span class="nv">create</span> <span class="nv">your</span> <span class="nv">UI</span> <span class="k">if</span> <span class="nv">any</span>, <span class="nv">and</span> <span class="nv">initialize</span> <span class="nv">what</span> <span class="nv">you</span> <span class="nv">need</span>.
+    <span class="o">//</span><span class="nv">DuAEF</span> <span class="nv">can</span> <span class="nv">be</span> <span class="nv">of</span> <span class="nv">great</span> <span class="nv">help</span>, <span class="nv">it</span> <span class="nv">has</span> <span class="nv">a</span> <span class="nv">lot</span> <span class="nv">of</span> <span class="nv">methods</span> <span class="k">for</span> <span class="nv">creating</span> <span class="nv">the</span> <span class="nv">UI</span>, <span class="nv">handle</span> <span class="nv">After</span> <span class="nv">Effects</span>, <span class="nv">and</span> <span class="nv">more</span>.
+    <span class="o">//</span><span class="nv">Read</span> <span class="nv">the</span> <span class="nv">reference</span> <span class="nv">at</span> <span class="nv">duaef</span><span class="o">-</span><span class="nv">reference</span>.<span class="nv">rainboxlab</span>.<span class="nv">org</span>
 
-    //When everything is ready and before using the Duik API,
-    //We need to tell DuAEF we're entering run state so it can finish to prepare its stuff.
-    DuAEF.enterRunTime();
+    <span class="o">//</span><span class="nv">When</span> <span class="nv">everything</span> <span class="nv">is</span> <span class="nv">ready</span> <span class="nv">and</span> <span class="nv">before</span> <span class="nv">using</span> <span class="nv">the</span> <span class="nv">Duik</span> <span class="nv">API</span>,
+    <span class="o">//</span><span class="nv">We</span> <span class="nv">need</span> <span class="nv">to</span> <span class="nv">tell</span> <span class="nv">DuAEF</span> <span class="nv">we</span><span class="s1">&#39;</span><span class="s">re entering run state so it can finish to prepare its stuff.</span>
+    <span class="nv">DuAEF</span>.<span class="nv">enterRunTime</span><span class="ss">()</span><span class="c1">;</span>
 
-    // Create a hominoid structure
-    // The whole API is contained in the Duik object
-    Duik.structures.mammal();
-    // Select all Structures
-    Duik.structures.select();
-    // Run the Autorig
-    Duik.constraints.autorig();
-    // Select all controllers
-    Duik.controllers.select();
-    // Make the character walk!
-    Duik.automation.walk();
-    //Have Fun!
-})(this);</code></pre>
+    <span class="o">//</span> <span class="nv">Create</span> <span class="nv">a</span> <span class="nv">hominoid</span> <span class="nv">structure</span>
+    <span class="o">//</span> <span class="nv">The</span> <span class="nv">whole</span> <span class="nv">API</span> <span class="nv">is</span> <span class="nv">contained</span> <span class="nv">in</span> <span class="nv">the</span> <span class="nv">Duik</span> <span class="nv">object</span>
+    <span class="nv">Duik</span>.<span class="nv">structures</span>.<span class="nv">mammal</span><span class="ss">()</span><span class="c1">;</span>
+    <span class="o">//</span> <span class="nv">Select</span> <span class="nv">all</span> <span class="nv">Structures</span>
+    <span class="nv">Duik</span>.<span class="nv">structures</span>.<span class="nv">select</span><span class="ss">()</span><span class="c1">;</span>
+    <span class="o">//</span> <span class="nv">Run</span> <span class="nv">the</span> <span class="nv">Autorig</span>
+    <span class="nv">Duik</span>.<span class="nv">constraints</span>.<span class="nv">autorig</span><span class="ss">()</span><span class="c1">;</span>
+    <span class="o">//</span> <span class="nv">Select</span> <span class="nv">all</span> <span class="nv">controllers</span>
+    <span class="nv">Duik</span>.<span class="nv">controllers</span>.<span class="nv">select</span><span class="ss">()</span><span class="c1">;</span>
+    <span class="o">//</span> <span class="nv">Make</span> <span class="nv">the</span> <span class="nv">character</span> <span class="nv">walk</span><span class="o">!</span>
+    <span class="nv">Duik</span>.<span class="nv">automation</span>.<span class="nv">walk</span><span class="ss">()</span><span class="c1">;</span>
+    <span class="o">//</span><span class="nv">Have</span> <span class="nv">Fun</span><span class="o">!</span>
+}<span class="ss">)(</span><span class="nv">this</span><span class="ss">)</span><span class="c1">;</span>
+</pre></div>
 
 
 <p>You can <a href="https://github.com/Rainbox-dev/DuAEF_Duik/tree/master/Release/Duik-API">download the latest version of the API on Github</a>.</p>
