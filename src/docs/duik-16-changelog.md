@@ -11,6 +11,7 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 - When [extracting locators and parenting accross compositions](parent-accross-compositions.md) it is now possible to use master properties (if the parent is in a precomposition, not in a "parent" composition). Duik will select master properties by default if the version of After Effects is more recent than 17.0.
 - Added new [Controller](controllers.md) shapes, especially for the face.
 - [Controller](controllers.md) icons can now be flipped (see the effect of the controller).
+- French and Spanish translations have been completed and improved.
 
 #### Fixes
 
