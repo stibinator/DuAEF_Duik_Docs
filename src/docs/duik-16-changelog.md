@@ -9,6 +9,8 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 - It is now safe to [extract controllers](controller-tools.md) from a duplicated rigged character, even if its controllers have already been extracted in the same composition.
 - Holding [ Ctrl ] when creating [Controllers](controllers.md), the new controllers is now *inserted* in the hierarchy (i.e. the layers are parented to the controllers, and the controllers are parented to the previous parents of the layers).
 - When [extracting locators and parenting accross compositions](parent-accross-compositions.md) it is now possible to use master properties (if the parent is in a precomposition, not in a "parent" composition). Duik will select master properties by default if the version of After Effects is more recent than 17.0.
+- Added new [Controller](controllers.md) shapes, especially for the face.
+- [Controller](controllers.md) icons can now be flipped (see the effect of the controller).
 
 #### Fixes
 
