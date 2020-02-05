@@ -2,6 +2,17 @@
 
 This is the list of what has changed since the first Alpha version of Duik Bassel (16)
 
+## 16.2.6
+
+#### Improvements
+
+- Tagging layers as [controllers](controller-tools.md) now automatically sets them to guide layers.
+
+#### Fixes
+
+- Fixed a bug with bones set on a Bézier path on a shape layer with the legacy extendscript expression engine.
+- Fixed a few minor bugs concerning layer parenting.
+
 ## 16.2.5
 
 #### Improvements
