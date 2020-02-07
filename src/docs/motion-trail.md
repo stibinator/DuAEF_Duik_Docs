@@ -18,6 +18,12 @@ A *Motion Trail* layer is added to the comp. It is a shape layer used to draw th
 
 !!! hint
     As the motion trail is contained in a shape layer, it is easy to change it's appearance and use it as you wish! You can add and modify everything in the content of the Motion Trail layer.
+    
+!!! note
+    To duplicate a motion trail, you can't just duplicate the effect; the content of the shape layer needs to be adjusted too.  
+    There are two ways to add multiple motion trails for the same layer:  
+    - Duplicate the motion trail layer instead of just the effect.
+    - Use the motion trail button in Duik to re-create a new motion trail for the same layer.
 
 ![](img/examples/motiontrails1.gif)
 
