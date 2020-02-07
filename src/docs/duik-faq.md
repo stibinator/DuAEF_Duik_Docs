@@ -121,6 +121,15 @@ In the effect of the walk cycle controller, you can change the sign of the walk 
 
 The trail with advanced parameters turned on uses a filled shape instead of a stroke, so it is not possible to have dashes. Turning of the advanced parameters will hide the *fill* will allow you to adjust the *stroke* and add dashes.
 
+### When duplicating the motion trail effect on a motion trail layer, the motion trail is not duplicated. How can I duplicate a motion trail?
+
+To duplicate a motion trail, you can't just duplicate the effect; the content of the shape layer needs to be adjusted too.
+
+There are two ways to add multiple motion trails for the same layer:
+
+- Duplicate the motion trail layer instead of just the effect.
+- Use the *motion trail button* in Duik to re-create a new motion trail for the same layer.
+
 ## Changes between Duik Bassel, Duik 15 and older versions
 
 ### Duik 15 came with an installer, Duik Bassel is just a zip, why?
