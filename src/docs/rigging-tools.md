@@ -42,6 +42,8 @@ Un-parents and re-parents the children of a layer to be able to adjust its trans
 
 Select some properties with expressions to remove the expression, but keeping their current *post-expression value* instead of the *pre-expression value* like After Effects does.
 
+Holding [Alt] when clicking on the button will keep the *pre-expression* value (just removing the expression without actually changing anything else).
+
 ## ![](img/duik-icons/copy_r.png) Copy / Paste expressions
 
 !!! hint

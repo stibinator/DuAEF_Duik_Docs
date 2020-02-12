@@ -2,6 +2,18 @@
 
 This is the list of what has changed since the first Alpha version of Duik Bassel (16)
 
+## 16.2.7
+
+#### Improvements
+
+- [Alt] + [Click] on the [remove expressions](rigging-tools.md) button now removes expressions keeping the pre-expression value (instead of post-expression value by default)
+
+#### Fixes
+
+- Fixed a bug where the [auto-rig](autorig.md) would freeze when rigging arms with hooves.
+- [Controller](controllers.md) as nulls are now created as 3D layers on Cameras and Lights too.
+- The [blink](blink.md) automation no longer generates an expression error when the frequency is set to 0.
+
 ## 16.2.6
 
 #### Improvements
