@@ -14,6 +14,8 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 - [Controller](controllers.md) as nulls are now created as 3D layers on Cameras and Lights too.
 - The [blink](blink.md) automation no longer generates an expression error when the frequency is set to 0.
 - [Controller extraction](controller-tools.md) now works correctly when controllers have [zeroes](zero.md) and using master properties instead of expressions. Some issues when [parenting accross compositions](parent-accross-compositions.md) using master properties are fixed as well.
+- [Rigging](autorig.md) and ungulate front leg without hoof now works correctly.
+- [Rigging](autorig.md) a spine when set to use null layers for controllers no longer fails.
 
 ## 16.2.6
 
