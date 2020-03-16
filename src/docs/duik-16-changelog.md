@@ -2,6 +2,12 @@
 
 This is the list of what has changed since the first Alpha version of Duik Bassel (16)
 
+## 16.2.8
+
+#### Fixes
+
+- Fixed an issue where controllers would not be linked properly after [extraction]((controller-tools.md) (happened when some controllers were duplicated layers).
+
 ## 16.2.7
 
 #### Improvements
