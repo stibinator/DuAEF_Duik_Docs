@@ -4,6 +4,11 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 
 ## 16.2.8
 
+#### Improvements
+
+- When using the [Kleaner](kleaner.md) through the *Spring* button, the *Spatial Options* are set to *Basic* instead of *Simulated* by default, in order to improve performance.
+- The [Auto-Parent](auto-parent.md) tool now parents only orphans whith [Alt + Click].
+
 #### Fixes
 
 - Fixed an issue where controllers would not be linked properly after [extraction]((controller-tools.md) (happened when some controllers were duplicated layers).

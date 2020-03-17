@@ -25,7 +25,7 @@ extra_javascript:
 site_dir: ../docs/
 dev_addr: '127.0.0.1:8001'
 extra:
-    version: 16.2.4
+    version: 16.2.8
 nav:
     - Home: index.md
     - Tutorials: tutorials.md
@@ -73,23 +73,24 @@ nav:
             - Controller Tools: controller-tools.md
     - Automations:
         - Introduction: automations.md
-        - Kleaner: kleaner.md
-        - Motion Trail: motion-trail.md
-        - X-Sheet: x-sheet.md
-        - Time Remap: time-remap.md
-        - Effector Map: effector-map.md
-        - Effector: effector.md
-        - Wiggle: wiggle.md
-        - Swing: swing.md
         - Blink: blink.md
-        - Wheel: wheel.md
-        - Move Away: move-away.md
-        - Random: random.md
-        - Paint Rig: paint-rig.md
-        - Walk Cycle: walk-cycle.md
-        - Looper: looper.md
+        - Effector: effector.md
+        - Effector Map: effector-map.md
+        - Kleaner: kleaner.md
         - List: duik-list.md
+        - Looper: looper.md
+        - Motion Trail: motion-trail.md
+        - Move Away: move-away.md
+        - Paint Rig: paint-rig.md
+        - Random: random.md
         - Separate Dimensions: separate-dimensions.md
+        - Spring: spring.md
+        - Swing: swing.md
+        - Time Remap: time-remap.md
+        - Walk Cycle: walk-cycle.md
+        - Wheel: wheel.md
+        - Wiggle: wiggle.md
+        - X-Sheet: x-sheet.md
     - Animation:
         - Introduction: animation.md
         - Kleaner: kleaner.md

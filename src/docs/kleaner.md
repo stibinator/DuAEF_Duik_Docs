@@ -1,6 +1,6 @@
-## ![Kleaner Icon](img/duik-icons/kleaner-icon-r.png) Kleaner
+## ![Kleaner Icon](img/duik-icons/kleaner-icon-r.png) Kleaner and Spring
 
-The "Kleaner" is a tool to automatically clean the selected animations.  
+The *Kleaner* is a tool to automatically clean the selected animations.  
 It removes unnecessary keyframes (keyframes which do not result in any animation), and generates and controls **anticipations**, **interpolations** and **follow-through** of the animations.  
 With the kleaner, you don't have to work on keyframes interpolations anymore, and you don't even have to animate anticipations and follow-through by hand. You just have to add some keyframes, keep them linear, and tweak the settings of the kleaner, which will automatically generate all of these for you.
 
@@ -11,9 +11,12 @@ After having removed unnecessarry keyframes, it works with an expression which i
 ### Use
 
 1. Select the keyframes of the animation you want to clean.
-2. Click on the "Kleaner" button.
+2. Click on the ![](img/duik-icons/automation/w18_broom_r.png) *Kleaner* or the ![](img/duik-icons/automation/spring-icon20-r.png) *Spring* button.
 
 One effect is created for all selected properties of the same layer. That means all properties will be controlled by the same values. If you need different values for several properties, create a new kleaner for each one of them.
+
+!!! note
+    Using the *Spring* button instead of the *Kleaner* button does not change the effect which is applied, it is exactly the same. The only difference is in the default values of the effect: with the spring, the anticipation and smart interpolation are disabled, and the spatial options are set to *Basic* instead of *Simulated*.
 
 ### Effect
 
