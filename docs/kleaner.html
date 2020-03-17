@@ -258,10 +258,22 @@
                 </li>
                 <li class="">
                     
+    <a class="" href="blink.html">Blink</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="effector.html">Effector</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="effector-map.html">Effector Map</a>
+                </li>
+                <li class="">
+                    
     <a class="" href="kleaner.html">Kleaner</a>
     <ul class="subnav">
             
-    <li class="toctree-l3"><a href="#kleaner">Kleaner</a></li>
+    <li class="toctree-l3"><a href="#kleaner-and-spring">Kleaner and Spring</a></li>
     
         <ul>
         
@@ -278,55 +290,7 @@
                 </li>
                 <li class="">
                     
-    <a class="" href="motion-trail.html">Motion Trail</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="x-sheet.html">X-Sheet</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="time-remap.html">Time Remap</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="effector-map.html">Effector Map</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="effector.html">Effector</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="wiggle.html">Wiggle</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="swing.html">Swing</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="blink.html">Blink</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="wheel.html">Wheel</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="move-away.html">Move Away</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="random.html">Random</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="paint-rig.html">Paint Rig</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="walk-cycle.html">Walk Cycle</a>
+    <a class="" href="duik-list.html">List</a>
                 </li>
                 <li class="">
                     
@@ -334,11 +298,51 @@
                 </li>
                 <li class="">
                     
-    <a class="" href="duik-list.html">List</a>
+    <a class="" href="motion-trail.html">Motion Trail</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="move-away.html">Move Away</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="paint-rig.html">Paint Rig</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="random.html">Random</a>
                 </li>
                 <li class="">
                     
     <a class="" href="separate-dimensions.html">Separate Dimensions</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="kleaner.html">Spring</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="swing.html">Swing</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="time-remap.html">Time Remap</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="walk-cycle.html">Walk Cycle</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="wheel.html">Wheel</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="wiggle.html">Wiggle</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="x-sheet.html">X-Sheet</a>
                 </li>
     </ul>
 	    </li>
@@ -356,7 +360,7 @@
     <a class="current" href="kleaner.html">Kleaner</a>
     <ul class="subnav">
             
-    <li class="toctree-l3"><a href="#kleaner">Kleaner</a></li>
+    <li class="toctree-l3"><a href="#kleaner-and-spring">Kleaner and Spring</a></li>
     
         <ul>
         
@@ -528,8 +532,8 @@
           <div role="main">
             <div class="section">
               
-                <h2 id="kleaner"><img alt="Kleaner Icon" src="img/duik-icons/kleaner-icon-r.png" /> Kleaner</h2>
-<p>The &ldquo;Kleaner&rdquo; is a tool to automatically clean the selected animations.<br />
+                <h2 id="kleaner-and-spring"><img alt="Kleaner Icon" src="img/duik-icons/kleaner-icon-r.png" /> Kleaner and Spring</h2>
+<p>The <em>Kleaner</em> is a tool to automatically clean the selected animations.<br />
 It removes unnecessary keyframes (keyframes which do not result in any animation), and generates and controls <strong>anticipations</strong>, <strong>interpolations</strong> and <strong>follow-through</strong> of the animations.<br />
 With the kleaner, you don&rsquo;t have to work on keyframes interpolations anymore, and you don&rsquo;t even have to animate anticipations and follow-through by hand. You just have to add some keyframes, keep them linear, and tweak the settings of the kleaner, which will automatically generate all of these for you.</p>
 <p>After having removed unnecessarry keyframes, it works with an expression which is controlled by an effect.</p>
@@ -537,9 +541,13 @@ With the kleaner, you don&rsquo;t have to work on keyframes interpolations anymo
 <h3 id="use">Use</h3>
 <ol>
 <li>Select the keyframes of the animation you want to clean.</li>
-<li>Click on the &ldquo;Kleaner&rdquo; button.</li>
+<li>Click on the <img alt="" src="img/duik-icons/automation/w18_broom_r.png" /> <em>Kleaner</em> or the <img alt="" src="img/duik-icons/automation/spring-icon20-r.png" /> <em>Spring</em> button.</li>
 </ol>
 <p>One effect is created for all selected properties of the same layer. That means all properties will be controlled by the same values. If you need different values for several properties, create a new kleaner for each one of them.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Using the <em>Spring</em> button instead of the <em>Kleaner</em> button does not change the effect which is applied, it is exactly the same. The only difference is in the default values of the effect: with the spring, the anticipation and smart interpolation are disabled, and the spatial options are set to <em>Basic</em> instead of <em>Simulated</em>.</p>
+</div>
 <h3 id="effect">Effect</h3>
 <p><img alt="" src="img/duik-screenshots/S-Animation/kleaner_effect.png" /></p>
 <p>The effect is used to control each part of the animation.</p>
