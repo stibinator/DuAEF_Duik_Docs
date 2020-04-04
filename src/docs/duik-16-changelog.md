@@ -2,6 +2,14 @@
 
 This is the list of what has changed since the first Alpha version of Duik Bassel (16)
 
+## 16.2.9
+
+#### Fixes
+
+- Fixed the [auto-rig](autorig.md) freezing when rigging (at once) tail structures and spine structures without hips.
+- Properly centered the [auto-rig](autorig.md) button on the [Structures](structures.md) panel in *Expert* and *God* modes.
+- [Parent accross comps](parent-accross-compositions.md) now works when the child layer is locked.
+
 ## 16.2.8
 
 #### Improvements
