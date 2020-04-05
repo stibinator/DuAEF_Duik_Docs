@@ -9,6 +9,7 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 - Fixed the [auto-rig](autorig.md) freezing when rigging (at once) tail structures and spine structures without hips.
 - Properly centered the [auto-rig](autorig.md) button on the [Structures](structures.md) panel in *Expert* and *God* modes.
 - [Parent accross comps](parent-accross-compositions.md) now works when the child layer is locked.
+- The [Time Remap](time-remap.md) tool now takes the layer in point into account.
 
 ## 16.2.8
 
