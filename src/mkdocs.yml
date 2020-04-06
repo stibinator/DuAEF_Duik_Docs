@@ -25,7 +25,7 @@ extra_javascript:
 site_dir: ../docs/
 dev_addr: '127.0.0.1:8001'
 extra:
-    version: 16.2.8
+    version: 16.2.9
 nav:
     - Home: index.md
     - Tutorials: tutorials.md

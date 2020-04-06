@@ -1,6 +1,8 @@
+# Install Duik
+
 [TOC]
 
-# Supported versions of After Effects 
+## Supported versions of After Effects 
 
 Duik has been tested and is working with all versions of After Effects since *CC2018*. That means it works correctly on:
 ***CC2018 (15), CC2019 (16)*** and upcoming versions.
@@ -13,12 +15,12 @@ It is also known to be working decently on *CS6 (11), CC (12), CC2014 (13), CC20
 !!! warning
     All versions before CS6 can not run Duik, sorry! It’s time to update…
 
-# Installation
+## Installation
 
-## **1 - Download** Duik from the [official website](https://rainboxprod.coop/en/tools/duik/).
+### **1 - Download** Duik from the [official website](https://rainboxprod.coop/en/tools/duik/).
 
 
-## **2 - Unzip** the files you have downloaded.
+### **2 - Unzip** the files you have downloaded.
 
 You'll find several folders and files.
 
@@ -29,9 +31,9 @@ You'll find several folders and files.
 - The *Optional Panels* folder contains [optional individual panels](first-look-at-duik.md#individual-panels) to use with Duik. You can choose to install any of them or not at all.
 
 
-## **3 -** There are several ways to install Duik very easily:  
+### **3 -** There are several ways to install Duik very easily:  
 
-### a. Copy the files
+#### a. Copy the files
 
 Copy all the files from the *ScriptUI Panels* folder to:
 
@@ -45,27 +47,35 @@ You may need administrator privileges to install Duik this way. If you don't hav
 !!! Warning
     With the other installation methods, some features using third party tools, like transcoding sound when exporting to Adobe Audition, may not work correctly.
 
-### b. Shortcut for ***After Effects CC2018*** and more recent
+#### b. Shortcut for ***After Effects CC2018*** and more recent
 
 - Open After Effects  
 - *Windows*: Holding the `Alt` and `Shift` keys, drag and drop the file `Duik Bassel.jsx` onto the Project panel.  
 - *Mac OS*: Holding the `Options` and `Shift` keys, drag and drop the file `Duik Bassel.jsx` onto the Project panel.  
 
-### c. Using the menu for ***After Effects CC2019*** and more recent
+#### c. Using the menu for ***After Effects CC2019*** and more recent
 
 - Open After Effects  
 - Use the `File/Scritps/Install ScriptUI Panel...` menu to select and install `Duik Bassel.jsx`.  
 
-## **4 - Restart** After Effects and Duik will be available in the "Window" menu.
+### **4 - Restart** After Effects and Duik will be available in the "Window" menu.
 
-# Without installation 
+## Without installation 
 
 You'll always be able to run Duik without even installing it. This is a good way to use it if you do not have administrator privileges on an older version of *After Effects*.
 
 - Unzip all the files in any folder.  
 - Launch After Effects, and start Duik via the `File/Scripts/Run script file...` menu.
 
-# Fix / Uninstall Duik
+## First Run
+
+On first run, Duik may first ask for file and network access, this is mandatory to make it work (Duik needs to write its icon files, effects, etc.).
+
+![](img/duik-screenshots/install-language-selection.png)
+
+Then, you will have to choose the language you want to use. Default is [Esperanto](https://en.wikipedia.org/wiki/Esperanto). It can be changed later in the [settings](settings.md) panel.
+
+## Fix / Uninstall Duik
 
 If for any reason Duik won't start anymore (this happens sometimes when the settings file gets corrupted for example, especially on *Mac OS*...), you can try to fix it with this simple procedure:
 

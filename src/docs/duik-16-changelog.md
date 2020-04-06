@@ -4,6 +4,10 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 
 ## 16.2.9
 
+#### New
+
+- Duik is now available in [Esperanto](https://en.wikipedia.org/wiki/Esperanto) too.
+
 #### Fixes
 
 - Fixed the [auto-rig](autorig.md) freezing when rigging (at once) tail structures and spine structures without hips.
