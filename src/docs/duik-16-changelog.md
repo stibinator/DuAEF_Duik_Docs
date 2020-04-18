@@ -2,6 +2,13 @@
 
 This is the list of what has changed since the first Alpha version of Duik Bassel (16)
 
+## 16.2.10
+
+#### Fixes
+
+- The [Wheel](wheel.md) automation now works correctly with negative scales
+- Improved Esperanto, French and Spanish translations.
+
 ## 16.2.9
 
 #### New
