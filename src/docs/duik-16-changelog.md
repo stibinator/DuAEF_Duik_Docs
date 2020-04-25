@@ -7,6 +7,7 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 #### Fixes
 
 - Fixed [Controller extraction](controller-tools.md) and [Parent accross comps](parent-accross-compositions.md) with (negative) scale values.
+- Fixed multiple [Controller extraction](controller-tools.md) (controllers extracted twice or more) in specific cases of inter-dependencies.
 
 ## 16.2.10
 
