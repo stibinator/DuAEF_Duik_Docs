@@ -8,6 +8,7 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 
 - Fixed [Controller extraction](controller-tools.md) and [Parent accross comps](parent-accross-compositions.md) with (negative) scale values.
 - Fixed multiple [Controller extraction](controller-tools.md) (controllers extracted twice or more) in specific cases of inter-dependencies.
+- Fixed [2D Camera](camera-2d.md) position not using the exact keyframe values.
 
 ## 16.2.10
 
