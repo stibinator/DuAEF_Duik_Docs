@@ -1,4 +1,4 @@
-# Changelog
+# Duik Bassel Changelog
 
 This is the list of what has changed since the first Alpha version of Duik Bassel (16)
 
