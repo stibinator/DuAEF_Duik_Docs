@@ -95,6 +95,8 @@ When the *Auto-rig* creates an *IK / FK*, it can be adjusted in the effects of t
 
 - In the _display_ section, you can customize the way the *IK* is shown by the controller, and how it displays some information. Deactivating all these options will improve the performance.
 
+![](img/examples/IK.gif)
+
 #### Bezier IK (multi-layer spine, tails...)
 
 ![](img/examples/bezier-ik-controllers.PNG)
