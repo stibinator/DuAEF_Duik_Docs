@@ -4,6 +4,11 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 
 ## 16.2.11
 
+
+#### New
+
+- [Parent accross comps](parent-accross-compositions.md) now handles scale too.
+
 #### Fixes
 
 - Fixed [Controller extraction](controller-tools.md) and [Parent accross comps](parent-accross-compositions.md) with (negative) scale values.
