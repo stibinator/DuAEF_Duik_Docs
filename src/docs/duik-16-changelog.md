@@ -15,6 +15,7 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 - Fixed multiple [Controller extraction](controller-tools.md) (controllers extracted twice or more) in specific cases of inter-dependencies.
 - Fixed [2D Camera](camera-2d.md) position not using the exact keyframe values.
 - Fixed adding keys using the [animation](animation.md) panel: now respects the all layer/selected layers option, and works with layers having markers.
+- You can now use values lower than 1 for the width of [motion trails](motion-trail.md)
 
 ## 16.2.10
 
