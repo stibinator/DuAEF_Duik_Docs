@@ -2,8 +2,16 @@
 
 This is the list of what has changed since the first Alpha version of Duik Bassel (16)
 
-## 16.2.11
+## 16.2.12
 
+#### Fixes
+
+- Fixed [Parent constraint](parent-constraint.md) offset on some frames.
+- Fixed [Kleaner](kleaner.md) expression error introduced in 16.2.11
+- Fixed [Motion Trail](motion-trail.md) taper expression error introduced in 16.2.11
+- Fixed a few other minor issues.
+
+## 16.2.11
 
 #### New
 
