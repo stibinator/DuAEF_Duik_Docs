@@ -2,6 +2,12 @@
 
 This is the list of what has changed since the first Alpha version of Duik Bassel (16)
 
+## 16.2.13
+
+#### Fixes
+
+- Fixed [Controller extraction](controller-tools.md) used with parent accross comps failing in specific cases.
+
 ## 16.2.12
 
 #### Fixes
