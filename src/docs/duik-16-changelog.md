@@ -7,6 +7,7 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 #### Fixes
 
 - Fixed [Controller extraction](controller-tools.md) used with parent accross comps failing in specific cases.
+- The [Parent constraint](parent-constraint.md) now correctly adds the expression in the Z Position of 3D Layers with dimensions separated.
 
 ## 16.2.12
 
