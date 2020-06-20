@@ -2,6 +2,12 @@
 
 This is the list of what has changed since the first Alpha version of Duik Bassel (16)
 
+## 16.2.14
+
+#### Fixes
+
+- Fixed the [Animation Blender](animation-blender.md) tool for animators not working with compositions imported from another project. Be careful with composition names in this case!
+
 ## 16.2.13
 
 #### Fixes
