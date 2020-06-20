@@ -7,6 +7,7 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 #### Fixes
 
 - Fixed the [Animation Blender](animation-blender.md) tool for animators not working with compositions imported from another project. Be careful with composition names in this case!
+- Fixed the [Spring/Kleaner](kleaner.md) not working on some specific properties, like the strength of the *TextEvo* effect.
 
 ## 16.2.13
 
