@@ -8,6 +8,8 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 
 - Fixed the [Animation Blender](animation-blender.md) tool for animators not working with compositions imported from another project. Be careful with composition names in this case!
 - Fixed the [Spring/Kleaner](kleaner.md) not working on some specific properties, like the strength of the *TextEvo* effect.
+- The *Get* button in the [controller edit panel](controller-tools.md) does not change the size of the selected controllers anymore.
+- Fixed the [Auto-rig](autorig.md) freezing in some specific cases (leg with a hoof but no foot).
 
 ## 16.2.13
 
