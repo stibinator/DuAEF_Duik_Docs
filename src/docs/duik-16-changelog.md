@@ -11,7 +11,7 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 - The *Get* button in the [controller edit panel](controller-tools.md) does not change the size of the selected controllers anymore.
 - Fixed the [Auto-rig](autorig.md) freezing in some specific cases (leg with a hoof but no foot).
 - The [Auto-rig](autorig.md) now moves the controllers to the top of the composition even if they're nulls.
-
+- Duik no longer crashes when trying to change the appearance of baked [Structures](structure-tools.md).
 
 ## 16.2.13
 
