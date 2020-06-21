@@ -10,6 +10,8 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 - Fixed the [Spring/Kleaner](kleaner.md) not working on some specific properties, like the strength of the *TextEvo* effect.
 - The *Get* button in the [controller edit panel](controller-tools.md) does not change the size of the selected controllers anymore.
 - Fixed the [Auto-rig](autorig.md) freezing in some specific cases (leg with a hoof but no foot).
+- The [Auto-rig](autorig.md) now moves the controllers to the top of the composition even if they're nulls.
+
 
 ## 16.2.13
 
