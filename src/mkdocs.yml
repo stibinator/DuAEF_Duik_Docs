@@ -1,4 +1,6 @@
-site_name: Duik Documentation
+site_name: Duik Bassel.2<br />Documentation<br />v16.2.14
+extra:
+    version: 16.2.14
 site_url: http://rainboxlab.org
 repo_url: http://duik-docs.rainboxlab.org
 edit_uri: https://github.com/Rainbox-dev/DuAEF_Duik_Docs/tree/master/src/docs/
@@ -24,8 +26,6 @@ extra_javascript:
     - video.js
 site_dir: ../docs/
 dev_addr: '127.0.0.1:8001'
-extra:
-    version: 16.2.13
 nav:
     - Home: index.md
     - Tutorials: tutorials.md
