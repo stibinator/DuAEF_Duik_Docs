@@ -2,6 +2,16 @@
 
 This is the list of what has changed since the first Alpha version of Duik Bassel (16)
 
+## 16.2.15
+
+#### Fixes
+
+- Fixed the [IK/FK Switch](ik-fk-switch.md) with extracted controllers.
+
+#### Improvements
+
+- The way the expressions are built internally has been changed to ease future improvements in Duik. This should not change anything for the user, but as it's an important change, it's worth knowing and may temporarily introduce some bugs.
+
 ## 16.2.14
 
 #### Fixes
