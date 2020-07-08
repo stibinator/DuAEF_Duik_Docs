@@ -7,6 +7,7 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 #### Fixes
 
 - Fixed the [IK/FK Switch](ik-fk-switch.md) with extracted controllers.
+- The [bones](bones.md) are now correctly created with the advanced engine and 3D layers.
 
 #### Improvements
 
