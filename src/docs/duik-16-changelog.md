@@ -12,6 +12,7 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 #### Improvements
 
 - The scale of the [Effector](effector.md) layer is now taken into account to compute the effect.
+- The [path constraint](path-constraint.md) handles a bit better the parenting of the layers.
 - The way the expressions are built internally has been changed to ease future improvements in Duik. This should not change anything for the user, but as it's an important change, it's worth knowing and may temporarily introduce some bugs.
 
 ## 16.2.14
