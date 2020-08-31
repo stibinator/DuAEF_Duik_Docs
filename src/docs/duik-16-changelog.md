@@ -2,6 +2,12 @@
 
 This is the list of what has changed since the first Alpha version of Duik Bassel (16)
 
+## 16.2.17
+
+#### Fixes
+
+- The units in the UI of the [Connector](connector.md) are now correctly displayed.
+
 ## 16.2.16
 
 #### Fixes
