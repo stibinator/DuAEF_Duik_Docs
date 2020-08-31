@@ -8,6 +8,8 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 
 - The units in the UI of the [Connector](connector.md) are now correctly displayed.
 - The values of the [2D Camera](camera-2d.md) effect are no longer multiplied by the expressions.
+- Fixed broken [Connectors](connector.md) when applied to a controller which is then extracted.
+- When creating leg [Structures](structures.md), "heel" is now correctly translated into available languages.
 
 ## 16.2.16
 
