@@ -7,6 +7,7 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 #### Fixes
 
 - The units in the UI of the [Connector](connector.md) are now correctly displayed.
+- The values of the [2D Camera](camera-2d.md) effect are no longer multiplied by the expressions.
 
 ## 16.2.16
 
