@@ -37,6 +37,9 @@ Un-parents and re-parents the children of a layer to be able to adjust its trans
 
 ## Expression links tools
 
+!!! hint
+    Available in _Standard_, _Expert_ and _god_ modes only. 
+
 A few tools to help manage links inside expressions. For example, you can automatically switch between using `thisComp` or `comp("Name")`.
 
 ## ![](img/duik-icons/removeexpression_r.png) Remove expressions
