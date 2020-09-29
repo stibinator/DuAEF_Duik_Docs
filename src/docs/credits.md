@@ -50,6 +50,7 @@ René Andritsch – German
 Ana Arce – Spanish  
 Nicolas Dufresne – Français  
 eZioPan – Simplified Chinese  
+Илья Гусинский – Russian  
 
 ### Ideas and Feedback
 
