@@ -35,6 +35,10 @@ In the additional panel you can choose to align the layers in *position*, *rotat
 
 Un-parents and re-parents the children of a layer to be able to adjust its transformations without affecting them.
 
+## Expression links tools
+
+A few tools to help manage links inside expressions. For example, you can automatically switch between using `thisComp` or `comp("Name")`.
+
 ## ![](img/duik-icons/removeexpression_r.png) Remove expressions
 
 !!! hint
