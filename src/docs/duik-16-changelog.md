@@ -2,6 +2,21 @@
 
 This is the list of what has changed since the first Alpha version of Duik Bassel (16)
 
+## 16.2.18
+
+#### New
+
+- New translation: русский
+- A [tool](rigging-tools.md) to automatically switch between `thisComp` and `comp("Name")` in expressions.
+
+#### Improvements
+
+- Updated some translations: Español, Français, 中文
+
+#### Fixes
+
+- The popups don't show up outside of the screen anymore when invoked from the right or bottom edge.
+
 ## 16.2.17
 
 #### Fixes
