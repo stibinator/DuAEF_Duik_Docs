@@ -34,4 +34,7 @@ You can add a locator in a composition at any time, and the *Extract locators* b
 When extracting locators, you have the option to use either expressions or *Master Properties*. This option will also be used when parenting a layer accross compositions, if the child layer is in a precomposition (and not a "parent" composition).
 
 !!! Note
-    Duik will set the extraction to use Master Properties by default is the version of After Effects is higher than 17.0.
+    Duik will set the extraction to use Master Properties by default if the version of After Effects is higher than 17.0.
+
+!!! Warning
+    Do not modify the expressions / add keyframes on the transform properties of the locators, as this may break some other Duik tools. If you need to *rig* locators, just insert another null layer in the hirerachy: as a child of the locator, and parent the initial children of the locator to this new null layer.
