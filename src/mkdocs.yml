@@ -1,12 +1,12 @@
 site_name: Duik Bassel.2<br />Documentation<br />v16.2.18
 extra:
-    version: 16.2.18
+    version: 16.2.19
 site_url: http://rainboxlab.org
 repo_url: http://duik-docs.rainboxlab.org
 edit_uri: https://github.com/Rainbox-dev/DuAEF_Duik_Docs/tree/master/src/docs/
 site_description: The Duik comprehensive documentation
 site_author: Nicolas Dufresne and contributors
-copyright: 'Copyright © 2018-2020 Rainbox Productions and Nicolas Dufresne'
+copyright: 'Copyright © 2018-2020 Rainbox Laboratory and Nicolas Dufresne'
 use_directory_urls: false
 theme:
     name: readthedocs
