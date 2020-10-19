@@ -38,7 +38,7 @@ Here's a very simple example showing how to create a Structure for a hominoid, r
     })(this);
 
 
-You can [download the latest version of the API on Github](https://github.com/Rainbox-dev/DuAEF_Duik/tree/master/Release/Duik-API).
+You can [download the latest version of the API on Github](https://github.com/Rainbox-dev/DuAEF_Duik/releases).
 
 This API has a [comprehensive documentation available here](http://duik-api.rainboxlab.org).
 
