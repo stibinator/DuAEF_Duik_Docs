@@ -1,4 +1,4 @@
-site_name: Duik Bassel.2<br />Documentation<br />v16.2.18
+site_name: Duik Bassel.2<br />Documentation<br />v16.2.19
 extra:
     version: 16.2.19
 site_url: http://rainboxlab.org
@@ -107,6 +107,7 @@ nav:
         - 2D Camera: camera-2d.md
         - Framing Guides: duframe.md
     - Tools: rigging-tools.md
+    - Sanity tests: sanity.md
     - Settings: settings.md
     - Development:
         - The Duik API: duik-api.md
