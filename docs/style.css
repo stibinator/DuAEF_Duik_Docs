@@ -37,3 +37,35 @@ a:hover {
 .wy-menu-vertical span {
     color: #a526c4;
 }
+
+.codehilite {
+    background-color: #b3b3b3;
+    padding:10px;
+    overflow-inline: auto;
+    margin-bottom: 25px;
+    margin-top:-15px;
+}
+
+.codehilite .c1 {
+    color: #278d4b;
+    font-weight:800;
+}
+
+.codehilite .s2 {
+    color: #527bbd;
+}
+
+.codehilite .kd {
+    color: #8c267c;
+    font-weight:800;
+}
+
+.codehilite .k {
+    color: #8c267c;
+    font-weight:600;
+}
+
+.codehilite .o, .codehilite .p {
+    color: #8d5e98;
+    font-weight:800;
+}
