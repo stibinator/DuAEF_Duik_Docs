@@ -9,6 +9,7 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 - Fixed the *settingsFile is undefined* error on fresh installation.
 - Fixed the additional panels (popups) being hidden after a short period of time.
 - Fixed the *Object is Invalid* error at line 134XX.
+- The [2D Multiplane Camera](camera-2d.md) now correctly creates the controllers even if a single layer is selected.
 
 ## 16.2.19
 
