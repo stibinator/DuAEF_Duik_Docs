@@ -28,6 +28,9 @@ Camera Influence can be found in the effects of the generated or duplicated null
 
     Now when you manipulate the controller, the background will move 66.67% that of the *mg* and the *fg* will move 20% more than the *mg*, giving the illusion of depth/parallax.
 
+!!! Warning
+    Duik will create a null called *ZERO* along with the 2D Camera, just ingore it and don't try to modify, duplicate or move it. It's needed to give the camera control it's anchor point and some other calculations but you should not have to manipulate it by yourself.
+
 ## Effect
 
 ![2d camera effects](img/duik-screenshots/S-Camera/2DCamera-effects.PNG)
