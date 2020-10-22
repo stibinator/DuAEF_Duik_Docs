@@ -8,7 +8,7 @@
   
   <meta name="author" content="Nicolas Dufresne and contributors">
   <link rel="shortcut icon" href="img/favicon.ico">
-  <title>2D Camera - Duik Bassel.2<br />Documentation<br />v16.2.19</title>
+  <title>2D Camera - Duik Bassel.2<br />Documentation<br />v16.2.20</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="css/theme.css" type="text/css" />
@@ -38,7 +38,7 @@
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
       <div class="wy-side-nav-search">
-        <a href="index.html" class="icon icon-home"> Duik Bassel.2<br />Documentation<br />v16.2.19</a>
+        <a href="index.html" class="icon icon-home"> Duik Bassel.2<br />Documentation<br />v16.2.20</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
@@ -493,7 +493,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="index.html">Duik Bassel.2<br />Documentation<br />v16.2.19</a>
+        <a href="index.html">Duik Bassel.2<br />Documentation<br />v16.2.20</a>
       </nav>
 
       
@@ -541,6 +541,10 @@
 <p>You would parent your <em>mg</em> layer to <em>L02</em> since it is your primary object, the <em>bg</em> to <em>L01</em>, and the <em>fg</em> to <em>L03</em>.</p>
 <p>From here, you can set the camera influence of <em>L01</em> (<em>bg</em>) to a number with a value lower than 100 (the default is 66.67%) and the camera influence of <em>L03</em> (<em>fg</em>) to a value greater than 100 (default: 120.0%).</p>
 <p>Now when you manipulate the controller, the background will move 66.67% that of the <em>mg</em> and the <em>fg</em> will move 20% more than the <em>mg</em>, giving the illusion of depth/parallax.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Duik will create a null called <em>ZERO</em> along with the 2D Camera, just ingore it and don&rsquo;t try to modify, duplicate or move it. It&rsquo;s needed to give the camera control it&rsquo;s anchor point and some other calculations but you should not have to manipulate it by yourself.</p>
 </div>
 <h2 id="effect">Effect</h2>
 <p><img alt="2d camera effects" src="img/duik-screenshots/S-Camera/2DCamera-effects.PNG" />
