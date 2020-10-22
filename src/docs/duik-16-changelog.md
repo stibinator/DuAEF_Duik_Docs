@@ -2,6 +2,14 @@
 
 This is the list of what has changed since the first Alpha version of Duik Bassel (16)
 
+16.2.20
+
+#### Fixes
+
+- Fixed the *settingsFile is undefined* error on fresh installation.
+- Fixed the additional panels (popups) being hidden after a short period of time.
+- Fixed the *Object is Invalid* error at line 134XX.
+
 ## 16.2.19
 
 #### New
