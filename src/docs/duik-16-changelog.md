@@ -2,6 +2,12 @@
 
 This is the list of what has changed since the first Alpha version of Duik Bassel (16)
 
+## 16.2.21
+
+#### Fixes
+
+- Fixed the [*Kleaner*](kleaner.md) on non-spatial multi-dimensional properties (like scale).
+
 ## 16.2.20
 
 #### Fixes
@@ -9,21 +15,21 @@ This is the list of what has changed since the first Alpha version of Duik Basse
 - Fixed the *settingsFile is undefined* error on fresh installation.
 - Fixed the additional panels (popups) being hidden after a short period of time.
 - Fixed the *Object is Invalid* error at line 134XX.
-- The [2D Multiplane Camera](camera-2d.md) now correctly creates the controllers even if a single layer is selected.
+- The [*2D Multiplane Camera*](camera-2d.md) now correctly creates the controllers even if a single layer is selected.
 
 ## 16.2.19
 
 #### New
 
-- [Sanity checks](sanity.md)
+- [***Sanity checks***](sanity.md)
 
 #### Improvements
 
-- Improved the performance of the [Kleaner](kleaner.md) by 20-25%.
+- Improved the performance of the [*Kleaner*](kleaner.md) by 20-25%.
 
 #### Fixes
 
-- Fixed [controller extraction](controller-tools.md) when some [locators](parent-accross-compositions.md) have been rigged/animated and don't have their default expression.
+- Fixed [*controller extraction*](controller-tools.md) when some [*locators*](parent-accross-compositions.md) have been rigged/animated and don't have their default expression.
 - Fixed additional panels not showing up on CS6.
 - Fixed the list of commands in *Duik cmd* being instantly hidden.
 
