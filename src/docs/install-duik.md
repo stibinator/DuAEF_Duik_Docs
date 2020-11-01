@@ -79,6 +79,7 @@ Then, you will have to choose the language you want to use. Default is [Esperant
 
 If for any reason Duik won't start anymore (this happens sometimes when the settings file gets corrupted for example, especially on *Mac OS*...), you can try to fix it with this simple procedure:
 
+- In your *Documents* folder, delete the subfolder called `Duik Bassel.2`. This will re-initialize all the settings of Duik and translations you may have added.
 - In the preferences of After Effects, disable the option "*Allow scripts to write files and access network*" which is either in the *General* section or the *Scripts and Expressions* section, depending on the version of After Effects.
 - Start the main panel of Duik from the *Window* menu.
 
