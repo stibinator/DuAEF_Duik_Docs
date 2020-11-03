@@ -2,6 +2,13 @@
 
 This is the list of what has changed since the first Alpha version of Duik Bassel (16)
 
+## 16.2.22
+
+#### Fixes
+
+- Fixed the bug preventing Duik from launching correctly through the `File/Scripts/Run Script File` menu entry.
+- Fixed the too small help panel size in some specific cases. Unfortunately, we cannot restore the resizeable behaviour from previous versions due to some limitations and bugs in the scripting API of After Effects.
+
 ## 16.2.21
 
 #### Fixes
