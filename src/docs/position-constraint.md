@@ -11,3 +11,6 @@ An effect is added on the layer to let you select the constraint and set its wei
 ![](img/duik-screenshots/S-Rigging/S-Rigging-Constraints/PositionConstraint-effect.PNG)
 
 To constrain a layer to several other layers, you can duplicate the effect, and adjust the weight of each constraint.
+
+!!! note
+    You won't see the effect of the position constraint unless there already are some keyframes, the tool needs actual animation to compute the constraint.

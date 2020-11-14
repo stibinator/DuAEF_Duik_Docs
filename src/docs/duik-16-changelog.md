@@ -2,6 +2,12 @@
 
 This is the list of what has changed since the first Alpha version of Duik Bassel (16)
 
+## 16.2.23
+
+#### Fixes
+
+- Fixed Sanity checks with locked layers freezing Duik and other issues with layers sharing the same names.
+
 ## 16.2.22
 
 #### Fixes

@@ -11,6 +11,6 @@ In the effects of the layer, you can set its parent, and animate a weight if nee
 ![](img/duik-screenshots/S-Rigging/S-Rigging-Constraints/ParentConstraint-effect.PNG)
 
 !!! note
-    You won't see the effect of the parent link unless there already are some keyframes, the tool needs animation to compute the linking.
+    You won't see the effect of the parent constraint unless there already are some keyframes, the tool needs actual animation to compute the constraint.
 
 The transformations of the child layer are computed depending on the weights and the transformations of parent layers from the beginning of the composition. When adding a new parent link, you may set a first keyframe on its weight to 0% and only raise the weight when you need the child to follow the parent.
