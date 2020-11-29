@@ -2,6 +2,14 @@
 
 This is the list of what has changed since the first Alpha version of Duik Bassel (16)
 
+## 16.2.24
+
+#### Fixes
+
+- Added an alert when [*Scale Z-Link*](scale-z-link.md) is used without camera.
+- Fixed the `duplicatedNames[name] is undefined` error.
+- Raised the limits of the *Zoom* and *Truck* properties in the [*2D Camera*](camera-2d.md) effect.
+
 ## 16.2.23
 
 #### Fixes
