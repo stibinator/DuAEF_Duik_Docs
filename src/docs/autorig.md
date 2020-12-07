@@ -59,7 +59,7 @@ Ususally, when animating with *FK*, the animator wants to add [*follow-through* 
 
 ### IK / FK
 
-As both *IK* and *FK* can be useful, all *IK* created with Duik also include *FK* controls, and the animator can switch between *FK* and *IK* whenever he wants. The *FK* controls included in the *IK* effects even include an automatic *follow-through* and *overlap*.  
+As both *IK* and *FK* can be useful, all *IK* created with Duik also include *FK* controls, and the animator can switch between *FK* and *IK* whenever they want. The *FK* controls included in the *IK* effects even include an automatic *follow-through* and *overlap*.  
 To make this process the easiest possible, an [***IK/FK Switch***](ik-fk-switch.md) tool is provided with the [*animation tools*](animation.md).
 
 When the *Auto-rig* creates an *IK / FK*, it can be adjusted in the effects of the corresponding controller. The type of the *IK* can vary depending on the type and number of layers which were rigged.
